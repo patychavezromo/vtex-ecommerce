@@ -1,7 +1,7 @@
 {
   "vendor": "itglobers",
-  "name": "formacionvtexio",
-  "version": "0.1.1",
+  "name": "formacion",
+  "version": "0.0.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
