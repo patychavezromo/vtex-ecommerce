@@ -1,28 +1,34 @@
 {
-    "flex-layout.row#text_one--home":{
+    "flex-layout.row#text__one--home":{
         "title": "Text no one home",
         "children": [
-            "flex-layout.col#text_one--home",
-            "flex-layout.col#text_two--home"
+            "flex-layout.col#text__one--home",
+            "flex-layout.col#text__two--home"
         ],
         "props":{}
     },
-    "flex-layout.col#text_one--home": {
+    "flex-layout.col#text__one--home": {
         "title": "Text col one home",
         "children":[
             "rich-text"
         ],
         "props":{
-            "width":"20%"
+            "width":"20%",
+            "blockClass":[
+                "col__one--text"
+            ]
         }
     },
-    "flex-layout.col#text_two--home": {
+    "flex-layout.col#text__two--home": {
         "title": "Text col two home",
         "children":[
             "rich-text"
         ],
         "props":{
-            "width":"80%"
+            "width":"80%",
+            "blockClass":[
+                "col__two--text"
+            ]
         }
     },
     "rich-text": { 
@@ -32,5 +38,5 @@
           "textPosition": "CENTER",
           "font": "t-heading-1"
         }
-      }
+    }
 }
