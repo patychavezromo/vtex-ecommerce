@@ -1,0 +1,7 @@
+{
+    "responsive-layout.phone": {
+        "children": [
+            "flex-layout.row#phone__main-slider"
+        ]
+    }
+}
