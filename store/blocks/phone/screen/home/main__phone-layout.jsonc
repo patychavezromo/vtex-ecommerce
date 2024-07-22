@@ -1,0 +1,11 @@
+{
+    "responsive-layout.phone": {
+        "title": "phone responsive layout",
+        "children": [
+            "vtex.menu@2.x:menu#websites#phone__menu-home",
+            "flex-layout.row#phone__main-slider",
+            "rich-text#phone__subtitle-home",
+            "flex-layout.row#card"
+        ]
+    }
+}

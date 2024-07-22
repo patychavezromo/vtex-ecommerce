@@ -1,0 +1,271 @@
+{
+    "vtex.menu@2.x:menu#websites#phone__menu-home": {
+        "title": "phone main menu",
+        "children": [
+            "menu-item#food",
+            "menu-item#fitness",
+            "menu-item#EnelArtico",
+            "menu-item#Poolday",
+            "menu-item#Hoteles",
+            "menu-item#Casas",
+            "menu-item#Naturales",
+            "menu-item#Closet",
+            "menu-item#Playas",
+            "menu-item#Alpinismo",
+            "menu-item#Delivery",
+            "menu-item#Cervezas"
+        ]
+    },
+    "menu-item#food": {
+        "props": {
+            "id": "menu-item-food",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Food",
+                "text": "Food"
+            },
+            "iconProps": {
+                "id": "food",
+                "size": 16,
+                "viewBox": "0 0 21 21",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#fitness": {
+        "props": {
+            "id": "menu-item-fitness",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Fitness",
+                "text": "Fitness"
+            },
+            "iconProps": {
+                "id": "fitness",
+                "size": 16,
+                "viewBox": "0 0 20 20",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#EnelArtico": {
+        "props": {
+            "id": "menu-item-EnelArtico",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "EnelArtico",
+                "text": "EnelArtico"
+            },
+            "iconProps": {
+                "id": "artico",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#Poolday": {
+        "props": {
+            "id": "Poolday",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Poolday",
+                "text": "Poolday"
+            },
+            "iconProps": {
+                "id": "poolday",
+                "size": 16,
+                "viewBox": "0 0 20 20",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#Hoteles": {
+        "props": {
+            "id": "menu-item-Hoteles",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Hoteles",
+                "text": "Hoteles"
+            },
+            "iconProps": {
+                "id": "hoteles",
+                "size": 16,
+                "viewBox": "0 0 20 20",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#Casas": {
+        "props": {
+            "id": "menu-item-Casas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Casas",
+                "text": "Casas"
+            },
+            "iconProps": {
+                "id": "casas",
+                "size": 16,
+                "viewBox": "0 0 20 20",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#Naturales": {
+        "props": {
+            "id": "Naturales",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Naturales",
+                "text": "Naturales"
+            },
+            "iconProps": {
+                "id": "naturales",
+                "size": 16,
+                "viewBox": "0 0 20 20",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#Closet": {
+        "props": {
+            "id": "Closet",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Closet",
+                "text": "Closet"
+            },
+            "iconProps": {
+                "id": "closet",
+                "size": 16,
+                "viewBox": "0 0 20 20",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#Playas": {
+        "props": {
+            "id": "Playas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Playas",
+                "text": "Playas"
+            },
+            "iconProps": {
+                "id": "playas",
+                "size": 16,
+                "viewBox": "0 0 20 20",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#Alpinismo": {
+        "props": {
+            "id": "Alpinismo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Alpinismo",
+                "text": "Alpinismo"
+            },
+            "iconProps": {
+                "id": "alpinismo",
+                "size": 16,
+                "viewBox": "0 0 20 20",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#Delivery": {
+        "props": {
+            "id": "Delivery",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Delivery",
+                "text": "Delivery"
+            },
+            "iconProps": {
+                "id": "delivery",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#Cervezas": {
+        "props": {
+            "id": "Cervezas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cervezas",
+                "text": "Cervezas"
+            },
+            "iconProps": {
+                "id": "cervezas",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    }
+}

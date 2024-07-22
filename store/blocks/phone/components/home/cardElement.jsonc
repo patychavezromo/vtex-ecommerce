@@ -1,0 +1,65 @@
+{
+    "flex-layout.row#card": {
+      "children": [
+        "flex-layout.col#image",
+        "flex-layout.col#text"
+      ]
+    },
+    "flex-layout.col#image": {
+      "props": {
+        "width": "50%",
+        "horizontalAlign": "center",
+        "verticalAlign": "middle"
+      },
+      "children": [
+        "image#card"
+      ]
+    },
+    "image#card": {
+      "props": {
+        "src": "/arquivos/Cardelement.jpg",
+        "alt": "Descripción de la imagen"
+      }
+    },
+    "flex-layout.col#text": {
+      "props": {
+        "width": "80%",
+        "padding": "10px",
+        "horizontalAlign": "center",
+        "verticalAlign": "middle"
+      },
+      "children": [
+        "rich-text#card__Heading",
+        "rich-text#card__description",
+        "flex-layout.col#cardimagestamp"
+      ]
+    },
+    "flex-layout.col#cardimagestamp": {
+      "props": {
+        "width": "20%",
+        "padding": "10px",
+        "horizontalAlign": "center",
+        "verticalAlign": "middle"
+      },
+      "children": [
+        "image#stamp"
+      ]
+    },
+    "rich-text#card__Heading": {
+      "props": {
+        "text": "Heading"
+      }
+    },
+    "rich-text#card__description": {
+      "props": {
+        "text": "Builder platform is made by, buildership platform is made by..."
+      }
+    },
+    "image#stamp": {
+        "props": {
+        "src": "/arquivos/Cardelement.jpg",
+            "maxHeight": 24
+        }
+    },
+  }
+  

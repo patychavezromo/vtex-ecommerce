@@ -1,11 +1,12 @@
 {
     "flex-layout.row#phone__main-slider": {
+        "title": "phone main home",
         "children": [
             "list-context.image-list#phone__container-images"
         ]
     },
     "list-context.image-list#phone__container-images": {
-        "title": "List image home",
+        "title": "phone main list product",
         "children": [
             "slider-layout#phone__slider"
         ],
@@ -21,6 +22,7 @@
         }
     },
     "slider-layout#phone__slider": {
+        "title": "slider home images",
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
@@ -28,6 +30,5 @@
                 "phone": 1
             }
         }
-
     }
 }
