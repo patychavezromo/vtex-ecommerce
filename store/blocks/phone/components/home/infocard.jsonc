@@ -1,0 +1,83 @@
+{
+    "flex-layout.row#phone-info-card": {
+        "title": "info card",
+        "children": [
+            "flex-layout.col#infocard-layout-content"
+        ]
+    },
+    
+    "flex-layout.col#infocard-layout-content": {
+        "title": "phone layout content infocard",
+        "children": [
+            "flex-layout.row#phone-infocard-layout-image",
+            "flex-layout.row#phone-infocard-heading-text-and-sell"
+        ]
+
+    },
+
+    "flex-layout.row#phone-infocard-layout-image": {
+        "title": "phone layout image infocard ",
+        "children": [
+            "image#image-phone-infocard-image"            
+        ]
+    },
+
+    "flex-layout.row#phone-infocard-heading-text-and-sell": {
+        "title": "phone layout content headin description and sell",
+        "children": [
+            "flex-layout.col#phone-infocard-header-and-text",
+            "flex-layout.col#phone-infocard-sell"
+        ]
+    },
+
+    "image#image-phone-infocard-image": {
+        "title": "phone infocard sell",
+        "props": {
+          "src": "/arquivos/Cardelement.jpg",
+          "maxHeight" :1000
+        }
+    },
+
+    "flex-layout.col#phone-infocard-header-and-text": {
+        "title": "phone layout header and text",
+        "children": [
+            "rich-text#phone__infocards-title",
+            "rich-text#phone__infocards-description"
+        ]
+    },
+
+    "flex-layout.col#phone-infocard-sell": {
+        "title": "phone infocard sell",
+        "children": [
+            "image#card-sell"
+        ]
+    },
+
+    "rich-text#phone__infocards-title": {
+        "title": "phone inforcard heading",
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "Heading",
+            "textPosition": "LEFT",
+            "blockClass": "subtitle-product-home"
+        }
+    },
+
+    "rich-text#phone__infocards-description": {
+        "title": "phone infocard description",
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "Builder platform is made by, buildership platform is made by...",
+            "textPosition": "LEFT",
+            "blockClass": "subtitle-product-home"
+        }
+    },
+
+    "image#card-sell": {
+        "title": "phone image sell",
+      "props": {
+        "src": "/arquivos/Artworktrailing.jpg"
+      }
+    }
+}
+

@@ -28,7 +28,8 @@
                 "desktop": 5,
                 "tablet": 3,
                 "phone": 1
-            }
+            },
+            "blockClass": "phone-layout-banner-watch"
         }
     }
 }

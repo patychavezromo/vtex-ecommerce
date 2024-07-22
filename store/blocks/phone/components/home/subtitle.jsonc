@@ -5,7 +5,6 @@
             "textAlignment": "CENTER",
             "text": "An amazing product.",
             "textPosition": "LEFT",
-            "font": "heading-2",
             "blockClass": "subtitle-product-home"
         }
     }

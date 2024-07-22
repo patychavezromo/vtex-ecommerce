@@ -1,3 +1,8 @@
-.paginationDot--isActive{
+/* .paginationDot--isActive{
     background-color: blue;
+} */
+
+.imageElement--phone-layout-banner-watch {
+    width: 360px;
+    height: 480px;
 }
