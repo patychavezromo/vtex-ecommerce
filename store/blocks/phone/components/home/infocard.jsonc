@@ -3,7 +3,10 @@
         "title": "info card",
         "children": [
             "flex-layout.col#infocard-layout-content"
-        ]
+        ],
+        "props": {
+            "blockClass": "phone-layout-infocards"
+        }
     },
     
     "flex-layout.col#infocard-layout-content": {
@@ -27,14 +30,17 @@
         "children": [
             "flex-layout.col#phone-infocard-header-and-text",
             "flex-layout.col#phone-infocard-sell"
-        ]
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
     },
 
     "image#image-phone-infocard-image": {
         "title": "phone infocard sell",
         "props": {
           "src": "/arquivos/Cardelement.jpg",
-          "maxHeight" :1000
+          "blockClass": "image-phone-infocard-image"
         }
     },
 
@@ -43,14 +49,18 @@
         "children": [
             "rich-text#phone__infocards-title",
             "rich-text#phone__infocards-description"
-        ]
+        ]        
     },
 
     "flex-layout.col#phone-infocard-sell": {
         "title": "phone infocard sell",
         "children": [
             "image#card-sell"
-        ]
+        ],
+        "props": {
+            "width": "10%",
+            "verticalAlign": "middle"
+        }
     },
 
     "rich-text#phone__infocards-title": {
@@ -66,7 +76,7 @@
     "rich-text#phone__infocards-description": {
         "title": "phone infocard description",
         "props": {
-            "textAlignment": "CENTER",
+            "textAlignment": "LEFT",
             "text": "Builder platform is made by, buildership platform is made by...",
             "textPosition": "LEFT",
             "blockClass": "subtitle-product-home"
@@ -79,5 +89,6 @@
         "src": "/arquivos/Artworktrailing.jpg"
       }
     }
+
 }
 
