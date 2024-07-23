@@ -1,0 +1,93 @@
+{
+    "flex-layout.row#Desktop-info-card": {
+        "title": "info card Desktop",
+        "children": [
+            "flex-layout.col#infocard-layout-content"
+        ],
+        "props": {
+            "blockClass": "Desktop-layout-infocards"
+        }
+    },
+    
+    "flex-layout.col#infocard-layout-content": {
+        "title": "phone layout content infocard",
+        "children": [
+            "flex-layout.row#phone-infocard-layout-image",
+            "flex-layout.row#phone-infocard-heading-text-and-sell"
+        ]
+
+    },
+
+    "flex-layout.row#Desktop-infocard-layout-image": {
+        "title": "phone layout image infocard ",
+        "children": [
+            "image#image-Desktop-infocard-image"            
+        ]
+    },
+
+    "flex-layout.row#Desktop-infocard-heading-text-and-sell": {
+        "title": "Desktop layout content headin description and sell",
+        "children": [
+            "flex-layout.col#Desktop-infocard-header-and-text",
+            "flex-layout.col#Desktop-infocard-sell"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "image#image-Desktop-infocard-image": {
+        "title": "Desktop infocard sell",
+        "props": {
+          "src": "/arquivos/Cardelement.jpg",
+          "blockClass": "image-Desktop-infocard-image"
+        }
+    },
+
+    "flex-layout.col#Desktop-infocard-header-and-text": {
+        "title": "Desktop layout header and text",
+        "children": [
+            "rich-text#Desktop__infocards-title",
+            "rich-text#Desktop__infocards-description"
+        ]        
+    },
+
+    "flex-layout.col#Desktop-infocard-sell": {
+        "title": "Desktop infocard sell",
+        "children": [
+            "image#card-sell"
+        ],
+        "props": {
+            "width": "10%",
+            "verticalAlign": "middle"
+        }
+    },
+
+    "rich-text#Desktop__infocards-title": {
+        "title": "Desktop inforcard heading",
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "Heading",
+            "textPosition": "LEFT",
+            "blockClass": "subtitle-product-home"
+        }
+    },
+
+    "rich-text#Desktop__infocards-description": {
+        "title": "Desktop infocard description",
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "Builder platform is made by, buildership platform is made by...",
+            "textPosition": "LEFT",
+            "blockClass": "subtitle-product-home"
+        }
+    },
+
+    "image#card-sell": {
+        "title": "Desktop image sell",
+      "props": {
+        "src": "/arquivos/Artworktrailing.jpg"
+      }
+    }
+
+}

@@ -1,0 +1,10 @@
+{
+    "responsive-layout.desktop#homeDesktop":{
+        "children": [
+            "vtex.menu@2.x:menu#websites#desktop__menu-home",
+            "flex-layout.row#Desktop__main-slider",
+            "slider-layout#Desktop-infocards-slider"
+        ]
+
+    }
+}
