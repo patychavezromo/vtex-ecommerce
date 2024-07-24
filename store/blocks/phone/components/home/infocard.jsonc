@@ -13,7 +13,8 @@
         "title": "phone layout content infocard",
         "children": [
             "flex-layout.row#phone-infocard-layout-image",
-            "flex-layout.row#phone-infocard-heading-text-and-sell"
+            "flex-layout.row#phone-infocard-heading-text-and-sell",
+            "flex-layout.row#phone-infocard-link"
         ]
 
     },
@@ -90,7 +91,21 @@
       "props": {
         "src": "/arquivos/Artworktrailing.jpg"
       }
+    },
+
+    "flex-layout.row#phone-infocard-link":{
+        "title": "phone infocard link",
+        "children": [
+            "image#phone-infocard-buttonlink"
+        ]
+    },
+
+    "image#phone-infocard-buttonlink": {
+    "props": {
+      "src": "/arquivos/Button.png",
+      "maxHeight": 55
     }
+  }
 
 }
 

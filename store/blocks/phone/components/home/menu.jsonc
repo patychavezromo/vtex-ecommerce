@@ -14,7 +14,10 @@
             "menu-item#Alpinismo",
             "menu-item#Delivery",
             "menu-item#Cervezas"
-        ]
+        ],
+        "props": {
+            "blockClass": "phone-menu"
+        }
     },
     "menu-item#food": {
         "props": {
