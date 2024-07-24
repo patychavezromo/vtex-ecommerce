@@ -33,9 +33,10 @@
                 "id": "food",
                 "size": 16,
                 "viewBox": "0 0 21 21",
-                "activeClassName": "rebel-pink",
+                "activeClassName": "food-icon-phone",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-icon-food"
         }
     },
     "menu-item#fitness-desktop": {

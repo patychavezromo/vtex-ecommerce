@@ -1,3 +1,21 @@
 .menuContainerNav--phone-menu{
     overflow: auto;
 }
+
+/* .styledLinkContent{
+    flex-direction: column;
+    font-family: lexend;
+} */
+
+.styledLinkContent--phone-menu-icon{
+    /* textos del menu para version phone */
+    flex-direction: column;
+    font-family: lexend;
+}
+
+.styledLinkIcon--phone-menu-icon{
+    /* iconos del menu para version phone */
+    display: flex;
+    justify-content: center;
+    
+}

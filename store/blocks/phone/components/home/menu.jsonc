@@ -37,7 +37,8 @@
                 "viewBox": "0 0 21 21",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
     "menu-item#fitness": {
@@ -58,7 +59,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
     "menu-item#EnelArtico": {
@@ -71,15 +73,16 @@
                 "href": "#",
                 "noFollow": false,
                 "tagTitle": "EnelArtico",
-                "text": "EnelArtico"
+                "text": "En el Ártico"
             },
             "iconProps": {
                 "id": "artico",
                 "size": 16,
-                "viewBox": "0 0 16 16",
+                "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
     "menu-item#Poolday": {
@@ -100,7 +103,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
     "menu-item#Hoteles": {
@@ -121,7 +125,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
     "menu-item#Casas": {
@@ -142,7 +147,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
     "menu-item#Naturales": {
@@ -163,7 +169,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
     "menu-item#Closet": {
@@ -184,7 +191,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
     "menu-item#Playas": {
@@ -205,7 +213,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
     "menu-item#Alpinismo": {
@@ -226,7 +235,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
     "menu-item#Delivery": {
@@ -244,10 +254,11 @@
             "iconProps": {
                 "id": "delivery",
                 "size": 16,
-                "viewBox": "0 0 16 16",
+                "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
     "menu-item#Cervezas": {
@@ -265,10 +276,11 @@
             "iconProps": {
                 "id": "cervezas",
                 "size": 16,
-                "viewBox": "0 0 16 16",
+                "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     }
 }
