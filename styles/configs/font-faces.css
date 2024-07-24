@@ -21,3 +21,9 @@
     src: url(assets/fonts/Lato-Regular.ttf);
     font-weight: bold;
 }
+
+@font-face {
+    font-family: 'lexendMedium';
+    src: url(assets/fonts/Lexend-Medium.ttf);
+    font-weight: bold;
+}

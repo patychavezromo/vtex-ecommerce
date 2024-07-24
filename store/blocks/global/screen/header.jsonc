@@ -1,0 +1,12 @@
+{
+    "header": {
+        "blocks": [
+            "header-layout.desktop"
+        ]
+    },
+    "header.full": {
+        "blocks": [
+            "header-layout.desktop"
+        ]
+    }
+}

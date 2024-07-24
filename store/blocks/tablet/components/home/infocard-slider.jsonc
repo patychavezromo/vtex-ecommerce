@@ -1,0 +1,23 @@
+{
+    "slider-layout#Tablet-infocards-slider": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "phone-infocards-slider"
+        },
+        "children": 
+            [
+                "flex-layout.row#Tablet-info-card",
+                "flex-layout.row#Tablet-info-card",
+                "flex-layout.row#Tablet-info-card",
+                "flex-layout.row#Tablet-info-card",
+                "flex-layout.row#Tablet-info-card",
+                "flex-layout.row#Tablet-info-card"
+            ]
+    } 
+}

@@ -11,3 +11,12 @@
 .flexRow--phone-layout-infocards {
     width: 80%;
 }
+
+.flexRow--Desktop-layout-infocards{
+    width: 40%;
+}
+
+/* .flexCol--phone-infocard-col-sell{
+    width: 1%;
+} */
+

@@ -1,0 +1,11 @@
+{
+    "responsive-layout.tablet#homeTablet":{
+        "children": [
+            "vtex.menu@2.x:menu#websites#Tablet__menu-home",
+            "flex-layout.row#Tablet__main-slider",
+            "rich-text#Tablet__subtitle-home",
+            "slider-layout#Tablet-infocards-slider"
+        ]
+
+    }
+}

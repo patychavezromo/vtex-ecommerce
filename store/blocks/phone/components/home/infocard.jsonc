@@ -58,8 +58,9 @@
             "image#card-sell"
         ],
         "props": {
-            "width": "10%",
-            "verticalAlign": "middle"
+            "width": "18%",
+            "verticalAlign": "middle",
+            "blockClass": "phone-infocard-col-sell"
         }
     },
 
@@ -69,7 +70,7 @@
             "textAlignment": "CENTER",
             "text": "Heading",
             "textPosition": "LEFT",
-            "blockClass": "subtitle-product-home"
+            "blockClass": "subtitle-product-home-phone"
         }
     },
 
@@ -77,9 +78,10 @@
         "title": "phone infocard description",
         "props": {
             "textAlignment": "LEFT",
-            "text": "Builder platform is made by, buildership platform is made by...",
+            "font": "heading-3",
+            "text": "Builder platform is made by...",
             "textPosition": "LEFT",
-            "blockClass": "subtitle-product-home"
+            "blockClass": "subtitle-product-home-phone"
         }
     },
 

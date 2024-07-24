@@ -1,0 +1,93 @@
+{
+    "flex-layout.row#Tablet-info-card": {
+        "title": "info card Tablet",
+        "children": [
+            "flex-layout.col#infocard-layout-content-Tablet"
+        ],
+        "props": {
+            "blockClass": "Tablet-layout-infocards"
+        }
+    },
+    
+    "flex-layout.col#infocard-layout-content-Tablet": {
+        "title": "Tablet layout content infocard",
+        "children": [
+            "flex-layout.row#Tablet-infocard-layout-image",
+            "flex-layout.row#Tablet-infocard-heading-text-and-sell"
+        ]
+
+    },
+
+    "flex-layout.row#Tablet-infocard-layout-image": {
+        "title": "Tablet layout image infocard ",
+        "children": [
+            "image#image-Tablet-infocard-image"            
+        ]
+    },
+
+    "flex-layout.row#Tablet-infocard-heading-text-and-sell": {
+        "title": "Tablet layout content headin description and sell",
+        "children": [
+            "flex-layout.col#Tablet-infocard-header-and-text",
+            "flex-layout.col#Tablet-infocard-sell"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "image#image-Tablet-infocard-image": {
+        "title": "Tablet infocard sell",
+        "props": {
+          "src": "/arquivos/Cardelement.jpg",
+          "blockClass": "image-Tablet-infocard-image"
+        }
+    },
+
+    "flex-layout.col#Tablet-infocard-header-and-text": {
+        "title": "Tablet layout header and text",
+        "children": [
+            "rich-text#Tablet__infocards-title",
+            "rich-text#Tablet__infocards-description"
+        ]        
+    },
+
+    "flex-layout.col#Tablet-infocard-sell": {
+        "title": "Tablet infocard sell",
+        "children": [
+            "image#card-sell-Tablet"
+        ],
+        "props": {
+            "width": "10%",
+            "verticalAlign": "middle"
+        }
+    },
+
+    "rich-text#Tablet__infocards-title": {
+        "title": "Tablet inforcard heading",
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "Heading",
+            "textPosition": "LEFT",
+            "blockClass": "subtitle-product-home"
+        }
+    },
+
+    "rich-text#Tablet__infocards-description": {
+        "title": "Tablet infocard description",
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "Builder platform is made by, buildership platform is made by...",
+            "textPosition": "LEFT",
+            "blockClass": "subtitle-product-home"
+        }
+    },
+
+    "image#card-sell-Tablet": {
+        "title": "Tablet image sell",
+      "props": {
+        "src": "/arquivos/Artworktrailing.jpg"
+      }
+    }
+
+}

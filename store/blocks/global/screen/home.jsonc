@@ -2,6 +2,7 @@
   "store.home": { 
     "blocks": [
       "responsive-layout.desktop#homeDesktop",
+      "responsive-layout.tablet#homeTablet",
       "responsive-layout.phone#home-phone"
     ]
   }

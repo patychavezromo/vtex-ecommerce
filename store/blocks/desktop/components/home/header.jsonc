@@ -1,0 +1,37 @@
+{
+    "sticky-layout#desktop": {
+        "props": {
+            "blockClass": "sticky-header-Desktop"
+        },
+        "children": [
+            "flex-layout.row#desktop"
+        ]
+    },
+    "flex-layout.row#desktop": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#logo-desktop",
+            "flex-layout.col#spacer",
+            "search-bar",
+            "locale-switcher",
+            "login",
+            "minicart.v2",
+            "vtex.menu@2.x:menu#websites#desktop__menu-home"           
+        ]
+    },
+    "flex-layout.col#logo-desktop": {
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "logo"
+     
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#Tablet__main-slider": {
+        "title": "Tablet main home",
+        "children": [
+            "list-context.image-list#Tablet__container-images"
+        ]
+    },
+    "list-context.image-list#Tablet__container-images": {
+        "title": "Tablet main list product",
+        "children": [
+            "slider-layout#Tablet__slider"
+        ],
+        "props": {
+          "preload": true,
+          "height": 650,
+          "images": [
+                {
+                    "image": "/arquivos/Hero-Desktop-banner.png",
+                    "description": "product_watch"
+                }
+            ]
+        }
+    },
+    "slider-layout#Tablet__slider": {
+        "title": "slider home images Tablet",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            },
+            "blockClass": "Tablet-layout-banner-watch"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "flex-layout.col#spacer": {
+        "props": {
+            "width": "grow"
+        }
+    },
+    "logo": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "assets/img/Icon_Black.svg",
+            "width": "32px"
+        }
+    }
+}
