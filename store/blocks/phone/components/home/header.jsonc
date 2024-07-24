@@ -1,0 +1,53 @@
+{
+    "sticky-layout#phone-header":{
+        "props": {
+            "blockClass": "sticky-header-phone"
+        },
+        "children": [
+            "flex-layout.row#phone-container-menu",
+            "vtex.menu@2.x:menu#websites#phone__menu-home" 
+        ]
+    },
+    "flex-layout.row#phone-container-menu": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "preserveLayoutOnMobile":true,
+            "blockClass": "phone-container-elements-header-up-and-menuicons"
+        },
+        "children": [
+            "flex-layout.col#logo-phone",
+            "flex-layout.col#spacer",
+            "flex-layout.col#phone-search-bar",
+            "flex-layout.col#phone-login",
+            "flex-layout.col#phone-minicart.v2"         
+        ]
+    },
+    "flex-layout.col#logo-phone": {
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "logo"
+        ]
+    },
+    "flex-layout.col#phone-search-bar": {
+        "children": [
+            "search-bar"
+        ]
+    },
+  
+    "flex-layout.col#phone-login": {
+        "children": [
+            "login"
+        ]
+    },
+    "flex-layout.col#phone-minicart.v2": {
+        "children": [
+            "minicart.v2"
+        ]
+    }
+}
