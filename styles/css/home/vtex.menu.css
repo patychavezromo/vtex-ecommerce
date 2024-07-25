@@ -10,12 +10,15 @@
 .styledLinkContent--phone-menu-icon{
     /* textos del menu para version phone */
     flex-direction: column;
-    font-family: lexend;
+    font-family: lexendMedium;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1D2734;
 }
 
 .styledLinkIcon--phone-menu-icon{
     /* iconos del menu para version phone */
     display: flex;
     justify-content: center;
-    
 }

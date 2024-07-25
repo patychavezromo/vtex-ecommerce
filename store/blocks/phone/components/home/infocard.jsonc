@@ -15,7 +15,10 @@
             "flex-layout.row#phone-infocard-layout-image",
             "flex-layout.row#phone-infocard-heading-text-and-sell",
             "flex-layout.row#phone-infocard-link"
-        ]
+        ],
+        "props": {
+            "blockClass": "phone-container-infocard-all-parts"
+        }
 
     },
 
@@ -33,7 +36,8 @@
             "flex-layout.col#phone-infocard-sell"
         ],
         "props": {
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "blockClass": "phone-infocard-container-text-and-sell"
         }
     },
 
@@ -71,7 +75,7 @@
             "textAlignment": "CENTER",
             "text": "Heading",
             "textPosition": "LEFT",
-            "blockClass": "subtitle-product-home-phone"
+            "blockClass": "subtitle-product-home-phone-heading"
         }
     },
 
@@ -82,7 +86,7 @@
             "font": "heading-3",
             "text": "Builder platform is made by...",
             "textPosition": "LEFT",
-            "blockClass": "subtitle-product-home-phone"
+            "blockClass": "subtitle-product-home-phone-description"
         }
     },
 
@@ -97,13 +101,19 @@
         "title": "phone infocard link",
         "children": [
             "image#phone-infocard-buttonlink"
-        ]
+        ],
+        "props": {
+            "blockClass": "phone-layout-infocard-button"
+        }
     },
+
+   
 
     "image#phone-infocard-buttonlink": {
     "props": {
-      "src": "/arquivos/Button.png",
-      "maxHeight": 55
+      "src": "/arquivos/Button_infocard.png",
+      "maxHeight": 55,
+      "blockClass": "phone-infocard-button"
     }
   }
 

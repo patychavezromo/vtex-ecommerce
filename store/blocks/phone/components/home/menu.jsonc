@@ -1,5 +1,5 @@
 {
-    "vtex.menu@2.x:menu#websites#phone__menu-home": {
+    "vtex.menu@2.x:menu#phone__menu-home": {
         "title": "phone main menu",
         "children": [
             "menu-item#food",

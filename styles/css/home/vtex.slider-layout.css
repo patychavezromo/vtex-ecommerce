@@ -6,3 +6,7 @@
     width: 360px;
     height: 480px;
 }
+
+.sliderLayoutContainer--phone-infocards-slider {
+    padding-bottom: 20px;
+}

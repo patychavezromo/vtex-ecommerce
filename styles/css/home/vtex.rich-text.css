@@ -5,13 +5,26 @@
 .paragraph--subtitle-product-home-page-phone{
     margin-left: 1rem;
     font-family: lexend;
-}
-
-.paragraph--subtitle-product-home-phone{
-    font-family: lexend;
     font-weight: 500;
     font-size: 16px;
     line-height: 16.8px;
+}
+
+.paragraph--subtitle-product-home-phone-heading{
+    font-family: lexend;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18.59px;
     margin-left: 1rem;
+    color: #1D2734,
+}
+
+.paragraph--subtitle-product-home-phone-description{
+    font-family: lexendMedium;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14.52px;
+    margin-left: 1rem;
+    color:#1D2734,
 }
 

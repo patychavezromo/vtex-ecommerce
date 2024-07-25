@@ -16,6 +16,17 @@
     width: 40%;
 }
 
+.flexRow--phone-layout-infocard-button{
+    
+    background: white;
+    border-radius: 0.5rem;
+    align-content: center;
+    height: 50px;
+}
+
+.flexRow--phone-infocard-container-text-and-sell{
+    background: white;
+}
 
 
 /* .flexCol--phone-infocard-col-sell{

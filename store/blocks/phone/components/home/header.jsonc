@@ -5,7 +5,7 @@
         },
         "children": [
             "flex-layout.row#phone-container-menu",
-            "vtex.menu@2.x:menu#websites#phone__menu-home" 
+            "vtex.menu@2.x:menu#phone__menu-home"
         ]
     },
     "flex-layout.row#phone-container-menu": {
@@ -20,7 +20,7 @@
         },
         "children": [
             "flex-layout.col#logo-phone",
-            "flex-layout.col#spacer",
+            // "flex-layout.col#spacer",
             "flex-layout.col#phone-search-bar",
             "flex-layout.col#phone-login",
             "flex-layout.col#phone-minicart.v2"         

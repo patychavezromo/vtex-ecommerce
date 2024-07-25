@@ -6,3 +6,7 @@
 .imageElement--image-phone-infocard-image {
     width: 100%;
 }
+
+.imageElement--phone-infocard-button{
+   height: 40px;
+}
