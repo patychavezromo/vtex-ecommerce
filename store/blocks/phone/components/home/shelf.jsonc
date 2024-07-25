@@ -1,0 +1,62 @@
+{
+    "flex-layout.row#global__main-shelf--container": {
+        "children": [
+            "list-context.product-list#global__main-shelf"
+        ]
+    },
+    "list-context.product-list#global__main-shelf": {
+        "blocks": [
+            "product-summary.shelf#global__main-summary"
+        ],
+        "children": [
+            "slider-layout#global__slider-shelf"
+        ]
+    },
+    "slider-layout#global__slider-shelf": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            }
+        }
+    },
+    "product-summary.shelf#global__main-summary": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name"
+            // "product-list-price"
+            // "product-selling-price"
+            // "product-summary-buy-button"
+        ]
+    },
+
+    "product-summary-image": {
+        "title":"productimage-shelf",
+        "props": {
+            "src":"/arquivos/product.png"
+        }
+    },
+
+    "product-summary-name":{
+        "title": "name-product-shelf",
+        "props": {
+            "blockClass": "name-product-shelf",
+            "displayMode": "text"
+        }
+    }
+
+    // "product-list-price": {
+    //     "title": "list-product-shelf",
+    //     "props":{
+    //         "blockClass": "list-product-shelf"
+    //     }
+    // }
+
+    // "product-selling-price":{
+    //     "props":{
+    //         "value": "$636.900"
+    //     }
+    // }
+
+}

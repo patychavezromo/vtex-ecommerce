@@ -3,7 +3,8 @@
         "title": "Tablet main home",
         "children": [
             "list-context.image-list#Tablet__container-images"
-        ]
+        ],
+        "props": {"blockClass": "tablet-slider-banner"}
     },
     "list-context.image-list#Tablet__container-images": {
         "title": "Tablet main list product",
@@ -18,7 +19,8 @@
                     "image": "/arquivos/Hero-Desktop-banner.png",
                     "description": "product_watch"
                 }
-            ]
+            ],
+            "blockClass": "tablet-list-images-tablet"
         }
     },
     "slider-layout#Tablet__slider": {
@@ -26,7 +28,7 @@
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
-                "tablet": 3,
+                "tablet": 1,
                 "phone": 1
             },
             "blockClass": "Tablet-layout-banner-watch"

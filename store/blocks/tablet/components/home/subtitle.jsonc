@@ -5,7 +5,7 @@
             "textAlignment": "CENTER",
             "text": "An amazing product. TABLET",
             "textPosition": "LEFT",
-            "blockClass": "subtitle-product-home"
+            "blockClass": "subtitle-product-home-tablet"
         }
     }
 }

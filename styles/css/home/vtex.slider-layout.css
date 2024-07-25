@@ -8,5 +8,10 @@
 }
 
 .sliderLayoutContainer--phone-infocards-slider {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
+
+/* .slide--Tablet-layout-banner-watch{
+    background-color: red;
+    object-fit: contain;
+} */
