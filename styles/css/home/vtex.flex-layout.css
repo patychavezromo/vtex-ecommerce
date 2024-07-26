@@ -22,7 +22,7 @@
 .flexRow--phone-layout-infocard-button{
     
     background: white;
-    border-radius: 0.5rem;
+    border-radius: 0 0 10px 10px;
     align-content: center;
     height: 50px;
     padding-bottom: 3rem;
@@ -35,7 +35,12 @@
 .flexRow--tablet-infocard-container-text-and-sell{
     width: 81%;
     background-color: white;
-    margin-left: 2.1rem;
+    margin-left: 2rem;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.stretchChildrenWidth{
+    width: 20%;
 }
 
 

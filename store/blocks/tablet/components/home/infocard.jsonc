@@ -62,7 +62,7 @@
             "image#card-sell-Tablet"
         ],
         "props": {
-            "width": "10%",
+            "width": "20%",
             "verticalAlign": "middle",
             "blockClass": "tablet-layout-infocard-sell"
         }
