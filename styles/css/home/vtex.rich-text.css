@@ -29,9 +29,27 @@
 }
 
 .paragraph--subtitle-product-home-tablet{
-    color: red;
+    color: #1D2734;
     font-family: lexend;
     font-weight: 500;
     font-size: 16px;
     padding-left: 2rem;
+}
+
+.container--tablet-subtitle-product-home-heading{
+    font-family: lexend;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18.59px;
+    margin-left: 1rem;
+    color: #1D2734,
+}
+
+.container--tablet-subtitle-product-home-description{
+    font-family: lexendMedium;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14.52px;
+    margin-left: 1rem;
+    color:#1D2734, 
 }

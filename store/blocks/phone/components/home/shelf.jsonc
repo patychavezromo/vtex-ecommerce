@@ -23,6 +23,7 @@
     },
     "product-summary.shelf#global__main-summary": {
         "children": [
+            "add-to-list-btn",
             "product-summary-image",
             "product-summary-name"
             // "product-list-price"

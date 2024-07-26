@@ -32,7 +32,8 @@
             "flex-layout.col#Tablet-infocard-sell"
         ],
         "props": {
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "blockClass": "tablet-infocard-container-text-and-sell"
         }
     },
 
@@ -49,7 +50,10 @@
         "children": [
             "rich-text#Tablet__infocards-title",
             "rich-text#Tablet__infocards-description"
-        ]        
+        ],
+        "props": {
+            "blockClass": "tablet-infocard-heading-text"
+        }       
     },
 
     "flex-layout.col#Tablet-infocard-sell": {
@@ -59,7 +63,8 @@
         ],
         "props": {
             "width": "10%",
-            "verticalAlign": "middle"
+            "verticalAlign": "middle",
+            "blockClass": "tablet-layout-infocard-sell"
         }
     },
 
@@ -69,7 +74,7 @@
             "textAlignment": "CENTER",
             "text": "Heading",
             "textPosition": "LEFT",
-            "blockClass": "subtitle-product-home"
+            "blockClass": "tablet-subtitle-product-home-heading"
         }
     },
 
@@ -79,7 +84,7 @@
             "textAlignment": "LEFT",
             "text": "Builder platform is made by, buildership platform is made by...",
             "textPosition": "LEFT",
-            "blockClass": "subtitle-product-home"
+            "blockClass": "tablet-subtitle-product-home-description"
         }
     },
 
