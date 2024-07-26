@@ -9,29 +9,74 @@
     },
     "flex-layout.row#desktop": {
         "props": {
-            "horizontalAlign": "center",
+            // "horizontalAlign": "center",
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
-            "fullWidth": true
+            "fullWidth": true,
+            "blockClass": "desktop-container-menu-up"
         },
         "children": [
             "flex-layout.col#logo-desktop",
+            
             // "flex-layout.col#spacer",
-            "search-bar",
-            "locale-switcher",
-            "login",
-            "minicart.v2",
-            "vtex.menu@2.x:menu#websites#desktop__menu-home"           
+            "flex-layout.col#search-Bar-Desktop",
+            "header-row#Desktop-links",
+            "flex-layout.col#loginDesktop",
+            "header-row#Desktop-minicart"
+            // "locale-switcher",
+            
+            // "minicart.v2",
+            // "vtex.menu@2.x:menu#websites#desktop__menu-home"           
         ]
     },
     "flex-layout.col#logo-desktop": {
         "props": {
-            "verticalAlign": "middle"
+            "verticalAlign": "top"
         },
         "children": [
             "logo"
-     
         ]
+    },
+    "flex-layout.col#loginDesktop": {
+        "props": {
+            "verticalAlign": "top"
+        },
+        "children": [
+            "login"
+        ]
+    },
+
+    "flex-layout.col#search-Bar-Desktop": {
+        "props": {
+            "verticalAlign": "top"
+        },
+        "children": [
+            "search-bar"
+        ]
+    },
+
+    "header-row#Desktop-minicart": {
+        "children": [
+            "minicart.v2"
+        ]
+    },
+
+    "header-row#Desktop-links":{
+        "children":[
+            "rich-text"
+        ]
+    },
+
+    "rich-text": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Visit our [help](https://developers.vtex.com/vtex-developer-docs/docs/welcome) section.\n**Be Bold!**\n*This is italic*",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": "help-message"
+        }
     }
+
 }

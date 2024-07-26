@@ -11,5 +11,29 @@
             "url": "assets/img/Icon_Black.svg",
             "width": "32px"
         }
+    },
+
+    "login": {
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true
+        }
+    },
+
+    
+    "search-bar": {
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+        "openAutocompleteOnFocus": true,
+        "placeholder": "Search products..."
+        }
+
+    
     }
+    
+      
+
 }
