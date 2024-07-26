@@ -1,8 +1,12 @@
 {
-    "flex-layout.row#global__main-shelf--container": {
+    "flex-layout.row#phone-global-main-shelf--container": {
+        "title": "phone global main shelf container",
         "children": [
             "list-context.product-list#global__main-shelf"
-        ]
+        ],
+        "props": {
+            "blockClass": "phone-global-main-shelf--container"
+        }
     },
     "list-context.product-list#global__main-shelf": {
         "blocks": [
@@ -18,46 +22,56 @@
                 "desktop": 5,
                 "tablet": 3,
                 "phone": 1
-            }
+            },
+            "blockClass": "phone-slider-layout-shelf"
         }
     },
     "product-summary.shelf#global__main-summary": {
         "children": [
             "add-to-list-btn",
             "product-summary-image",
-            "product-summary-name"
-            // "product-list-price"
-            // "product-selling-price"
-            // "product-summary-buy-button"
-        ]
+            "product-summary-description",
+            "product-list-price",
+            "product-selling-price",
+            "product-summary-buy-button"
+        ],
+        "props": {
+            "blockClass": "phone-product-sumamry-shelf"
+        }
     },
 
     "product-summary-image": {
         "title":"productimage-shelf",
         "props": {
-            "src":"/arquivos/product.png"
+            "src":"/arquivos/product.png",
+            "showBadge":true,
+            "badgeText": "undefined",
+            "displayMode": "normal",
+            "placeholder": "undefined",
+            "mainImageLabel":"example",
+            "widt":{
+                "phone":"250px"
+            },
+            "height":{
+                "phone": "205px"
+            }    
         }
     },
 
-    "product-summary-name":{
+    "product-summary-description":{
         "title": "name-product-shelf",
         "props": {
             "blockClass": "name-product-shelf",
             "displayMode": "text"
         }
+    },
+
+    "product-summary-buy-button":{
+        "title": "product-shelf-button",
+        "props":{
+            "isOneClickBuy": false
+        }
     }
 
-    // "product-list-price": {
-    //     "title": "list-product-shelf",
-    //     "props":{
-    //         "blockClass": "list-product-shelf"
-    //     }
-    // }
-
-    // "product-selling-price":{
-    //     "props":{
-    //         "value": "$636.900"
-    //     }
-    // }
 
 }

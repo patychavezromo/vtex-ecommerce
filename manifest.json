@@ -46,7 +46,8 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.modal-layout": "0.x",
-    "vtex.add-to-cart-button": "0.x"
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.product-price": "1.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"
