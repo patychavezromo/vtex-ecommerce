@@ -21,11 +21,14 @@
             
             // "flex-layout.col#spacer",
             "flex-layout.col#search-Bar-Desktop",
-            "header-row#Desktop-links",
-            "flex-layout.col#loginDesktop",
-            "header-row#Desktop-minicart"
+            "flex-layout.col#Link-1-home",
+            "flex-layout.col#Link-2-home",
+            "flex-layout.col#Link-3-home",
+            "flex-layout.col#Link-4-home",
+            "flex-layout.col#Link-5-home",
+            // "flex-layout.col#minicart",
+            "flex-layout.col#loginDesktop"
             // "locale-switcher",
-            
             // "minicart.v2",
             // "vtex.menu@2.x:menu#websites#desktop__menu-home"           
         ]
@@ -56,27 +59,83 @@
         ]
     },
 
-    "header-row#Desktop-minicart": {
-        "children": [
-            "minicart.v2"
-        ]
-    },
+    // "flex-layout.col#minicart": {
+    //     "children": [
+    //         "minicart.v2"
+    //     ]
+    // },
 
-    "header-row#Desktop-links":{
+    "flex-layout.col#Link-1-home":{
         "children":[
-            "rich-text"
+            "rich-text#Tendencias"
+        ]
+    },
+    "flex-layout.col#Link-2-home":{
+        "children":[
+            
+            "rich-text#Coleccion-del-Mes"
+        ]
+    },
+    "flex-layout.col#Link-3-home":{
+        "children":[
+            "rich-text#Ofertas-Enero"
+        ]
+    },
+    "flex-layout.col#Link-4-home":{
+        "children":[
+            "rich-text#Cyber-Monday"
+        ]
+    },
+    "flex-layout.col#Link-5-home":{
+        "children":[
+            "rich-text#Never-say-never"
         ]
     },
 
-    "rich-text": {
+    "rich-text#Tendencias": {
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "Visit our [help](https://developers.vtex.com/vtex-developer-docs/docs/welcome) section.\n**Be Bold!**\n*This is italic*",
-            "textColor": "c-on-emphasis",
-            "font": "t-heading-5",
-            "blockClass": "help-message"
+            "text": " [Tendencias de It Globers](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "blockClass": "Link-Header-Desktop-Home"
+        }
+    },
+
+    "rich-text#Coleccion-del-Mes": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " [Colección del mes](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "blockClass": "Link-Header-Desktop-Home"
+        }
+    },
+
+    "rich-text#Ofertas-Enero": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " [Ofertas Enero](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "blockClass": "Link-Header-Desktop-Home"
+        }
+    },
+
+    "rich-text#Cyber-Monday": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " [Cyber Monday](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "blockClass": "Link-Header-Desktop-Home"
+        }
+    },
+
+    "rich-text#Never-say-never": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " [Never say never](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "blockClass": "Link-Header-Desktop-Home"
         }
     }
+    
 
 }

@@ -53,3 +53,10 @@
     margin-left: 1rem;
     color:#1D2734, 
 }
+
+.paragraph--Link-Header-Desktop-Home{
+    font-family: lexendMedium;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
