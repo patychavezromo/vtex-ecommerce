@@ -4,7 +4,8 @@
             "blockClass": "sticky-header-Desktop"
         },
         "children": [
-            "flex-layout.row#desktop"
+            "flex-layout.row#desktop",
+            "vtex.menu@2.x:menu#desktop__menu-home"
         ]
     },
     "flex-layout.row#desktop": {
@@ -18,7 +19,6 @@
         },
         "children": [
             "flex-layout.col#logo-desktop",
-            
             // "flex-layout.col#spacer",
             "flex-layout.col#search-Bar-Desktop",
             "flex-layout.col#Link-1-home",
@@ -26,7 +26,7 @@
             "flex-layout.col#Link-3-home",
             "flex-layout.col#Link-4-home",
             "flex-layout.col#Link-5-home",
-            // "flex-layout.col#minicart",
+            "flex-layout.col#minicart",
             "flex-layout.col#loginDesktop"
             // "locale-switcher",
             // "minicart.v2",
@@ -43,7 +43,8 @@
     },
     "flex-layout.col#loginDesktop": {
         "props": {
-            "verticalAlign": "top"
+            "verticalAlign": "top",
+            "blockClass":"Desktop-layout-login"
         },
         "children": [
             "login"
@@ -52,18 +53,19 @@
 
     "flex-layout.col#search-Bar-Desktop": {
         "props": {
-            "verticalAlign": "top"
+            "verticalAlign": "top",
+            "blockClass": "Desktop-layout-Search-Bar"
         },
         "children": [
             "search-bar"
         ]
     },
 
-    // "flex-layout.col#minicart": {
-    //     "children": [
-    //         "minicart.v2"
-    //     ]
-    // },
+    "flex-layout.col#minicart": {
+        "children": [
+            "minicart.v2"
+        ]
+    },
 
     "flex-layout.col#Link-1-home":{
         "children":[

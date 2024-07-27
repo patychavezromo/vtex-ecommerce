@@ -1,5 +1,5 @@
 {
-    "vtex.menu@2.x:menu#websites#desktop__menu-home": {
+    "vtex.menu@2.x:menu#desktop__menu-home": {
         "title": "desktop main menu",
         "children": [
             "menu-item#food-desktop",
@@ -14,7 +14,10 @@
             "menu-item#Alpinismo-desktop",
             "menu-item#Delivery-desktop",
             "menu-item#Cervezas-desktop"
-        ]
+        ],
+        "props": {
+            "blockClass": "Desktop-menu-icons"
+        }
     },
 
     "menu-item#food-desktop": {

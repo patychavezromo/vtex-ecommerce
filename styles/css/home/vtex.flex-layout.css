@@ -43,6 +43,12 @@
     width: 20%;
 }
 
+.flexCol--Desktop-layout-login{
+    background-color: black;
+    border-radius: 40px;
+    height: 40px;
+}
+
 
 
 

@@ -28,7 +28,8 @@
         "blocks": ["autocomplete-result-list.v2"],
         "props": {
         "openAutocompleteOnFocus": true,
-        "placeholder": "Search products..."
+        "placeholder": "Search products...",
+        "blockClass":"search-Bar"
         }
     }
 }
