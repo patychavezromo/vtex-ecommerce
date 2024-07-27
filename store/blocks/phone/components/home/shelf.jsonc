@@ -32,11 +32,16 @@
             "product-summary-image",
             "product-summary-description",
             "product-list-price",
-            "product-selling-price",
+            "product-selling-price#phone-product-selling-price",
             "product-summary-buy-button"
         ],
         "props": {
             "blockClass": "phone-product-sumamry-shelf"
+        }
+    },
+    "product-selling-price#phone-product-selling-price": {
+        "props": {
+            "blockClass": "phone-product-selling-price"
         }
     },
 
@@ -69,7 +74,8 @@
     "product-summary-buy-button":{
         "title": "product-shelf-button",
         "props":{
-            "isOneClickBuy": false
+            "isOneClickBuy": false,
+            "blockClass": "Phone-shelf-button"
         }
     }
 
