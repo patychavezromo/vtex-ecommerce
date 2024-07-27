@@ -43,7 +43,7 @@
     },
     "flex-layout.col#loginDesktop": {
         "props": {
-            "verticalAlign": "top",
+            // "verticalAlign": "middle",
             "blockClass":"Desktop-layout-login"
         },
         "children": [

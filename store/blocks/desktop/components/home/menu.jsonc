@@ -39,7 +39,7 @@
                 "activeClassName": "food-icon-phone",
                 "mutedClassName": "c-action-primary"
             },
-            "blockClass": "phone-icon-food"
+            "blockClass": "Desktop-menu-icon"            
         }
     },
     "menu-item#fitness-desktop": {
@@ -60,7 +60,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "Desktop-menu-icon"
         }
     },
     "menu-item#EnelArtico-desktop": {
@@ -81,7 +82,8 @@
                 "viewBox": "0 0 16 16",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "Desktop-menu-icon"
         }
     },
     "menu-item#Poolday-desktop": {
@@ -102,7 +104,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "Desktop-menu-icon"
         }
     },
     "menu-item#Hoteles-desktop": {
@@ -123,7 +126,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "Desktop-menu-icon"
         }
     },
     "menu-item#Casas-desktop": {
@@ -144,7 +148,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "Desktop-menu-icon"
         }
     },
     "menu-item#Naturales-desktop": {
@@ -165,7 +170,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "Desktop-menu-icon"
         }
     },
     "menu-item#Closet-desktop": {
@@ -186,7 +192,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "Desktop-menu-icon"
         }
     },
     "menu-item#Playas-desktop": {
@@ -207,7 +214,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "Desktop-menu-icon"
         }
     },
     "menu-item#Alpinismo-desktop": {
@@ -228,7 +236,8 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "Desktop-menu-icon"
         }
     },
     "menu-item#Delivery-desktop": {
@@ -249,7 +258,8 @@
                 "viewBox": "0 0 16 16",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "Desktop-menu-icon"
         }
     },
     "menu-item#Cervezas-desktop": {
@@ -262,7 +272,7 @@
                 "href": "#",
                 "noFollow": false,
                 "tagTitle": "Cervezas",
-                "text": "Cervezas"
+                "text": "Desktop-menu-icon"
             },
             "iconProps": {
                 "id": "cervezas",
@@ -270,7 +280,8 @@
                 "viewBox": "0 0 16 16",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "Desktop-menu-icon"
         }
     }
 }

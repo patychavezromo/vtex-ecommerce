@@ -15,6 +15,7 @@
 
     "login": {
         "props": {
+            "iconLabel":"Login",
             "emailAndPasswordTitle": "LOG-IN",
             "accessCodeTitle": "Acess Code LOG-IN",
             "emailPlaceholder": "e-mail",

@@ -49,6 +49,9 @@
     height: 40px;
 }
 
+.flexRowContent--desktop-container-menu-up{
+    align-items: center;
+}
 
 
 

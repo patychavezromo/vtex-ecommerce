@@ -22,3 +22,18 @@
     display: flex;
     justify-content: center;
 }
+
+.styledLinkContent--Desktop-menu-icon {
+    flex-direction: column;
+    font-family: lexendMedium;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1D2734;
+}
+
+.styledLinkIcon--Desktop-menu-icon{
+    /* iconos del menu para version desktop */
+    display: flex;
+    justify-content: center;
+}
