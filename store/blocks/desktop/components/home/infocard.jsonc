@@ -13,7 +13,8 @@
         "title": "phone layout content infocard",
         "children": [
             "flex-layout.row#Desktop-infocard-layout-image",
-            "flex-layout.row#Desktop-infocard-heading-text-and-sell"
+            "flex-layout.row#Desktop-infocard-heading-text-and-sell",
+            "flex-layout.row#Desktop-infocard-link"
         ]
 
     },
@@ -61,8 +62,9 @@
             "image#card-sell-Desktop"
         ],
         "props": {
-            "width": "10%",
-            "verticalAlign": "middle"
+            "width": "20%",
+            "verticalAlign": "middle",
+            "blockClass":"Desktop-infocard-sell-image"
         }
     },
 
@@ -72,7 +74,7 @@
             "textAlignment": "CENTER",
             "text": "Heading",
             "textPosition": "LEFT",
-            "blockClass": "subtitle-product-home"
+            "blockClass": "desktop-subtitle-product-home-heading"
         }
     },
 
@@ -83,15 +85,36 @@
             "font": "fast",
             "text": "Builder platform is made by, buildership platform is made by...",
             "textPosition": "LEFT",
-            "blockClass": "subtitle-product-home-Desktop"
+            "blockClass": "Desktop-infocard-text"
         }
     },
 
     "image#card-sell-Desktop": {
         "title": "Desktop image sell",
       "props": {
-        "src": "/arquivos/Artworktrailing.jpg"
+        "src": "/arquivos/Artworktrailing.jpg",
+        "blockClass": "Desktop-infocard-sell-image"
       }
+    },
+
+    "flex-layout.row#Desktop-infocard-link":{
+        "title": "desktop infocard link",
+        "children": [
+            "image#desktop-infocard-buttonlink"
+        ],
+        "props": {
+            "blockClass": "desktop-layout-infocard-button"
+        }
+    },
+
+   
+
+    "image#desktop-infocard-buttonlink": {
+    "props": {
+      "src": "/arquivos/Button_infocard.png",
+      "maxHeight": 55,
+      "blockClass": "desktop-infocard-button"
     }
+  }
 
 }

@@ -27,7 +27,7 @@
     flex-direction: column;
     font-family: lexendMedium;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 15px;
     color: #1D2734;
 }
@@ -36,4 +36,8 @@
     /* iconos del menu para version desktop */
     display: flex;
     justify-content: center;
+}
+
+.menuContainer--Desktop-menu-icons{
+    margin-left: 40px;
 }

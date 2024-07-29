@@ -9,7 +9,8 @@
             "title": "Logo",
             "href": "/",
             "url": "assets/img/Icon_Black.svg",
-            "width": "32px"
+            "width": "32px",
+            "blockClass": "logo-Global"
         }
     },
 
@@ -20,7 +21,8 @@
             "accessCodeTitle": "Acess Code LOG-IN",
             "emailPlaceholder": "e-mail",
             "passwordPlaceholder": "password",
-            "showPasswordVerificationIntoTooltip": true
+            "showPasswordVerificationIntoTooltip": true,
+            "blockClass": "login-Global"
         }
     },
 

@@ -13,7 +13,7 @@
 }
 
 .flexRow--Desktop-layout-infocards{
-    width: 40%;
+    width: 80%;
 }
 .flexRow--Tablet-layout-infocards{
     width: 90%;
@@ -49,9 +49,56 @@
     height: 40px;
 }
 
+.flexRow--desktop-container-menu-up{
+    margin-left: 60px;
+    padding-top: 50px;
+    margin-bottom: -20px;
+}
 .flexRowContent--desktop-container-menu-up{
     align-items: center;
 }
+
+.flexCol--linksDesktop{
+    padding: 0 1px;
+    
+}
+
+.flexRow--Desktop-container-Links{
+    width: 600px;
+    margin-left: 40px;
+}
+
+.flexCol--Desktop-layout-login :global(.vtex-login-2-x-label){
+    color: #FFFFFF;
+}
+
+.flexCol--Desktop-logo{
+    margin-bottom: 30px;
+    padding-right: 5px;
+}
+
+.flexRow--Desktop-layout-infocards{
+    width: 324px;
+}
+
+.flexCol--Desktop-infocard-colum-text-and-description{
+    background-color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.flexCol--Desktop-infocard-sell-image{
+    background-color: #FFFFFF;
+}
+
+.flexRow--desktop-layout-infocard-button{
+    background-color: #FFFFFF;
+    padding-bottom: 15px;
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+
 
 
 

@@ -14,3 +14,17 @@
 .imageElement--image-Tablet-infocard-image{
     width: 80%;
 }
+
+.autoCompleteOuterContainer--search-Bar :global(.vtex-input-prefix__group){
+    border-radius: 40px;
+    width: 280px;
+    height: 40px;
+}
+
+.imageElement--image-Desktop-infocard-image{
+    width: 324px;
+}
+
+.imageElement--Desktop-infocard-sell-image{
+    width: 48.38px;
+}

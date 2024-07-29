@@ -23,6 +23,7 @@
             // "flex-layout.col#spacer",
             "flex-layout.col#phone-search-bar",
             "flex-layout.col#phone-login",
+            
             "flex-layout.col#phone-minicart.v2"         
         ]
     },
@@ -37,14 +38,23 @@
     "flex-layout.col#phone-search-bar": {
         "children": [
             "search-bar"
-        ]
+        ],
+        "props": {
+            "blockClass":"search-bar-phone"
+        }
     },
   
     "flex-layout.col#phone-login": {
         "children": [
             "login"
-        ]
+        ],
+        "props": {
+            "blockClass":"login-phone"
+        }
     },
+
+  
+
     "flex-layout.col#phone-minicart.v2": {
         "children": [
             "minicart.v2"

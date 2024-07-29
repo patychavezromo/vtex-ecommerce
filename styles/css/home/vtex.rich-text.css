@@ -60,3 +60,35 @@
     font-size: 12px;
     line-height: 15px;
 }
+
+.link--Link-Header-Desktop-Home{
+    text-decoration: none;
+    color: black;
+    font-family: lexendMedium;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+
+.paragraph--subtitle-product-home{
+    font-family: lexend;
+    margin-left: 1rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16.8px;
+}
+
+.container--desktop-subtitle-product-home-heading{
+    font-family: lexend;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24.88;
+}
+
+.container--Desktop-infocard-text{
+    font-family: lexendMedium;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14.52px;
+}

@@ -25,5 +25,5 @@
 @font-face {
     font-family: 'lexendMedium';
     src: url(assets/fonts/Lexend-Medium.ttf);
-    font-weight: bold;
+    /* font-weight: bold; */
 }

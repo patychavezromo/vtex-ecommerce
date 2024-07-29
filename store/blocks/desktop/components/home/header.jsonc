@@ -21,11 +21,7 @@
             "flex-layout.col#logo-desktop",
             // "flex-layout.col#spacer",
             "flex-layout.col#search-Bar-Desktop",
-            "flex-layout.col#Link-1-home",
-            "flex-layout.col#Link-2-home",
-            "flex-layout.col#Link-3-home",
-            "flex-layout.col#Link-4-home",
-            "flex-layout.col#Link-5-home",
+            "flex-layout.col#Desktop-layoutcol-allLinks",
             "flex-layout.col#minicart",
             "flex-layout.col#loginDesktop"
             // "locale-switcher",
@@ -35,7 +31,8 @@
     },
     "flex-layout.col#logo-desktop": {
         "props": {
-            "verticalAlign": "top"
+            "verticalAlign": "top",
+            "blockClass": "Desktop-logo"
         },
         "children": [
             "logo"
@@ -67,31 +64,65 @@
         ]
     },
 
+    "flex-layout.col#Desktop-layoutcol-allLinks": {
+        "children": [
+            "flex-layout.row#Desktop-container-Links"
+        ]
+    },
+
+    "flex-layout.row#Desktop-container-Links": {
+        "children": [
+           "flex-layout.col#Link-1-home",
+           "flex-layout.col#Link-2-home",
+           "flex-layout.col#Link-3-home",
+           "flex-layout.col#Link-4-home",
+           "flex-layout.col#Link-5-home"
+        ],
+        "props": {
+            "blockClass": "Desktop-container-Links"
+        }
+    },
+
     "flex-layout.col#Link-1-home":{
         "children":[
             "rich-text#Tendencias"
-        ]
+        ],
+        "props": {
+            "blockClass":"linksDesktop"
+        }
     },
     "flex-layout.col#Link-2-home":{
         "children":[
             
             "rich-text#Coleccion-del-Mes"
-        ]
+        ],
+        "props": {
+            "blockClass":"linksDesktop"
+        }
     },
     "flex-layout.col#Link-3-home":{
         "children":[
             "rich-text#Ofertas-Enero"
-        ]
+        ],
+        "props": {
+            "blockClass":"linksDesktop"
+        }
     },
     "flex-layout.col#Link-4-home":{
         "children":[
             "rich-text#Cyber-Monday"
-        ]
+        ],
+        "props": {
+            "blockClass":"linksDesktop"
+        }
     },
     "flex-layout.col#Link-5-home":{
         "children":[
             "rich-text#Never-say-never"
-        ]
+        ],
+        "props": {
+            "blockClass":"linksDesktop"
+        }
     },
 
     "rich-text#Tendencias": {
