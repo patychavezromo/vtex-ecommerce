@@ -50,10 +50,11 @@
         "props": {
             "src":"/arquivos/product.png",
             "showBadge":true,
-            "badgeText": "undefined",
+            "badgeText": "OFF",
             "displayMode": "normal",
             "placeholder": "undefined",
             "mainImageLabel":"example",
+            "blockClass":"phone-shelf-product-image",
             "widt":{
                 "phone":"250px"
             },
@@ -64,9 +65,9 @@
     },
 
     "product-summary-description":{
-        "title": "name-product-shelf",
+        "title": "phone-description-product-shelf",
         "props": {
-            "blockClass": "name-product-shelf",
+            "blockClass": "phone-description-product-shelf",
             "displayMode": "text"
         }
     },
@@ -77,7 +78,17 @@
             "isOneClickBuy": false,
             "blockClass": "Phone-shelf-button"
         }
+    },
+
+    "product-list-price":{
+        "props":{
+            "blockClass": "phone-shelf-product-price"
+        }
+    },
+
+    "add-to-list-btn":{
+        "props":{
+            "blockClass": "phone-shelf-product-heart"
+        }
     }
-
-
 }

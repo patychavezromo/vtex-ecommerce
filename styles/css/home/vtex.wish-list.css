@@ -1,0 +1,10 @@
+.wishlistIconContainer--phone-shelf-product-heart{
+    display: flex;
+    justify-content: end;
+}
+
+.wishlistIconContainer--phone-shelf-product-heart :global(.vtex-button){
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
