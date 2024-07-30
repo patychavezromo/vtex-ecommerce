@@ -25,3 +25,10 @@
     font-size: 12px;
     line-height: 12.76px;
 }
+
+.imageWrapper--phone-shelf-product-image :global(.vtex-store-components-3-x-discountInsideContainer){
+    left: 0px;
+    top: -40px;
+    width: 70.22px;
+    height: 25.11px;
+}
