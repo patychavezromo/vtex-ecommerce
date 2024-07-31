@@ -12,7 +12,7 @@
     width: 80%;
 }
 
-.flexRow--Desktop-layout-infocards{
+.flexRow--desktop-flex-layout-row-container-info-card{
     width: 80%;
 }
 .flexRow--Tablet-layout-infocards{
@@ -43,45 +43,45 @@
     width: 20%;
 }
 
-.flexCol--Desktop-layout-login{
+.flexCol--Desktop__flex-layout-col-login{
     background-color: black;
     border-radius: 40px;
     height: 40px;
 }
 
-.flexRow--desktop-container-menu-up{
+.flexRow--desktop-header__container-menu-up{
     margin-left: 60px;
     padding-top: 50px;
     margin-bottom: -20px;
 }
-.flexRowContent--desktop-container-menu-up{
+.flexRowContent--desktop-header__container-menu-up{
     align-items: center;
 }
 
-.flexCol--linksDesktop{
+.flexCol--desktop__flex-layout-col-link{
     padding: 0 1px;
     
 }
 
-.flexRow--Desktop-container-Links{
+.flexRow--desktop__flex-layout-row-container-all-links{
     width: 600px;
     margin-left: 40px;
 }
 
-.flexCol--Desktop-layout-login :global(.vtex-login-2-x-label){
+.flexCol--Desktop__flex-layout-col-login :global(.vtex-login-2-x-label){
     color: #FFFFFF;
 }
 
-.flexCol--Desktop-logo{
+.flexCol--desktop-logo{
     margin-bottom: 30px;
     padding-right: 5px;
 }
 
-.flexRow--Desktop-layout-infocards{
+.flexRow--desktop-flex-layout-row-container-info-card{
     width: 324px;
 }
 
-.flexCol--Desktop-infocard-colum-text-and-description{
+.flexCol--desktop__flex-layout-col-infocard-content-textheading-and-textdescription{
     background-color: #FFFFFF;
     padding-left: 10px;
 }
@@ -90,7 +90,7 @@
     background-color: #FFFFFF;
 }
 
-.flexRow--desktop-layout-infocard-button{
+.flexRow--desktop__flex-layout-row-infocard-container-button{
     background-color: #FFFFFF;
     padding-bottom: 15px;
     border-radius: 0 0 10px 10px;

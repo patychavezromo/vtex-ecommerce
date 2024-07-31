@@ -1,6 +1,6 @@
 {
     "vtex.menu@2.x:menu#desktop__menu-home": {
-        "title": "desktop main menu",
+        "title": "desktop__menu-home",
         "children": [
             "menu-item#food-desktop",
             "menu-item#fitness-desktop",
