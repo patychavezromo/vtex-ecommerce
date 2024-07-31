@@ -1,23 +1,24 @@
 {
-    "slider-layout#phone-infocards-slider": {
-        "props": {
-          "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "phone": 1
-          },
-          "infinite": true,
-          "showNavigationArrows": "desktopOnly",
-          "blockClass": "phone-infocards-slider"
-        },
-        "children": 
-            [
-                "flex-layout.row#phone-info-card",
-                "flex-layout.row#phone-info-card",
-                "flex-layout.row#phone-info-card",
-                "flex-layout.row#phone-info-card",
-                "flex-layout.row#phone-info-card",
-                "flex-layout.row#phone-info-card"
-            ]
-    } 
+  "slider-layout#phone-infocards-slider": {
+    "title": "phone-infocards-slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "phone-infocards-slider"
+    },
+    "children": 
+    [
+      "flex-layout.row#phone__flex-layout-row-container-info-card",
+      "flex-layout.row#phone__flex-layout-row-container-info-card",
+      "flex-layout.row#phone__flex-layout-row-container-info-card",
+      "flex-layout.row#phone__flex-layout-row-container-info-card",
+      "flex-layout.row#phone__flex-layout-row-container-info-card",
+      "flex-layout.row#phone__flex-layout-row-container-info-card"
+    ]
+  } 
 }

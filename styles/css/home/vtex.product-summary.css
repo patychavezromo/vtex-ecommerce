@@ -1,14 +1,14 @@
-.buyButtonContainer--Phone-shelf-button{
+.buyButtonContainer--phone__product-summary-shelf-buy-button{
     position: absolute;
     bottom: 10px;
 }
 
-.imageWrapper--phone-shelf-product-image{
+.imageWrapper--phone__product-summary-image-shelf{
     padding: 2px 2px;
     margin-left: 15px;
 }
 
-.imageWrapper--phone-shelf-product-image :global(.vtex-store-components-3-x-discountInsideContainer){
+.imageWrapper--phone__product-summary-image-shelf :global(.vtex-store-components-3-x-discountInsideContainer){
     /* boton descuento imagen shelf */
     background-color: black;
     border-radius: 3px;
@@ -19,14 +19,14 @@
     font-size: 12px;
     line-height: 15.19px;
 }
-.description--phone-description-product-shelf{
+.description--phone__product-summary-shelf-description{
     font-family: lexend;
     font-weight: 400;
     font-size: 12px;
     line-height: 12.76px;
 }
 
-.imageWrapper--phone-shelf-product-image :global(.vtex-store-components-3-x-discountInsideContainer){
+.imageWrapper--phone__product-summary-image-shelf :global(.vtex-store-components-3-x-discountInsideContainer){
     left: 0px;
     top: -40px;
     width: 70.22px;

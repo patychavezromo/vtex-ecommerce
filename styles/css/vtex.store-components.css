@@ -3,11 +3,11 @@
     margin-top: 37px;
 }
 
-.imageElement--image-phone-infocard-image {
+.imageElement--phone__main-image-infocard {
     width: 100%;
 }
 
-.imageElement--phone-infocard-button{
+.imageElement--phone__image-infocard-buttonlink{
    height: 40px;
 }
 

@@ -2,7 +2,7 @@
     margin-left: 16px;
 } */
 
-.paragraph--subtitle-product-home-page-phone{
+.paragraph--phone__richtext-subtitle-home{
     margin-left: 1rem;
     font-family: lexend;
     font-weight: 500;
@@ -10,7 +10,7 @@
     line-height: 16.8px;
 }
 
-.paragraph--subtitle-product-home-phone-heading{
+.paragraph--phone__richtext-infocards-textheading{
     font-family: lexend;
     font-weight: 600;
     font-size: 16px;
@@ -19,7 +19,7 @@
     color: #1D2734,
 }
 
-.paragraph--subtitle-product-home-phone-description{
+.paragraph--phone__richtext-infocards-text-description{
     font-family: lexendMedium;
     font-weight: 300;
     font-size: 12px;

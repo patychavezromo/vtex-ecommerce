@@ -1,14 +1,15 @@
 {
     "flex-layout.row#phone__main-slider": {
-        "title": "phone main home",
+        "title": "phone__main-slider",
         "children": [
-            "list-context.image-list#phone__container-images"
+            "list-context.image-list#phone__container-list-context.image-banner"
         ]
     },
-    "list-context.image-list#phone__container-images": {
-        "title": "phone main list product",
+
+    "list-context.image-list#phone__container-list-context.image-banner": {
+        "title": "phone__container-images-banner",
         "children": [
-            "slider-layout#phone__slider"
+            "slider-layout#phone__slider-layout-main-banner"
         ],
         "props": {
           "preload": true,
@@ -21,15 +22,16 @@
             ]
         }
     },
-    "slider-layout#phone__slider": {
-        "title": "slider home images",
+
+    "slider-layout#phone__slider-layout-main-banner": {
+        "title": "phone__slider-layout-main-banner",
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
                 "tablet": 3,
                 "phone": 1
             },
-            "blockClass": "phone-layout-banner-watch"
+            "blockClass": "phone__slider-layout-main-banner"
         }
     }
 }
