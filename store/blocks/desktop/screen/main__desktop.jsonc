@@ -3,7 +3,7 @@
         "children": [
             // "vtex.menu@2.x:menu#websites#desktop__menu-home",
             "flex-layout.row#Desktop__main-slider",
-            "rich-text#desktop__subtitle-home",
+            "rich-text#desktop__richtext-subtitle-home",
             "slider-layout#Desktop-infocards-slider"
         ]
 

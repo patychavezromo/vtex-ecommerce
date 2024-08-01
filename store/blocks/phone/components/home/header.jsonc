@@ -1,14 +1,17 @@
 {
-    "sticky-layout#phone-header":{
+    "sticky-layout#phone__sticky-layout-header":{
+        "title": "phone__sticky-layout-header",
         "props": {
-            "blockClass": "sticky-header-phone"
+            "blockClass": "phone__sticky-layout-header"
         },
         "children": [
-            "flex-layout.row#phone-container-menu",
+            "flex-layout.row#phone__flex-layout-row-container-menu",
             "vtex.menu@2.x:menu#phone__menu-home"
         ]
     },
-    "flex-layout.row#phone-container-menu": {
+
+    "flex-layout.row#phone__flex-layout-row-container-menu": {
+        "title": "phone__flex-layout-row-container-menu",
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "center",
@@ -16,18 +19,19 @@
             "preventVerticalStretch": true,
             "fullWidth": true,
             "preserveLayoutOnMobile":true,
-            "blockClass": "phone-container-elements-header-up-and-menuicons"
+            "blockClass": "phone__flex-layout-row-container-menu"
         },
         "children": [
-            "flex-layout.col#logo-phone",
+            "flex-layout.col#phone__flex-layout-col-logo",
             // "flex-layout.col#spacer",
-            "flex-layout.col#phone-search-bar",
-            "flex-layout.col#phone-login",
+            "flex-layout.col#phone__flex-layout-col-search-bar",
+            "flex-layout.col#phone__flex-layout-col-login",
             
-            "flex-layout.col#phone-minicart.v2"         
+            "flex-layout.col#phone__flex-layout-col-minicart.v2"       
         ]
     },
-    "flex-layout.col#logo-phone": {
+    "flex-layout.col#phone__flex-layout-col-logo": {
+        "title": "phone__flex-layout-col-logo",
         "props": {
             "verticalAlign": "middle"
         },
@@ -35,27 +39,28 @@
             "logo"
         ]
     },
-    "flex-layout.col#phone-search-bar": {
+    "flex-layout.col#phone__flex-layout-col-search-bar": {
+        "title": "phone__flex-layout-col-search-bar",
         "children": [
             "search-bar"
         ],
         "props": {
-            "blockClass":"search-bar-phone"
+            "blockClass":"phone__flex-layout-search-bar"
         }
     },
   
-    "flex-layout.col#phone-login": {
+    "flex-layout.col#phone__flex-layout-col-login": {
+        "title": "phone__flex-layout-col-login",
         "children": [
             "login"
         ],
         "props": {
-            "blockClass":"login-phone"
+            "blockClass":"phone__flex-layout-col-login"
         }
-    },
+    },  
 
-  
-
-    "flex-layout.col#phone-minicart.v2": {
+    "flex-layout.col#phone__flex-layout-col-minicart.v2": {
+        "title": "phone__flex-layout-col-minicart.v2",
         "children": [
             "minicart.v2"
         ]

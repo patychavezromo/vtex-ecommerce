@@ -1,11 +1,11 @@
 {
-    "rich-text#desktop__subtitle-home": {
+    "rich-text#desktop__richtext-subtitle-home": {
         "title": "phone subtitle home",
         "props": {
             "textAlignment": "CENTER",
             "text": "An amazing product. DESKTOP",
             "textPosition": "LEFT",
-            "blockClass": "subtitle-product-home"
+            "blockClass": "desktop__richtext-subtitle-home"
         }
     }
 }

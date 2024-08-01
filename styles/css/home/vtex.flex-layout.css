@@ -8,19 +8,18 @@
 } */
 
 
-.flexRow--phone-layout-infocards {
+.flexRow--phone__flex-layout-row-container-info-card {
     width: 80%;
 }
 
-.flexRow--Desktop-layout-infocards{
+.flexRow--desktop-flex-layout-row-container-info-card{
     width: 80%;
 }
-.flexRow--Tablet-layout-infocards{
+.flexRow--tablet__flex-layout-row-container-info-card{
     width: 90%;
 }
 
-.flexRow--phone-layout-infocard-button{
-    
+.flexRow--phone__flex-layout-row-container-infocard-linkbutton{
     background: white;
     border-radius: 0 0 10px 10px;
     align-content: center;
@@ -28,11 +27,11 @@
     padding-bottom: 3rem;
 }
 
-.flexRow--phone-infocard-container-text-and-sell{
+.flexRow--phone__flex-layout-row-infocard-content-textheading-textdescription-and-sell{
     background: white;
 }
 
-.flexRow--tablet-infocard-container-text-and-sell{
+.flexRow--tablet__flex-layout-row-infocard-textheading-textdescription-and-sell{
     width: 81%;
     background-color: white;
     margin-left: 2rem;
@@ -43,45 +42,45 @@
     width: 20%;
 }
 
-.flexCol--Desktop-layout-login{
+.flexCol--Desktop__flex-layout-col-login{
     background-color: black;
     border-radius: 40px;
     height: 40px;
 }
 
-.flexRow--desktop-container-menu-up{
+.flexRow--desktop-header__container-menu-up{
     margin-left: 60px;
     padding-top: 50px;
     margin-bottom: -20px;
 }
-.flexRowContent--desktop-container-menu-up{
+.flexRowContent--desktop-header__container-menu-up{
     align-items: center;
 }
 
-.flexCol--linksDesktop{
+.flexCol--desktop__flex-layout-col-link{
     padding: 0 1px;
     
 }
 
-.flexRow--Desktop-container-Links{
+.flexRow--desktop__flex-layout-row-container-all-links{
     width: 600px;
     margin-left: 40px;
 }
 
-.flexCol--Desktop-layout-login :global(.vtex-login-2-x-label){
+.flexCol--Desktop__flex-layout-col-login :global(.vtex-login-2-x-label){
     color: #FFFFFF;
 }
 
-.flexCol--Desktop-logo{
+.flexCol--desktop-logo{
     margin-bottom: 30px;
     padding-right: 5px;
 }
 
-.flexRow--Desktop-layout-infocards{
+.flexRow--desktop-flex-layout-row-container-info-card{
     width: 324px;
 }
 
-.flexCol--Desktop-infocard-colum-text-and-description{
+.flexCol--desktop__flex-layout-col-infocard-content-textheading-and-textdescription{
     background-color: #FFFFFF;
     padding-left: 10px;
 }
@@ -90,7 +89,7 @@
     background-color: #FFFFFF;
 }
 
-.flexRow--desktop-layout-infocard-button{
+.flexRow--desktop__flex-layout-row-infocard-container-button{
     background-color: #FFFFFF;
     padding-bottom: 15px;
     border-radius: 0 0 10px 10px;
@@ -103,7 +102,7 @@
 
 
 
-/* .flexCol--phone-infocard-col-sell{
+/* .flexCol--phone__flex-layout-col-infocard-content-sell{
     width: 1%;
 } */
 
@@ -111,7 +110,7 @@
     background-color: blue;
 } */
 
-/* .flexRow--phone-container-elements-header-up-and-menuicons{
+/* .flexRow--phone__flex-layout-row-container-menu{
     background-color: red;
 } */
 

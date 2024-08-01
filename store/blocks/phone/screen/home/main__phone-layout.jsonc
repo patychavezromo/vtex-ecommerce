@@ -3,10 +3,10 @@
         "title": "phone responsive layout",
         "children": [
             "flex-layout.row#phone__main-slider",
-            "rich-text#phone__subtitle-home",
+            "rich-text#phone__richtext-subtitle-home",
             "slider-layout#phone-infocards-slider",
-            "rich-text#phone__subtitle-home",
-            "flex-layout.row#phone-global-main-shelf--container"
+            "rich-text#phone__richtext-subtitle-home",
+            "flex-layout.row#phone__main-shelf--container"
         ]
     }
 }

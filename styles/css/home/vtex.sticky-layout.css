@@ -1,7 +1,7 @@
-.container--sticky-header-phone{
+.container--phone__sticky-layout-header{
     background-color: #FFFFFF;
 }
 
-.container--sticky-header-Desktop{
+.container--desktop__sticky-layout{
     background-color: #FFFFFF;
 }

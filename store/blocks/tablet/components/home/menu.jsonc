@@ -1,6 +1,6 @@
 {
-    "vtex.menu@2.x:menu#websites#Tablet__menu-home": {
-        "title": "Tablet main menu",
+    "vtex.menu@2.x:menu#tablet__menu-home": {
+        "title": "tablet__menu-home",
         "children": [
             "menu-item#food-Tablet",
             "menu-item#fitness-Tablet",
