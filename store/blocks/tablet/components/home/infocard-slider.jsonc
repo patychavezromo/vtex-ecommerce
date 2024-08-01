@@ -1,23 +1,24 @@
 {
-    "slider-layout#Tablet-infocards-slider": {
-        "props": {
-          "itemsPerPage": {
-            "desktop": 3,
-            "tablet": 2,
-            "phone": 1
-          },
-          "infinite": true,
-          "showNavigationArrows": "desktopOnly",
-          "blockClass": "phone-infocards-slider"
-        },
-        "children": 
-            [
-                "flex-layout.row#Tablet-info-card",
-                "flex-layout.row#Tablet-info-card",
-                "flex-layout.row#Tablet-info-card",
-                "flex-layout.row#Tablet-info-card",
-                "flex-layout.row#Tablet-info-card",
-                "flex-layout.row#Tablet-info-card"
-            ]
-    } 
+  "slider-layout#tablet__slider-layout-infocards": {
+    "title": "tablet__slider-layout-infocards",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      //"blockClass": "tablet-infocards-slider"
+    },
+    "children": 
+    [
+      "flex-layout.row#tablet__flex-layout-row-container-info-card",
+      "flex-layout.row#tablet__flex-layout-row-container-info-card",
+      "flex-layout.row#tablet__flex-layout-row-container-info-card",
+      "flex-layout.row#tablet__flex-layout-row-container-info-card",
+      "flex-layout.row#tablet__flex-layout-row-container-info-card",
+      "flex-layout.row#tablet__flex-layout-row-container-info-card"
+    ]
+  } 
 }
