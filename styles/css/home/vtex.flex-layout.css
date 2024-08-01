@@ -95,7 +95,45 @@
     border-radius: 0 0 10px 10px;
 }
 
+/* formato iconos phone menu up */
+.flexColChild--phone__flex-layout-col-menu-burger :global(.vtex-store-components-3-x-imageElement){
+    width: 24px;
+    height: 24px;
+    top: 32px;
+    left: 16px;
+}
+.flexColChild--phone__flex-layout-col-logo :global(.vtex-store-components-3-x-logoImage){
+    width: 32px;
+    height: 16px;
+    top: 37px;
+    left: 48px;
+}
+.flexColChild--phone__container-overlay-trigger-mobile :global(.vtex-store-components-3-x-searchIcon){
+    width: 17.49px;
+    height: 17.49px;
+    top: 3px;
+    left: 3px;
+}
+.flexColChild--phone__flex-layout-col-minicart :global(.vtex-minicart-2-x-cartIcon){
+    width: 24px;
+    height: 24px;
+    top: 32px;
+    left: 232px;
+}
+.flexColChild--phone__flex-layout-col-login :global(.vtex-button){
+    width: 80px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #1D2734;
+    border-radius: 40px;
+    border: 1px;
+    padding: 10px;
+    gap: 10px;
+}
 
+/* .flexRow--phone__flex-layout-row-container-menu{
+    background-color: red;
+} */
 
 
 
@@ -110,7 +148,5 @@
     background-color: blue;
 } */
 
-/* .flexRow--phone__flex-layout-row-container-menu{
-    background-color: red;
-} */
+
 

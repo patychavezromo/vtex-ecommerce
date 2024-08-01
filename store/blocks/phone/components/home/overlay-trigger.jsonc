@@ -1,0 +1,43 @@
+{
+    "overlay-trigger#phone-header__overlay-trigger-mobile": {
+        "title": "phone-header__overlay-trigger-mobile",
+        "children": [
+            "icon#phone-header__search--mobile",
+            "overlay-layout#phone-header__overlayout"
+        ],
+        "props": {
+            "blockClass": "phone-header__overlay-trigger-mobile"
+        }
+    },
+
+    "icon#phone-header__search--mobile": {
+        "title": "phone-header__search--mobile",
+        "props": {
+            "id": "hpa-search",
+            "size": 23,
+            "activeClassName": "vtex-store-components-3-x-searchIcon",
+            "blockClass": "phone-header__search--mobile"
+        }
+    },
+
+    "overlay-layout#phone-header__overlayout": {
+        "title": "phone-header__overlayout",
+        "children": [
+          "search-bar#phone__search-bar"
+        ],
+        "props": {
+          "placement": "left",
+          "blockClass": "phone-header__overlayout",
+          "transitionComponent": "fadeInLeft"
+        }
+    },
+
+    "search-bar#phone__search-bar": {
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+        "openAutocompleteOnFocus": true,
+        "placeholder": "Search products...",
+        "blockClass":"phone__search-bar"
+        }
+    }
+}

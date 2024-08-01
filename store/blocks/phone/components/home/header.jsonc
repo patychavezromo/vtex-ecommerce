@@ -22,47 +22,100 @@
             "blockClass": "phone__flex-layout-row-container-menu"
         },
         "children": [
+            "flex-layout.col#phone__flex-layout-col-menu-burger",
             "flex-layout.col#phone__flex-layout-col-logo",
-            // "flex-layout.col#spacer",
-            "flex-layout.col#phone__flex-layout-col-search-bar",
-            "flex-layout.col#phone__flex-layout-col-login",
-            
-            "flex-layout.col#phone__flex-layout-col-minicart.v2"       
+            //"flex-layout.col#spacer",
+            "flex-layout.col#phone__container-overlay-trigger-mobile",
+            "flex-layout.col#phone__flex-layout-col-minicart.v2",
+            "flex-layout.col#phone__flex-layout-col-login"       
         ]
     },
+
+    "flex-layout.col#phone__flex-layout-col-menu-burger":{
+        "title": "phone__flex-layout-col-menu-burger",
+        "children": [
+            "image#phone__image-menu-burger"
+        ],
+        "props": {
+            "blockClass": "phone__flex-layout-col-menu-burger",
+            "verticalAlign":"middle"
+        }
+    },
+
+    "image#phone__image-menu-burger": {
+        "title": "image-menu-burger",
+        "props": {
+            "src": "/arquivos/hpa-hamburguer-menu.png",
+            "blockClass": "image-menu-burger"      
+        }
+    },
+
     "flex-layout.col#phone__flex-layout-col-logo": {
         "title": "phone__flex-layout-col-logo",
         "props": {
-            "verticalAlign": "middle"
+            "blockClass": "phone__flex-layout-col-logo",
+            "verticalAlign":"middle"
         },
         "children": [
             "logo"
         ]
     },
-    "flex-layout.col#phone__flex-layout-col-search-bar": {
-        "title": "phone__flex-layout-col-search-bar",
-        "children": [
-            "search-bar"
-        ],
-        "props": {
-            "blockClass":"phone__flex-layout-search-bar"
-        }
-    },
+
   
     "flex-layout.col#phone__flex-layout-col-login": {
         "title": "phone__flex-layout-col-login",
         "children": [
-            "login"
+            "login#phone-login__button"
         ],
         "props": {
-            "blockClass":"phone__flex-layout-col-login"
+            "blockClass":"phone__flex-layout-col-login",
+            "verticalAlign":"middle"
         }
-    },  
+    }, 
+    
+    "login#phone-login__button": {
+        "props": {
+            "iconLabel":"Login",
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "blockClass": "phone-login__button"
+        }
+    },
 
     "flex-layout.col#phone__flex-layout-col-minicart.v2": {
         "title": "phone__flex-layout-col-minicart.v2",
         "children": [
             "minicart.v2"
-        ]
+        ],
+        "props": {
+            "blockClass": "phone__flex-layout-col-minicart",
+            "verticalAlign":"middle"
+        }
+    },
+
+    "flex-layout.col#phone__container-overlay-trigger-mobile": {
+        "title": "phone__container-overlay-trigger-mobile",
+        "children": [
+            "overlay-trigger#phone-header__overlay-trigger-mobile"
+        ],
+        "props": {
+            "blockClass": "phone__container-overlay-trigger-mobile",
+            "verticalAlign":"middle"
+        }
     }
+
+     // "flex-layout.col#phone__flex-layout-col-search-bar": {
+    //     "title": "phone__flex-layout-col-search-bar",
+    //     "children": [
+    //         "search-bar"
+    //     ],
+    //     "props": {
+    //         "blockClass":"phone__flex-layout-col-search-bar",
+    //         "verticalAlign":"middle"
+    //     }
+    // },
+
 }
