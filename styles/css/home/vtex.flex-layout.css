@@ -1,24 +1,9 @@
-/* .flexCol--col__one--text{
-    background-color: brown;
-    font-family: lexend;
-}
 
-.flexCol--col__two--text{
-    background-color: yellow;
-} */
-
+/* Phone */
 
 .flexRow--phone__flex-layout-row-container-info-card {
     width: 80%;
 }
-
-.flexRow--desktop-flex-layout-row-container-info-card{
-    width: 80%;
-}
-.flexRow--tablet__flex-layout-row-container-info-card{
-    width: 90%;
-}
-
 .flexRow--phone__flex-layout-row-container-infocard-linkbutton{
     background: white;
     border-radius: 0 0 10px 10px;
@@ -26,11 +11,83 @@
     height: 50px;
     padding-bottom: 3rem;
 }
-
 .flexRow--phone__flex-layout-row-infocard-content-textheading-textdescription-and-sell{
     background: white;
 }
 
+.flexRowContent--phone__flex-layout-row-header-container-elements-left-and-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexRowContent--phone__flex-layout-row-header-container-elements-left{
+    align-items: center;
+    margin-left: 15px;
+}
+.flexRowContent--phone__flex-layout-row-header-container-elements-right{
+    justify-content: center;
+}
+/* .flexRow--phone__flex-layout-row-header-container-elements-right{
+   margin-right: 20px; 
+} */
+
+/* formato iconos phone menu up */
+.flexColChild--phone__flex-layout-col-menu-burger :global(.vtex-store-components-3-x-imageElement){
+    width: 24px;
+    height: 24px;
+    /* top: 32px;
+    left: 16px; */
+}
+.flexColChild--phone__flex-layout-col-logo :global(.vtex-store-components-3-x-logoImage){
+    width: 32px;
+    height: 16px;
+    /* top: 37px;
+    left: 48px; */
+}
+
+.flexCol--phone__flex-layout-col-logo :global(.vtex-store-components-3-x-logoContainer ){
+    padding: 0;
+}
+
+.flexColChild--phone__container-overlay-trigger-mobile :global(.vtex-store-components-3-x-searchIcon){
+    width: 17.49px;
+    height: 17.49px;
+    /* top: 3px;
+    left: 3px; */
+}
+.flexColChild--phone__flex-layout-col-minicart :global(.vtex-minicart-2-x-cartIcon){
+    width: 24px;
+    height: 24px;
+    /* top: 32px;
+    left: 232px; */
+}
+.flexColChild--phone__flex-layout-col-login :global(.vtex-button){
+    width: 80px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #1D2734;
+    border-radius: 40px;
+    border: 1px;
+    padding: 10px;
+    gap: 10px;
+}
+.flexColChild--phone__flex-layout-col-login :global(.vtex-login-2-x-label){
+    display: inline;
+    color: #FFFFFF;
+    width: 37;
+    height: 18px;
+    font-family: lexendMedium;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17.5px;
+}
+
+
+/* tablet */
+.flexRow--tablet__flex-layout-row-container-info-card{
+    width: 90%;
+}
 .flexRow--tablet__flex-layout-row-infocard-textheading-textdescription-and-sell{
     width: 81%;
     background-color: white;
@@ -38,16 +95,16 @@
     border-radius: 0px 0px 10px 10px;
 }
 
-.stretchChildrenWidth{
-    width: 20%;
-}
 
+/* Desktop */
+.flexRow--desktop-flex-layout-row-container-info-card{
+    width: 80%;
+}
 .flexCol--Desktop__flex-layout-col-login{
     background-color: black;
     border-radius: 40px;
     height: 40px;
 }
-
 .flexRow--desktop-header__container-menu-up{
     margin-left: 60px;
     padding-top: 50px;
@@ -102,6 +159,24 @@
 
 
 
+.stretchChildrenWidth{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .flexRow--phone__flex-layout-row-container-menu{
+    background-color: red;
+} */
+
 /* .flexCol--phone__flex-layout-col-infocard-content-sell{
     width: 1%;
 } */
@@ -110,7 +185,12 @@
     background-color: blue;
 } */
 
-/* .flexRow--phone__flex-layout-row-container-menu{
-    background-color: red;
+/* .flexCol--col__one--text{
+    background-color: brown;
+    font-family: lexend;
+}
+
+.flexCol--col__two--text{
+    background-color: yellow;
 } */
 
