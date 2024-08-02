@@ -5,13 +5,17 @@
             "blockClass": "phone__sticky-layout-header"
         },
         "children": [
-            "flex-layout.row#phone__flex-layout-row-container-menu",
+            "flex-layout.row#phone__flex-layout-row-header-container-elements-left-and-right",
             "vtex.menu@2.x:menu#phone__menu-home"
         ]
     },
 
-    "flex-layout.row#phone__flex-layout-row-container-menu": {
-        "title": "phone__flex-layout-row-container-menu",
+    "flex-layout.row#phone__flex-layout-row-header-container-elements-left-and-right": {
+        "title": "phone__flex-layout-col-header-container-elements-left-and-right",
+        "children": [
+            "flex-layout.col#phone__flex-layout-col-header-container-elements-left",
+            "flex-layout.col#phone__flex-layout-col-header-container-elements-righ"
+        ],
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "center",
@@ -19,16 +23,53 @@
             "preventVerticalStretch": true,
             "fullWidth": true,
             "preserveLayoutOnMobile":true,
-            "blockClass": "phone__flex-layout-row-container-menu"
-        },
+            "blockClass": "phone__flex-layout-row-header-container-elements-left-and-right"            
+        }
+    },
+
+    "flex-layout.col#phone__flex-layout-col-header-container-elements-left": {
+        "title": "phone__flex-layout-col-header-container-elements-left",
+        "children": [
+            "flex-layout.row#phone__flex-layout-row-header-container-elements-left"
+        ],
+        "props": {
+            "blockClass": "phone__flex-layout-col-header-container-elements-left"
+        }
+    },
+
+    "flex-layout.col#phone__flex-layout-col-header-container-elements-righ": {
+        "title": "phone__flex-layout-col-header-container-elements-right",
+        "children": [
+            "flex-layout.row#phone__flex-layout-row-header-container-elements-right"
+        ],
+        "props": {
+            "blockClass": "phone__flex-layout-col-header-container-elements-righ"
+        }
+    },
+
+    "flex-layout.row#phone__flex-layout-row-header-container-elements-left": {
+        "title": "phone__flex-layout-row-header-container-elements-left",
         "children": [
             "flex-layout.col#phone__flex-layout-col-menu-burger",
-            "flex-layout.col#phone__flex-layout-col-logo",
-            //"flex-layout.col#spacer",
+            "flex-layout.col#phone__flex-layout-col-logo"
+        ],
+        "props": {
+            "blockClass": "phone__flex-layout-row-header-container-elements-left",
+            "preserveLayoutOnMobile":true
+        }
+    },   
+
+    "flex-layout.row#phone__flex-layout-row-header-container-elements-right": {
+        "title": "phone__flex-layout-row-header-container-elements-right",
+        "children": [
             "flex-layout.col#phone__container-overlay-trigger-mobile",
             "flex-layout.col#phone__flex-layout-col-minicart.v2",
-            "flex-layout.col#phone__flex-layout-col-login"       
-        ]
+            "flex-layout.col#phone__flex-layout-col-login"
+        ],
+        "props": {
+            "blockClass": "phone__flex-layout-row-header-container-elements-right",
+            "preserveLayoutOnMobile":true
+        }
     },
 
     "flex-layout.col#phone__flex-layout-col-menu-burger":{
@@ -37,11 +78,10 @@
             "image#phone__image-menu-burger"
         ],
         "props": {
-            "blockClass": "phone__flex-layout-col-menu-burger",
-            "verticalAlign":"middle"
+            "blockClass": "phone__flex-layout-col-menu-burger"
+            // "verticalAlign":"middle"
         }
     },
-
     "image#phone__image-menu-burger": {
         "title": "image-menu-burger",
         "props": {
@@ -53,14 +93,37 @@
     "flex-layout.col#phone__flex-layout-col-logo": {
         "title": "phone__flex-layout-col-logo",
         "props": {
-            "blockClass": "phone__flex-layout-col-logo",
-            "verticalAlign":"middle"
+            "blockClass": "phone__flex-layout-col-logo"
+            // "verticalAlign":"middle"
         },
         "children": [
             "logo"
         ]
     },
 
+   
+
+    "flex-layout.col#phone__container-overlay-trigger-mobile": {
+        "title": "phone__container-overlay-trigger-mobile",
+        "children": [
+            "overlay-trigger#phone-header__overlay-trigger-mobile"
+        ],
+        "props": {
+            "blockClass": "phone__container-overlay-trigger-mobile",
+            "verticalAlign":"middle"
+        }
+    },
+
+    "flex-layout.col#phone__flex-layout-col-minicart.v2": {
+        "title": "phone__flex-layout-col-minicart.v2",
+        "children": [
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "phone__flex-layout-col-minicart",
+            "verticalAlign":"middle"
+        }
+    },
   
     "flex-layout.col#phone__flex-layout-col-login": {
         "title": "phone__flex-layout-col-login",
@@ -83,39 +146,5 @@
             "showPasswordVerificationIntoTooltip": true,
             "blockClass": "phone-login__button"
         }
-    },
-
-    "flex-layout.col#phone__flex-layout-col-minicart.v2": {
-        "title": "phone__flex-layout-col-minicart.v2",
-        "children": [
-            "minicart.v2"
-        ],
-        "props": {
-            "blockClass": "phone__flex-layout-col-minicart",
-            "verticalAlign":"middle"
-        }
-    },
-
-    "flex-layout.col#phone__container-overlay-trigger-mobile": {
-        "title": "phone__container-overlay-trigger-mobile",
-        "children": [
-            "overlay-trigger#phone-header__overlay-trigger-mobile"
-        ],
-        "props": {
-            "blockClass": "phone__container-overlay-trigger-mobile",
-            "verticalAlign":"middle"
-        }
-    }
-
-     // "flex-layout.col#phone__flex-layout-col-search-bar": {
-    //     "title": "phone__flex-layout-col-search-bar",
-    //     "children": [
-    //         "search-bar"
-    //     ],
-    //     "props": {
-    //         "blockClass":"phone__flex-layout-col-search-bar",
-    //         "verticalAlign":"middle"
-    //     }
-    // },
-
+    }  
 }
