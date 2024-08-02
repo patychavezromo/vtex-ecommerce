@@ -1,5 +1,6 @@
 .menuContainerNav--phone-menu{
     overflow: auto;
+    margin-top: -16px;
 }
 
 /* .styledLinkContent{

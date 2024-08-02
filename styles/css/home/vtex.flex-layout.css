@@ -25,6 +25,12 @@
     align-items: center;
     margin-left: 15px;
 }
+.flexRowContent--phone__flex-layout-row-header-container-elements-right{
+    justify-content: center;
+}
+/* .flexRow--phone__flex-layout-row-header-container-elements-right{
+   margin-right: 20px; 
+} */
 
 /* formato iconos phone menu up */
 .flexColChild--phone__flex-layout-col-menu-burger :global(.vtex-store-components-3-x-imageElement){

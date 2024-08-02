@@ -110,7 +110,9 @@
         ],
         "props": {
             "blockClass": "phone__container-overlay-trigger-mobile",
-            "verticalAlign":"middle"
+            "verticalAlign":"middle",
+            "horizontalAlign":"center",
+            "width": "10%"
         }
     },
 
@@ -121,7 +123,9 @@
         ],
         "props": {
             "blockClass": "phone__flex-layout-col-minicart",
-            "verticalAlign":"middle"
+            "verticalAlign":"middle",
+            "horizontalAlign":"center",
+            "width": "25%"
         }
     },
   
@@ -132,7 +136,9 @@
         ],
         "props": {
             "blockClass":"phone__flex-layout-col-login",
-            "verticalAlign":"middle"
+            "verticalAlign":"middle",
+            "horizontalAlign":"center",
+            "width": "48%"
         }
     }, 
     
