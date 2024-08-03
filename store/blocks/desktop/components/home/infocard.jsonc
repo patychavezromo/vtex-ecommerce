@@ -1,65 +1,65 @@
 {
-    "flex-layout.row#Desktop-info-card": {
-        "title": "info card Desktop",
+    "flex-layout.row#desktop-flex-layout-row-container-info-card": {
+        "title": "desktop-flex-layout-row-container-info-card",
         "children": [
-            "flex-layout.col#infocard-layout-content-Desktop"
+            "flex-layout.col#desktop-flex-layout-col-infocard-container-image-text-sell-and button"
         ],
         "props": {
-            "blockClass": "Desktop-layout-infocards"
+            "blockClass": "desktop-flex-layout-row-container-info-card"
         }
     },
     
-    "flex-layout.col#infocard-layout-content-Desktop": {
-        "title": "phone layout content infocard",
+    "flex-layout.col#desktop-flex-layout-col-infocard-container-image-text-sell-and button": {
+        "title": "desktop-flex-layout-col-infocard-container-image-text-sell-and button",
         "children": [
-            "flex-layout.row#Desktop-infocard-layout-image",
-            "flex-layout.row#Desktop-infocard-heading-text-and-sell",
-            "flex-layout.row#Desktop-infocard-link"
+            "flex-layout.row#desktop__flex-layout-row-infocard-image",
+            "flex-layout.row#desktop__flex-layout-row-infocard-content-heading-text-and-sell",
+            "flex-layout.row#desktop__flex-layout-row-infocard-container-button"
         ]
 
     },
 
-    "flex-layout.row#Desktop-infocard-layout-image": {
-        "title": "phone layout image infocard ",
+    "flex-layout.row#desktop__flex-layout-row-infocard-image": {
+        "title": "desktop__flex-layout-row-infocard-image",
         "children": [
-            "image#image-Desktop-infocard-image"            
+            "image#desktop__infocard-sell-image"            
         ]
     },
 
-    "flex-layout.row#Desktop-infocard-heading-text-and-sell": {
-        "title": "Desktop layout content headin description and sell",
+    "flex-layout.row#desktop__flex-layout-row-infocard-content-heading-text-and-sell": {
+        "title": "desktop__flex-layout-row-infocard-content-heading-text-and-sell",
         "children": [
-            "flex-layout.col#Desktop-infocard-header-and-text",
-            "flex-layout.col#Desktop-infocard-sell"
+            "flex-layout.col#desktop__flex-layout-col-infocard-content-textheading-and-textdescription",
+            "flex-layout.col#desktop__flex-layout-col-infocard-container-sell"
         ],
         "props": {
             "preserveLayoutOnMobile": true
         }
     },
 
-    "image#image-Desktop-infocard-image": {
-        "title": "Desktop infocard sell",
+    "image#desktop__infocard-sell-image": {
+        "title": "desktop__infocard-sell-image",
         "props": {
           "src": "/arquivos/Cardelement.jpg",
-          "blockClass": "image-Desktop-infocard-image"
+          "blockClass": "desktop__infocard-sell-image"
         }
     },
 
-    "flex-layout.col#Desktop-infocard-header-and-text": {
-        "title": "Desktop layout header and text",
+    "flex-layout.col#desktop__flex-layout-col-infocard-content-textheading-and-textdescription": {
+        "title": "desktop__flex-layout-col-infocard-content-textheading-and-textdescription",
         "children": [
-            "rich-text#Desktop__infocards-title",
-            "rich-text#Desktop__infocards-description"
+            "rich-text#desktop__richtext-infocards-text-heading",
+            "rich-text#desktop__richtext-infocards-text-description"
         ],
         "props": {
-            "blockClass": "Desktop-infocard-colum-text-and-description"
+            "blockClass": "desktop__flex-layout-col-infocard-content-textheading-and-textdescription"
         }     
     },
 
-    "flex-layout.col#Desktop-infocard-sell": {
-        "title": "Desktop infocard sell",
+    "flex-layout.col#desktop__flex-layout-col-infocard-container-sell": {
+        "title": "desktop__flex-layout-col-infocard-container-sell",
         "children": [
-            "image#card-sell-Desktop"
+            "image#desktop__image-sell-infocard"
         ],
         "props": {
             "width": "20%",
@@ -68,53 +68,53 @@
         }
     },
 
-    "rich-text#Desktop__infocards-title": {
-        "title": "Desktop inforcard heading",
+    "rich-text#desktop__richtext-infocards-text-heading": {
+        "title": "desktop__richtext-infocards-text-heading",
         "props": {
             "textAlignment": "CENTER",
             "text": "Heading",
             "textPosition": "LEFT",
-            "blockClass": "desktop-subtitle-product-home-heading"
+            "blockClass": "desktop__richtext-infocards-text-heading"
         }
     },
 
-    "rich-text#Desktop__infocards-description": {
-        "title": "Desktop infocard description",
+    "rich-text#desktop__richtext-infocards-text-description": {
+        "title": "desktop__richtext-infocards-text-description",
         "props": {
             "textAlignment": "LEFT",
             "font": "fast",
             "text": "Builder platform is made by, buildership platform is made by...",
             "textPosition": "LEFT",
-            "blockClass": "Desktop-infocard-text"
+            "blockClass": "desktop__richtext-infocards-text-description"
         }
     },
 
-    "image#card-sell-Desktop": {
-        "title": "Desktop image sell",
-      "props": {
-        "src": "/arquivos/Artworktrailing.jpg",
-        "blockClass": "Desktop-infocard-sell-image"
-      }
+    "image#desktop__image-sell-infocard": {
+        "title": "desktop__image-sell-infocard",
+        "props": {
+            "src": "/arquivos/Artworktrailing.jpg",
+            "blockClass": "Desktop-infocard-sell-image"
+        }
     },
 
-    "flex-layout.row#Desktop-infocard-link":{
-        "title": "desktop infocard link",
+    "flex-layout.row#desktop__flex-layout-row-infocard-container-button":{
+        "title": "desktop__flex-layout-row-infocard-container-button",
         "children": [
-            "image#desktop-infocard-buttonlink"
+            "image#desktop__image-buttonlink-infocard"
         ],
         "props": {
-            "blockClass": "desktop-layout-infocard-button"
+            "blockClass": "desktop__flex-layout-row-infocard-container-button"
         }
     },
 
    
 
-    "image#desktop-infocard-buttonlink": {
-    "props": {
-      "src": "/arquivos/Button_infocard.png",
-      "maxHeight": 55,
-      "blockClass": "desktop-infocard-button"
+    "image#desktop__image-buttonlink-infocard": {
+        "props": {
+            "src": "/arquivos/Button_infocard.png",
+            "maxHeight": 55,
+            "blockClass": "desktop__image-buttonlink-infocard"
+        }
     }
-  }
 
 }

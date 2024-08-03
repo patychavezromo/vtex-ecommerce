@@ -1,22 +1,26 @@
 {
-    "flex-layout.row#phone-global-main-shelf--container": {
-        "title": "phone global main shelf container",
+    "flex-layout.row#phone__main-shelf--container": {
+        "title": "phone__main-shelf--container",
         "children": [
-            "list-context.product-list#global__main-shelf"
+            "list-context.product-list#phone__list-context-products-main-shelf"
         ],
         "props": {
-            "blockClass": "phone-global-main-shelf--container"
+            "blockClass": "phone__main-shelf--container"
         }
     },
-    "list-context.product-list#global__main-shelf": {
+
+    "list-context.product-list#phone__list-context-products-main-shelf": {
+        "title": "phone__list-context-products-main-shelf",
         "blocks": [
-            "product-summary.shelf#global__main-summary"
+            "product-summary.shelf#phone__product-summary-shelf"
         ],
         "children": [
-            "slider-layout#global__slider-shelf"
+            "slider-layout#phone__slider-shelf"
         ]
     },
-    "slider-layout#global__slider-shelf": {
+
+    "slider-layout#phone__slider-shelf": {
+        "title": "phone__slider-shelf",
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
@@ -26,27 +30,30 @@
             "blockClass": "phone-slider-layout-shelf"
         }
     },
-    "product-summary.shelf#global__main-summary": {
+    "product-summary.shelf#phone__product-summary-shelf": {
+        "title": "phone__product-summary-shelf",
         "children": [
-            "add-to-list-btn",
-            "product-summary-image",
-            "product-summary-description",
-            "product-list-price",
-            "product-selling-price#phone-product-selling-price",
-            "product-summary-buy-button"
+            "add-to-list-btn#phone__product-summary-shelf-wish-list",
+            "product-summary-image#phone__product-summary-image-shelf",
+            "product-summary-description#phone__product-summary-shelf-description",
+            "product-list-price#phone__product-summary-shelf-price",
+            "product-selling-price#phone__product-selling-price",
+            "product-summary-buy-button#phone__product-summary-shelf-buy-button"
         ],
         "props": {
-            "blockClass": "phone-product-sumamry-shelf"
-        }
-    },
-    "product-selling-price#phone-product-selling-price": {
-        "props": {
-            "blockClass": "phone-product-selling-price"
+            "blockClass": "phone__product-summary-shelf"
         }
     },
 
-    "product-summary-image": {
-        "title":"productimage-shelf",
+    "product-selling-price#phone__product-selling-price": {
+        "title": "phone__product-selling-price",
+        "props": {
+            "blockClass": "phone__product-selling-price"
+        }
+    },
+
+    "product-summary-image#phone__product-summary-image-shelf": {
+        "title":"phone__product-summary-image-shelf",
         "props": {
             "src":"/arquivos/product.png",
             "showBadge":true,
@@ -54,7 +61,7 @@
             "displayMode": "normal",
             "placeholder": "undefined",
             "mainImageLabel":"example",
-            "blockClass":"phone-shelf-product-image",
+            "blockClass":"phone__product-summary-image-shelf",
             "widt":{
                 "phone":"250px"
             },
@@ -64,29 +71,31 @@
         }
     },
 
-    "product-summary-description":{
-        "title": "phone-description-product-shelf",
+    "product-summary-description#phone__product-summary-shelf-description":{
+        "title": "phone__product-summary-shelf-description",
         "props": {
-            "blockClass": "phone-description-product-shelf",
+            "blockClass": "phone__product-summary-shelf-description",
             "displayMode": "text"
         }
     },
 
-    "product-summary-buy-button":{
-        "title": "product-shelf-button",
+    "product-summary-buy-button#phone__product-summary-shelf-buy-button":{
+        "title": "phone__product-summary-shelf-buy-button",
         "props":{
             "isOneClickBuy": false,
-            "blockClass": "Phone-shelf-button"
+            "blockClass": "phone__product-summary-shelf-buy-button"
         }
     },
 
-    "product-list-price":{
+    "product-list-price#phone__product-summary-shelf-price":{
+        "title": "phone__product-summary-shelf-price",
         "props":{
             "blockClass": "phone-shelf-product-price"
         }
     },
 
-    "add-to-list-btn":{
+    "add-to-list-btn#phone__product-summary-shelf-wish-list":{
+        "title": "phone__product-summary-shelf-wish-list",
         "props":{
             "blockClass": "phone-shelf-product-heart"
         }

@@ -1,11 +1,11 @@
 {
-    "rich-text#Tablet__subtitle-home": {
-        "title": "Tablet subtitle home",
+    "rich-text#tablet__richtext-subtitle-home": {
+        "title": "tablet__richtext-subtitle-home",
         "props": {
             "textAlignment": "CENTER",
             "text": "An amazing product. TABLET",
             "textPosition": "LEFT",
-            "blockClass": "subtitle-product-home-tablet"
+            "blockClass": "tablet__richtext-subtitle-home"
         }
     }
 }

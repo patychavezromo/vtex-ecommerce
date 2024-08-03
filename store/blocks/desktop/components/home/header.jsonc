@@ -1,54 +1,59 @@
 {
-    "sticky-layout#desktop": {
+    "sticky-layout#desktop__sticky-layout": {
+        "title": "desktop__sticky-layout",
         "props": {
-            "blockClass": "sticky-header-Desktop"
+            "blockClass": "desktop__sticky-layout"
         },
         "children": [
-            "flex-layout.row#desktop",
+            "flex-layout.row#desktop-header__container-menu-up",
             "vtex.menu@2.x:menu#desktop__menu-home"
         ]
     },
-    "flex-layout.row#desktop": {
+    "flex-layout.row#desktop-header__container-menu-up": {
+        "title": "desktop__header-container-menu-up",
         "props": {
-            // "horizontalAlign": "center",
+            "horizontalAlign": "center",
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
             "fullWidth": true,
-            "blockClass": "desktop-container-menu-up"
+            "blockClass": "desktop-header__container-menu-up"
         },
         "children": [
-            "flex-layout.col#logo-desktop",
+            "flex-layout.col#desktop__logo",
             // "flex-layout.col#spacer",
-            "flex-layout.col#search-Bar-Desktop",
-            "flex-layout.col#Desktop-layoutcol-allLinks",
-            "flex-layout.col#minicart",
-            "flex-layout.col#loginDesktop"
+            "flex-layout.col#desktop__flex-layout-col-search-Bar",
+            "flex-layout.col#desktop__flex-layout-col-container-allLinks-richtext-header",
+            "flex-layout.col#desktop__flex-layout-col-minicart",
+            "flex-layout.col#Desktop__flex-layout-col-login"
             // "locale-switcher",
             // "minicart.v2",
             // "vtex.menu@2.x:menu#websites#desktop__menu-home"           
         ]
     },
-    "flex-layout.col#logo-desktop": {
+    "flex-layout.col#desktop__logo": {
+        "title": "desktop__logo",
         "props": {
             "verticalAlign": "top",
-            "blockClass": "Desktop-logo"
+            "blockClass": "desktop-logo"
         },
         "children": [
             "logo"
         ]
     },
-    "flex-layout.col#loginDesktop": {
+    "flex-layout.col#Desktop__flex-layout-col-login": {
+        "title": "Desktop__flex-layout-col-login",
         "props": {
             // "verticalAlign": "middle",
-            "blockClass":"Desktop-layout-login"
+            "blockClass":"Desktop__flex-layout-col-login"
         },
         "children": [
             "login"
         ]
     },
 
-    "flex-layout.col#search-Bar-Desktop": {
+    "flex-layout.col#desktop__flex-layout-col-search-Bar": {
+        "title": "desktop__flex-layout-col-search-Bar",
         "props": {
             "verticalAlign": "top",
             "blockClass": "Desktop-layout-Search-Bar"
@@ -58,115 +63,127 @@
         ]
     },
 
-    "flex-layout.col#minicart": {
+    "flex-layout.col#desktop__flex-layout-col-minicart": {
+        "title": "desktop__flex-layout-col-minicart",
         "children": [
             "minicart.v2"
         ]
     },
 
-    "flex-layout.col#Desktop-layoutcol-allLinks": {
+    "flex-layout.col#desktop__flex-layout-col-container-allLinks-richtext-header": {
+        "title": "desktop__flex-layout-col-container-allLinks-richtext",
         "children": [
-            "flex-layout.row#Desktop-container-Links"
+            "flex-layout.row#desktop__flex-layout-row-container-all-links"
         ]
     },
 
-    "flex-layout.row#Desktop-container-Links": {
+    "flex-layout.row#desktop__flex-layout-row-container-all-links": {
+        "title": "desktop__flex-layout-row-container-all-links",
         "children": [
-           "flex-layout.col#Link-1-home",
-           "flex-layout.col#Link-2-home",
-           "flex-layout.col#Link-3-home",
-           "flex-layout.col#Link-4-home",
-           "flex-layout.col#Link-5-home"
+           "flex-layout.col#desktop__flex-layout-col-link-1-header",
+           "flex-layout.col#desktop__flex-layout-col-link-2-header",
+           "flex-layout.col#desktop__flex-layout-col-link-3-header",
+           "flex-layout.col#desktop__flex-layout-col-link-4-header",
+           "flex-layout.col#desktop__flex-layout-col-link-5-header"
         ],
         "props": {
-            "blockClass": "Desktop-container-Links"
+            "blockClass": "desktop__flex-layout-row-container-all-links"
         }
     },
 
-    "flex-layout.col#Link-1-home":{
+    "flex-layout.col#desktop__flex-layout-col-link-1-header":{
+        "title": "desktop__flex-layout-col-link-1-header",
         "children":[
-            "rich-text#Tendencias"
+            "rich-text#desktop__richtext-header-Tendencias"
         ],
         "props": {
-            "blockClass":"linksDesktop"
+            "blockClass":"desktop__flex-layout-col-link"
         }
     },
-    "flex-layout.col#Link-2-home":{
+    "flex-layout.col#desktop__flex-layout-col-link-2-header":{
+        "title": "desktop__flex-layout-col-link-2-header",
         "children":[
-            
-            "rich-text#Coleccion-del-Mes"
+            "rich-text#desktop__richtext-header-Coleccion-del-Mes"
         ],
         "props": {
-            "blockClass":"linksDesktop"
+            "blockClass":"desktop__flex-layout-col-link"
         }
     },
-    "flex-layout.col#Link-3-home":{
+    "flex-layout.col#desktop__flex-layout-col-link-3-header":{
+        "title": "desktop__flex-layout-col-link-3-header",
         "children":[
-            "rich-text#Ofertas-Enero"
+            "rich-text#desktop__richtext-header-Ofertas-Enero"
         ],
         "props": {
-            "blockClass":"linksDesktop"
+            "blockClass":"desktop__flex-layout-col-link"
         }
     },
-    "flex-layout.col#Link-4-home":{
+    "flex-layout.col#desktop__flex-layout-col-link-4-header":{
+        "title": "desktop__flex-layout-col-link-4-header",
         "children":[
-            "rich-text#Cyber-Monday"
+            "rich-text#desktop__richtext-header-Cyber-Monday"
         ],
         "props": {
-            "blockClass":"linksDesktop"
+            "blockClass":"desktop__flex-layout-col-link"
         }
     },
-    "flex-layout.col#Link-5-home":{
+    "flex-layout.col#desktop__flex-layout-col-link-5-header":{
+        "title": "desktop__flex-layout-col-link-5-header",
         "children":[
-            "rich-text#Never-say-never"
+            "rich-text#desktop__richtext-header-Never-say-never"
         ],
         "props": {
-            "blockClass":"linksDesktop"
+            "blockClass":"desktop__flex-layout-col-link"
         }
     },
 
-    "rich-text#Tendencias": {
+    "rich-text#desktop__richtext-header-Tendencias": {
+        "title": "desktop__richtext-header-Tendencias",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "text": " [Tendencias de It Globers](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
-            "blockClass": "Link-Header-Desktop-Home"
+            "blockClass": "desktop__richtext-header"
         }
     },
 
-    "rich-text#Coleccion-del-Mes": {
+    "rich-text#desktop__richtext-header-Coleccion-del-Mes": {
+        "title": "desktop__richtext-header-Coleccion-del-Mes",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "text": " [Colección del mes](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
-            "blockClass": "Link-Header-Desktop-Home"
+            "blockClass": "desktop__richtext-header"
         }
     },
 
-    "rich-text#Ofertas-Enero": {
+    "rich-text#desktop__richtext-header-Ofertas-Enero": {
+        "title": "desktop__richtext-header-Ofertas-Enero",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "text": " [Ofertas Enero](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
-            "blockClass": "Link-Header-Desktop-Home"
+            "blockClass": "desktop__richtext-header"
         }
     },
 
-    "rich-text#Cyber-Monday": {
+    "rich-text#desktop__richtext-header-Cyber-Monday": {
+        "title": "desktop__richtext-header-Cyber-Monday",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "text": " [Cyber Monday](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
-            "blockClass": "Link-Header-Desktop-Home"
+            "blockClass": "desktop__richtext-header"
         }
     },
 
-    "rich-text#Never-say-never": {
+    "rich-text#desktop__richtext-header-Never-say-never": {
+        "title": "desktop__richtext-header-Never-say-never",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "text": " [Never say never](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
-            "blockClass": "Link-Header-Desktop-Home"
+            "blockClass": "desktop__richtext-header"
         }
     }
     

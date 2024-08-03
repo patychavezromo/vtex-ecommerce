@@ -1,121 +1,122 @@
 {
-    "flex-layout.row#phone-info-card": {
-        "title": "info card",
+    "flex-layout.row#phone__flex-layout-row-container-info-card": {
+        "title": "phone__flex-layout-row-container-info-card",
         "children": [
-            "flex-layout.col#infocard-layout-content"
+            "flex-layout.col#phone__flex-layout-col-infocard-content-image-textheading-textdesciption-and-button"
         ],
         "props": {
-            "blockClass": "phone-layout-infocards"
+            "blockClass": "phone__flex-layout-row-container-info-card"
         }
     },
     
-    "flex-layout.col#infocard-layout-content": {
-        "title": "phone layout content infocard",
+    "flex-layout.col#phone__flex-layout-col-infocard-content-image-textheading-textdesciption-and-button": {
+        "title": "phone__flex-layout-col-infocard-content-image-textheading-textdesciption-and-button",
         "children": [
-            "flex-layout.row#phone-infocard-layout-image",
-            "flex-layout.row#phone-infocard-heading-text-and-sell",
-            "flex-layout.row#phone-infocard-link"
+            "flex-layout.row#phone__flex-layout-row-infocard-image",
+            "flex-layout.row#phone__flex-layout-row-infocard-content-textheading-textdescription-and-sell",
+            "flex-layout.row#phone__flex-layout-row-container-infocard-linkbutton"
         ],
         "props": {
-            "blockClass": "phone-container-infocard-all-parts"
+            "blockClass": "phone__flex-layout-col-infocard-content-image-textheading-textdesciption-and-button"
         }
 
     },
 
-    "flex-layout.row#phone-infocard-layout-image": {
-        "title": "phone layout image infocard ",
+    "flex-layout.row#phone__flex-layout-row-infocard-image": {
+        "title": "phone__flex-layout-row-infocard-image",
         "children": [
-            "image#image-phone-infocard-image"            
+            "image#phone__main-image-infocard"          
         ]
     },
 
-    "flex-layout.row#phone-infocard-heading-text-and-sell": {
-        "title": "phone layout content headin description and sell",
+    "flex-layout.row#phone__flex-layout-row-infocard-content-textheading-textdescription-and-sell": {
+        "title": "phone__flex-layout-row-infocard-content-textheading-textdescription-and-sell",
         "children": [
-            "flex-layout.col#phone-infocard-header-and-text",
-            "flex-layout.col#phone-infocard-sell"
+            "flex-layout.col#phone__flex-layout-col-infocard-container-header-and-text",
+            "flex-layout.col#phone__flex-layout-col-infocard-content-sell"
         ],
         "props": {
             "preserveLayoutOnMobile": true,
-            "blockClass": "phone-infocard-container-text-and-sell"
+            "blockClass": "phone__flex-layout-row-infocard-content-textheading-textdescription-and-sell"
         }
     },
 
-    "image#image-phone-infocard-image": {
-        "title": "phone infocard sell",
+    "image#phone__main-image-infocard": {
+        "title": "phone__main-image-infocard",
         "props": {
           "src": "/arquivos/Cardelement.jpg",
-          "blockClass": "image-phone-infocard-image"
+          "blockClass": "phone__main-image-infocard"
         }
     },
 
-    "flex-layout.col#phone-infocard-header-and-text": {
-        "title": "phone layout header and text",
+    "flex-layout.col#phone__flex-layout-col-infocard-container-header-and-text": {
+        "title": "phone__flex-layout-col-infocard-container-header-and-text",
         "children": [
-            "rich-text#phone__infocards-title",
-            "rich-text#phone__infocards-description"
+            "rich-text#phone__richtext-infocards-textheading",
+            "rich-text#phone__richtext-infocards-text-description"
         ]        
     },
 
-    "flex-layout.col#phone-infocard-sell": {
-        "title": "phone infocard sell",
+    "flex-layout.col#phone__flex-layout-col-infocard-content-sell": {
+        "title": "phone__flex-layout-col-infocard-content-sell",
         "children": [
-            "image#card-sell"
+            "image#phone__image-sell-infocard"
         ],
         "props": {
             "width": "18%",
             "verticalAlign": "middle",
-            "blockClass": "phone-infocard-col-sell"
+            "blockClass": "phone__flex-layout-col-infocard-content-sell"
         }
     },
 
-    "rich-text#phone__infocards-title": {
-        "title": "phone inforcard heading",
+    "rich-text#phone__richtext-infocards-textheading": {
+        "title": "phone__richtext-infocards-textheading",
         "props": {
             "textAlignment": "CENTER",
             "text": "Heading",
             "textPosition": "LEFT",
-            "blockClass": "subtitle-product-home-phone-heading"
+            "blockClass": "phone__richtext-infocards-textheading"
         }
     },
 
-    "rich-text#phone__infocards-description": {
-        "title": "phone infocard description",
+    "rich-text#phone__richtext-infocards-text-description": {
+        "title": "phone__richtext-infocards-text-description",
         "props": {
             "textAlignment": "LEFT",
             "font": "heading-3",
             "text": "Builder platform is made by...",
             "textPosition": "LEFT",
-            "blockClass": "subtitle-product-home-phone-description"
+            "blockClass": "phone__richtext-infocards-text-description"
         }
     },
 
-    "image#card-sell": {
+    "image#phone__image-sell-infocard": {
         "title": "phone image sell",
-      "props": {
-        "src": "/arquivos/Artworktrailing.jpg"
-      }
+        "props": {
+            "src": "/arquivos/Artworktrailing.jpg"
+        }
     },
 
-    "flex-layout.row#phone-infocard-link":{
-        "title": "phone infocard link",
+    "flex-layout.row#phone__flex-layout-row-container-infocard-linkbutton":{
+        "title": "phone__flex-layout-row-container-infocard-linkbutton",
         "children": [
-            "image#phone-infocard-buttonlink"
+            "image#phone__image-infocard-buttonlink"
         ],
         "props": {
-            "blockClass": "phone-layout-infocard-button"
+            "blockClass": "phone__flex-layout-row-container-infocard-linkbutton"
         }
     },
 
    
 
-    "image#phone-infocard-buttonlink": {
-    "props": {
-      "src": "/arquivos/Button_infocard.png",
-      "maxHeight": 55,
-      "blockClass": "phone-infocard-button"
+    "image#phone__image-infocard-buttonlink": {
+        "title": "phone__image-infocard-buttonlink",
+        "props": {
+            "src": "/arquivos/Button_infocard.png",
+            "maxHeight": 55,
+            "blockClass": "phone__image-infocard-buttonlink"
+        }
     }
-  }
 
 }
 

@@ -2,7 +2,7 @@
     margin-left: 16px;
 } */
 
-.paragraph--subtitle-product-home-page-phone{
+.paragraph--phone__richtext-subtitle-home{
     margin-left: 1rem;
     font-family: lexend;
     font-weight: 500;
@@ -10,7 +10,7 @@
     line-height: 16.8px;
 }
 
-.paragraph--subtitle-product-home-phone-heading{
+.paragraph--phone__richtext-infocards-textheading{
     font-family: lexend;
     font-weight: 600;
     font-size: 16px;
@@ -19,7 +19,7 @@
     color: #1D2734,
 }
 
-.paragraph--subtitle-product-home-phone-description{
+.paragraph--phone__richtext-infocards-text-description{
     font-family: lexendMedium;
     font-weight: 300;
     font-size: 12px;
@@ -28,7 +28,7 @@
     color:#1D2734,
 }
 
-.paragraph--subtitle-product-home-tablet{
+.paragraph--tablet__richtext-subtitle-home{
     color: #1D2734;
     font-family: lexend;
     font-weight: 500;
@@ -36,7 +36,7 @@
     padding-left: 2rem;
 }
 
-.container--tablet-subtitle-product-home-heading{
+.container--tablet__richtext-infocards-textHeading{
     font-family: lexend;
     font-weight: 600;
     font-size: 16px;
@@ -45,7 +45,7 @@
     color: #1D2734,
 }
 
-.container--tablet-subtitle-product-home-description{
+.container--tablet__richtext-infocards-textdescription{
     font-family: lexendMedium;
     font-weight: 300;
     font-size: 12px;
@@ -54,14 +54,14 @@
     color:#1D2734, 
 }
 
-.paragraph--Link-Header-Desktop-Home{
+.paragraph--desktop__richtext-header{
     font-family: lexendMedium;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
 }
 
-.link--Link-Header-Desktop-Home{
+.link--desktop__richtext-header{
     text-decoration: none;
     color: black;
     font-family: lexendMedium;
@@ -79,14 +79,14 @@
     line-height: 16.8px;
 }
 
-.container--desktop-subtitle-product-home-heading{
+.container--desktop__richtext-infocards-text-heading{
     font-family: lexend;
     font-weight: 600;
     font-size: 16px;
     line-height: 24.88;
 }
 
-.container--Desktop-infocard-text{
+.container--desktop__richtext-infocards-text-description{
     font-family: lexendMedium;
     font-weight: 300;
     font-size: 12px;

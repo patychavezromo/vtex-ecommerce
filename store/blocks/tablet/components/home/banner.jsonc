@@ -1,15 +1,18 @@
 {
-    "flex-layout.row#Tablet__main-slider": {
+    "flex-layout.row#tablet__main-slider": {
         "title": "Tablet main home",
         "children": [
-            "list-context.image-list#Tablet__container-images"
+            "list-context.image-list#tablet__list-context-image-list-container-main-banner"
         ],
-        "props": {"blockClass": "tablet-slider-banner"}
+        "props": {
+            "blockClass": "tablet-slider-banner"
+        }
     },
-    "list-context.image-list#Tablet__container-images": {
-        "title": "Tablet main list product",
+
+    "list-context.image-list#tablet__list-context-image-list-container-main-banner": {
+        "title": "tablet__list-context-image-list-container-main-banner",
         "children": [
-            "slider-layout#Tablet__slider"
+            "slider-layout#tablet__slider-layout-banner"
         ],
         "props": {
           "preload": true,
@@ -20,18 +23,18 @@
                     "description": "product_watch"
                 }
             ],
-            "blockClass": "tablet-list-images-tablet"
+            "blockClass": "tablet__list-context-image-list-container-main-banner"
         }
     },
-    "slider-layout#Tablet__slider": {
-        "title": "slider home images Tablet",
+    "slider-layout#tablet__slider-layout-banner": {
+        "title": "tablet__slider-layout-banner",
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
                 "tablet": 1,
                 "phone": 1
             },
-            "blockClass": "Tablet-layout-banner-watch"
+            "blockClass": "tablet__slider-layout-banner"
         }
     }
 }

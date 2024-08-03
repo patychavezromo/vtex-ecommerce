@@ -1,23 +1,24 @@
 {
-    "slider-layout#Desktop-infocards-slider": {
-        "props": {
-          "itemsPerPage": {
-            "desktop": 3,
-            "tablet": 1,
-            "phone": 1
-          },
-          "infinite": true,
-          "showNavigationArrows": "desktopOnly",
-          "blockClass": "phone-infocards-slider"
-        },
-        "children": 
-            [
-                "flex-layout.row#Desktop-info-card",
-                "flex-layout.row#Desktop-info-card",
-                "flex-layout.row#Desktop-info-card",
-                "flex-layout.row#Desktop-info-card",
-                "flex-layout.row#Desktop-info-card",
-                "flex-layout.row#Desktop-info-card"
-            ]
-    } 
+  "slider-layout#Desktop-infocards-slider": {
+    "title": "Desktop-infocards-slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      //"blockClass": "phone-infocards-slider"
+    },
+    "children": 
+    [
+      "flex-layout.row#desktop-flex-layout-row-container-info-card",
+      "flex-layout.row#desktop-flex-layout-row-container-info-card",
+      "flex-layout.row#desktop-flex-layout-row-container-info-card",
+      "flex-layout.row#desktop-flex-layout-row-container-info-card",
+      "flex-layout.row#desktop-flex-layout-row-container-info-card",
+      "flex-layout.row#desktop-flex-layout-row-container-info-card"
+    ]
+  } 
 }
