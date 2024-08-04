@@ -20,8 +20,8 @@
             "blockClass": "desktop-header__container-menu-up"
         },
         "children": [
+            "flex-layout.col#desktop__flex-layout-col-image-burger",
             "flex-layout.col#desktop__logo",
-            // "flex-layout.col#spacer",
             "flex-layout.col#desktop__flex-layout-col-search-Bar",
             "flex-layout.col#desktop__flex-layout-col-container-allLinks-richtext-header",
             "flex-layout.col#desktop__flex-layout-col-minicart",
@@ -31,6 +31,26 @@
             // "vtex.menu@2.x:menu#websites#desktop__menu-home"           
         ]
     },
+
+    "flex-layout.col#desktop__flex-layout-col-image-burger": {
+        "title": "desktop__flex-layout-col-image-burger",
+        "children": [
+            "image#desktop__image-header-burger"
+        ],
+        "props": {
+            "blockClass": "desktop__flex-layout-col-image-burger"
+        }
+    },
+
+    "image#desktop__image-header-burger": {
+        "title": "desktop__image-header-burger",
+        "props": {
+          "src": "/arquivos/hpa-hamburguer-menu.png"
+        //   "maxHeight": 24
+        }
+      },
+    
+
     "flex-layout.col#desktop__logo": {
         "title": "desktop__logo",
         "props": {
@@ -74,7 +94,10 @@
         "title": "desktop__flex-layout-col-container-allLinks-richtext",
         "children": [
             "flex-layout.row#desktop__flex-layout-row-container-all-links"
-        ]
+        ],
+        "props": {
+            "blockClass": "desktop__flex-layout-col-container-allLinks-richtext-header"
+        }
     },
 
     "flex-layout.row#desktop__flex-layout-row-container-all-links": {
@@ -97,7 +120,8 @@
             "rich-text#desktop__richtext-header-Tendencias"
         ],
         "props": {
-            "blockClass":"desktop__flex-layout-col-link"
+            "width":"30%",
+            "blockClass":"desktop__flex-layout-col-link-1-header"
         }
     },
     "flex-layout.col#desktop__flex-layout-col-link-2-header":{
@@ -106,7 +130,8 @@
             "rich-text#desktop__richtext-header-Coleccion-del-Mes"
         ],
         "props": {
-            "blockClass":"desktop__flex-layout-col-link"
+            "width":"25%",
+            "blockClass":"desktop__flex-layout-col-link-2-header"
         }
     },
     "flex-layout.col#desktop__flex-layout-col-link-3-header":{
@@ -115,7 +140,8 @@
             "rich-text#desktop__richtext-header-Ofertas-Enero"
         ],
         "props": {
-            "blockClass":"desktop__flex-layout-col-link"
+            "width":"20%",
+            "blockClass":"desktop__flex-layout-col-link-3-header"
         }
     },
     "flex-layout.col#desktop__flex-layout-col-link-4-header":{
@@ -124,7 +150,8 @@
             "rich-text#desktop__richtext-header-Cyber-Monday"
         ],
         "props": {
-            "blockClass":"desktop__flex-layout-col-link"
+            "width":"20%",
+            "blockClass":"desktop__flex-layout-col-link-4-header"
         }
     },
     "flex-layout.col#desktop__flex-layout-col-link-5-header":{
@@ -133,7 +160,8 @@
             "rich-text#desktop__richtext-header-Never-say-never"
         ],
         "props": {
-            "blockClass":"desktop__flex-layout-col-link"
+            "width":"20%",
+            "blockClass":"desktop__flex-layout-col-link-5-header"
         }
     },
 

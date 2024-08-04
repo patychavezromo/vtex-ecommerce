@@ -28,3 +28,10 @@
 .imageElement--Desktop-infocard-sell-image{
     width: 48.38px;
 }
+
+/* new */
+.autoCompleteOuterContainer--search-Bar :global(.vtex-styleguide-9-x-input){
+    font-size: 12px;
+    font-family: lexendMedium;
+}
+/* new */

@@ -62,7 +62,7 @@
     /* top: 32px;
     left: 232px; */
 }
-.flexColChild--phone__flex-layout-col-login :global(.vtex-button){
+.flexColChild--phone__flex-layout-col-login :global(.vtex-button__label){
     width: 80px;
     height: 40px;
     color: #FFFFFF;
@@ -97,40 +97,61 @@
 
 
 /* Desktop */
-.flexRow--desktop-flex-layout-row-container-info-card{
-    width: 80%;
+/* new */
+.flexRowContent--desktop__flex-layout-row-container-all-links{
+    display: flex;
+    /* width: 800px; */
 }
-.flexCol--Desktop__flex-layout-col-login{
-    background-color: black;
-    border-radius: 40px;
-    height: 40px;
-}
-.flexRow--desktop-header__container-menu-up{
-    margin-left: 60px;
-    padding-top: 50px;
-    margin-bottom: -20px;
+.flexColChild--desktop__flex-layout-col-container-allLinks-richtext-header{
+    width: 550px;
 }
 .flexRowContent--desktop-header__container-menu-up{
+    display: flex;
+    width: 100%;
     align-items: center;
+    margin-top: 30px;
 }
-
-.flexCol--desktop__flex-layout-col-link{
-    padding: 0 1px;
-    
+.flexRowContent--desktop-header__container-menu-up :global(.vtex-button){
+    padding: 0;
+    margin-left: 20px;
 }
-
-.flexRow--desktop__flex-layout-row-container-all-links{
-    width: 600px;
+.flexRow--desktop-header__container-menu-up{
+    max-width: 1280px;
+    /* margin: auto;
+    width: max-content; */
+    margin-left: 40px;
+    margin-right: 80px;
+}
+.flexColChild--desktop__flex-layout-col-container-allLinks-richtext-header {
     margin-left: 40px;
 }
-
-.flexCol--Desktop__flex-layout-col-login :global(.vtex-login-2-x-label){
+/* .flexCol--Desktop__flex-layout-col-login{
+    display: flex;
+    border-radius: 40px;
+    background-color: #1D2734;
+    width: 80px;
+    height: 40px;
+} */
+.flexColChild--Desktop__flex-layout-col-login{
+    display: flex;
+    border-radius: 40px;
+    background-color: #1D2734;
+    width: 80px;
+    height: 40px;
+}
+.flexColChild--Desktop__flex-layout-col-login :global(.vtex-login-2-x-label){
+    margin-left: -35px;
     color: #FFFFFF;
 }
 
-.flexCol--desktop-logo{
-    margin-bottom: 30px;
-    padding-right: 5px;
+/* .flexColChild--desktop__flex-layout-col-link-1-header{
+    width: 200px;
+} */
+
+/* new */
+
+.flexRow--desktop-flex-layout-row-container-info-card{
+    width: 80%;
 }
 
 .flexRow--desktop-flex-layout-row-container-info-card{

@@ -54,21 +54,17 @@
     color:#1D2734, 
 }
 
-.paragraph--desktop__richtext-header{
-    font-family: lexendMedium;
-    font-weight: 400;
+/* DESKTOP */
+/* new */
+.link--desktop__richtext-header{
     font-size: 12px;
-    line-height: 15px;
+    color: #1D2734;
 }
 
-.link--desktop__richtext-header{
-    text-decoration: none;
-    color: black;
-    font-family: lexendMedium;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
-}
+/* new */
+
+
+
 
 
 .paragraph--subtitle-product-home{
