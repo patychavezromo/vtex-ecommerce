@@ -59,7 +59,9 @@
 .link--desktop__richtext-header{
     font-size: 12px;
     color: #1D2734;
+    text-decoration: none;
 }
+
 
 /* new */
 

@@ -143,6 +143,14 @@
     margin-left: -35px;
     color: #FFFFFF;
 }
+.flexCol--desktop__flex-layout-col-image-burger{
+    min-width: 24px;
+}
+.flexCol--desktop-logo{
+    min-width: 32px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
 
 /* .flexColChild--desktop__flex-layout-col-link-1-header{
     width: 200px;
