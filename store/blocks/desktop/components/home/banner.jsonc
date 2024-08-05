@@ -3,7 +3,10 @@
         "title": "Desktop main home",
         "children": [
             "list-context.image-list#Desktop__container-images"
-        ]
+        ],
+        "props": {
+            "blockClass": "Desktop__main-slider-banner"
+        }
     },
     "list-context.image-list#Desktop__container-images": {
         "title": "Desktop main list product",

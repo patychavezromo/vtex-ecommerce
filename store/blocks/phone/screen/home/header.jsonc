@@ -1,6 +1,7 @@
 {
     "header-layout.mobile":{
         "children":[
+            
             "sticky-layout#phone__sticky-layout-header"
         ] 
     }

@@ -1,0 +1,58 @@
+{
+
+
+
+    "flex-layout.col#desktop__sticky-layout-mega-menu": {
+      "title": "Mega menu desktop",
+      "children": [
+        "flex-layout.row#desktop__row__trigger", 
+        "flex-layout.row#mega-menu"
+      ],
+      "props": {
+        "blockClass":"Mega-menu-desktop"
+      }
+    },
+
+    
+    "flex-layout.row#desktop__row__trigger": {
+      "title": "desktop__row__trigger",
+      "children": [
+        "flex-layout.col#desktop__col-trigger-mega-menu"
+      ],
+      "props": {
+        "blockClass": "desktop__row__trigger"
+      }
+    },
+  
+    "flex-layout.row#mega-menu": {
+      "title": "Row Mega menu desktop",
+      "children": [
+        "mega-menu#desktop"
+    ]
+    },
+
+    "mega-menu#desktop": {
+      "title": "component Mega menu desktop",
+      "props": {
+        "openOnly": "horizontal"
+      }
+    },
+
+    "flex-layout.col#desktop__col-trigger-mega-menu": {
+      "title": "desktop__col-trigger-mega-menu",
+      "props": {
+        "verticalAlign": "middle",
+        "blockClass": "desktop__col-trigger-mega-menu"
+      },
+      "children": [
+        "mega-menu-trigger-btn#desktop__mega-menu-trigger"
+      ]
+    },
+    
+    "mega-menu-trigger-btn#desktop__mega-menu-trigger": {
+      "title": "Trigger Mega menu desktop",
+      "props": {
+        "Drawer": "drawer"
+      }
+    }
+  }
