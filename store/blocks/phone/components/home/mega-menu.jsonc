@@ -1,0 +1,92 @@
+{
+    "flex-layout.row#phone__row-mega-menu": {
+        "title": "phone__row-mega-menu",
+        "children": [
+        "flex-layout.col#phone__col-trigger-mega-menu"
+        ],
+        "props": {
+            "blockClass": "phone__row-mega-menu"
+        }
+    },
+
+
+    "flex-layout.col#phone__col-trigger-mega-menu": {
+        "title": "phone__col-trigger-mega-menu",
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "phone__col-trigger-mega-menu"
+        },
+        "children": [
+            "mega-menu-trigger-btn#phone__trigger-mega-menu"
+        ]
+    },
+    "mega-menu-trigger-btn#phone__trigger-mega-menu": {
+        "title": "phone__trigger-mega-menu",
+        "props": {
+            "Drawer": "drawer#phone__drawer-mega-menu",
+            "blockClass": "phone__trigger-mega-menu"
+        }
+    },
+
+    "drawer#phone__drawer-mega-menu": {
+        "title": "phone__drawer-mega-menu",
+        "children": [
+            "mega-menu#phone__mega-menu"
+        ],
+        "blocks": 
+        [
+            "drawer-header#phone__my-drawer"
+        ]
+    },
+
+    "mega-menu#phone__mega-menu": {
+        "title": "phone__mega-menu",
+        "props": {
+        "defaultDepartmentActive": "...",
+        "orientation": "vertical",
+        "openOnly": "vertical"
+        }
+    },
+
+    "drawer-header#phone__my-drawer": {
+        "title": "phone__my-drawer",
+        "children": [
+            "flex-layout.row#phone__drawer-header"
+        ]
+    },
+    "flex-layout.row#phone__drawer-header": {
+        "title": "phone__drawer-header",
+        "children": [
+        "flex-layout.col#phone__mega-menu-go-back-btn",
+        "flex-layout.col#phone__drawer-close-button"
+        ],
+        "props": {
+        "blockClass": "drawer-header",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+        }
+    },
+    "flex-layout.col#phone__drawer-close-button": {
+        "title": "phone__drawer-close-button",
+        "children": [
+            "drawer-close-button"
+        ],
+        "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "right"
+        }
+    },
+    "flex-layout.col#phone__mega-menu-go-back-btn": {
+        "title": "phone__mega-menu-go-back-btn",
+        "children": [
+            "mega-menu-go-back-btn"
+        ],
+        "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "left",
+        "paddingLeft": 4
+        }
+    }
+}
