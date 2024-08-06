@@ -57,7 +57,10 @@
 /* DESKTOP */
 /* new */
 .link--desktop__richtext-header{
+    font-family: lexend02;
     font-size: 12px;
+    line-height: 15px;
+    font-weight: bold;
     color: #1D2734;
     text-decoration: none;
 }

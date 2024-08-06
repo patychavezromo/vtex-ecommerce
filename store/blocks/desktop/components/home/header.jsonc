@@ -6,7 +6,7 @@
         },
         "children": [
             "flex-layout.row#desktop-header__container-menu-up",
-            "vtex.menu@2.x:menu#desktop__menu-home"
+            "flex-layout.row#desktop__row-menu-home"
         ]
     },
     "flex-layout.row#desktop-header__container-menu-up": {
@@ -21,7 +21,7 @@
         },
         "children": [
             // "flex-layout.col#desktop__flex-layout-col-image-burger",
-            "flex-layout.col#desktop__sticky-layout-mega-menu",
+            "flex-layout.col#desktop__col-mega-menu",
             "flex-layout.col#desktop__logo",
             "flex-layout.col#desktop__flex-layout-col-search-Bar",
             "flex-layout.col#desktop__flex-layout-col-container-allLinks-richtext-header",
@@ -33,33 +33,7 @@
         ]
     },
 
-    // "flex-layout.col#desktop__flex-layout-col-image-burger": {
-    //     "title": "desktop__flex-layout-col-image-burger",
-    //     "children": [
-    //         "image#desktop__image-header-burger"
-    //     ],
-    //     "props": {
-    //         "blockClass": "desktop__flex-layout-col-image-burger"
-    //     }
-    // },
-
-    // "image#desktop__image-header-burger": {
-    //     "title": "desktop__image-header-burger",
-    //     "props": {
-    //       "src": "/arquivos/hpa-hamburguer-menu.png"
-    //     //   "maxHeight": 24
-    //     }
-    //   },
-    
-    // "flex-layout.col#desktop__flex-layout-col-mega-menu": {
-    //     "title": "desktop__flex-layout-col-mega-menu",
-    //     "children": [
-    //         "sticky-layout#desktop__sticky-layout-mega-menu"
-    //     ],
-    //     "props": {
-    //         "blockClass": "desktop__flex-layout-col-mega-menu"
-    //     }
-    // },
+ 
 
     "flex-layout.col#desktop__logo": {
         "title": "desktop__logo",
@@ -224,6 +198,34 @@
             "blockClass": "desktop__richtext-header"
         }
     }
+
+       // "flex-layout.col#desktop__flex-layout-col-image-burger": {
+    //     "title": "desktop__flex-layout-col-image-burger",
+    //     "children": [
+    //         "image#desktop__image-header-burger"
+    //     ],
+    //     "props": {
+    //         "blockClass": "desktop__flex-layout-col-image-burger"
+    //     }
+    // },
+
+    // "image#desktop__image-header-burger": {
+    //     "title": "desktop__image-header-burger",
+    //     "props": {
+    //       "src": "/arquivos/hpa-hamburguer-menu.png"
+    //     //   "maxHeight": 24
+    //     }
+    //   },
+    
+    // "flex-layout.col#desktop__flex-layout-col-mega-menu": {
+    //     "title": "desktop__flex-layout-col-mega-menu",
+    //     "children": [
+    //         "sticky-layout#desktop__sticky-layout-mega-menu"
+    //     ],
+    //     "props": {
+    //         "blockClass": "desktop__flex-layout-col-mega-menu"
+    //     }
+    // },
     
 
 }

@@ -1,4 +1,15 @@
 {
+
+    "flex-layout.row#desktop__row-richtext-subtitle": {
+        "title": "desktop__richtext-subtitle-home",
+        "children": [
+           "rich-text#desktop__richtext-subtitle-home" 
+        ],
+        "props": {
+            "blockClass": "desktop__row-richtext-subtitle"
+        }
+    },
+
     "rich-text#desktop__richtext-subtitle-home": {
         "title": "phone subtitle home",
         "props": {

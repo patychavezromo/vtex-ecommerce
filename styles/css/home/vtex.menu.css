@@ -25,11 +25,11 @@
 }
 
 .styledLinkContent--Desktop-menu-icon {
-    font-weight: normal;
+    /* font-weight: normal; */
     flex-direction: column;
-    font-family: lexendMedium;
-    /* font-weight: 300; */
-    font-size: 11px;
+    font-family: lexend02;
+    font-weight: 300;
+    font-size: 12px;
     line-height: 15px;
     color: #1D2734;
 }

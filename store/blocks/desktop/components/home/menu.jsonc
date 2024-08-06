@@ -1,4 +1,15 @@
 {
+
+    "flex-layout.row#desktop__row-menu-home": {
+        "title": "desktop__row-menu-home",
+        "children": [
+            "vtex.menu@2.x:menu#desktop__menu-home"
+        ],
+        "props": {
+            "blockClass": "desktop__row-menu-home"
+        }
+    },
+
     "vtex.menu@2.x:menu#desktop__menu-home": {
         "title": "desktop__menu-home",
         "children": [

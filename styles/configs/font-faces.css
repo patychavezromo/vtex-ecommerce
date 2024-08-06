@@ -1,4 +1,10 @@
 @font-face {
+    font-family: 'lexend02';
+    src: url(assets/fonts/Lexend-Light.ttf);
+    /* font-weight: bold; */
+}
+
+@font-face {
     font-family: 'lexend';
     src: url(assets/fonts/lexend-bold.ttf), url(assets/fonts/Lexend-Bold.woff2); 
 }
@@ -11,6 +17,27 @@
 @font-face {
     font-family: 'lexend01';
     src: url(assets/fonts/Lexend-Thin.ttf);
+    font-weight: 300;
+
+}
+
+
+
+@font-face {
+    font-family: 'lexend03';
+    src: url(assets/fonts/Lexend-Black.ttf);
+    /* font-weight: bold; */
+
+}
+@font-face {
+    font-family: 'lexend04';
+    src: url(assets/fonts/Lexend-ExtraLight.ttf);
+    /* font-weight: bold; */
+}
+@font-face {
+    font-family: 'lexend05';
+    src: url(assets/fonts/Lexend-Regular.ttf);
+    /* font-weight: bold; */
 }
 
 @font-face {
