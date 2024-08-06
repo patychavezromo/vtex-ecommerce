@@ -71,7 +71,10 @@
         "title": "desktop__flex-layout-col-minicart",
         "children": [
             "minicart.v2"
-        ]
+        ],
+        "props": {
+            "blockClass": "desktop__flex-layout-col-minicart"
+        }
     },
 
     "flex-layout.col#desktop__flex-layout-col-container-allLinks-richtext-header": {

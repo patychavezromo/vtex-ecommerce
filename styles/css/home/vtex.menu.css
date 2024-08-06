@@ -11,7 +11,7 @@
 .styledLinkContent--phone-menu-icon{
     /* textos del menu para version phone */
     flex-direction: column;
-    font-family: lexendMedium;
+    font-family: lexend02;
     font-weight: 300;
     font-size: 12px;
     line-height: 15px;

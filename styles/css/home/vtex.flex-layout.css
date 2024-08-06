@@ -57,10 +57,8 @@
     left: 3px; */
 }
 .flexColChild--phone__flex-layout-col-minicart :global(.vtex-minicart-2-x-cartIcon){
-    width: 24px;
-    height: 24px;
-    /* top: 32px;
-    left: 232px; */
+    width: 20px;
+    height: 30px;
 }
 .flexColChild--phone__flex-layout-col-login :global(.vtex-button__label){
     width: 80px;
@@ -77,10 +75,13 @@
     color: #FFFFFF;
     width: 37;
     height: 18px;
-    font-family: lexendMedium;
+    font-family: lexend02;
     font-weight: 300;
     font-size: 14px;
     line-height: 17.5px;
+}
+.flexColChild--phone__col-trigger-mega-menu :global(.vtex-store-drawer-0-x-menuIcon){
+    margin-top: 0;
 }
 
 
@@ -141,6 +142,7 @@
 .flexColChild--Desktop__flex-layout-col-login :global(.vtex-login-2-x-label){
     margin-left: -35px;
     color: #FFFFFF;
+    font-family: lexend02;
 }
 /* .flexCol--desktop__flex-layout-col-image-burger{
     min-width: 24px;
@@ -179,6 +181,40 @@
     background-color: #FFFFFF;
     padding-bottom: 15px;
     border-radius: 0 0 10px 10px;
+}
+
+.flexCol--desktop__flex-layout-col-minicart :global(.vtex-minicart-2-x-cartIcon){
+    width: 20px;
+    height: 30px;
+}
+
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuContainerNav){
+    margin-left: 270px;
+    margin-top: 20px;
+    height: 591px;
+    max-width: 1280px;
+}
+
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuItem) :hover{
+    background-color: #FFE6D3;
+}
+
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-caretIcon){
+    display: none;
+}
+
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-styledLink ){
+    font-family: lexend02;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 300;
+    color: #1D2734;
+}
+.flexCol--Mega-menu-desktop :global(.vtex-mega-menu-2-x-submenuContainer){
+    background-color: #FFE6D3;
+}
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuContainerNav){
+    border-radius: 0 0 16px 16px;
 }
 
 
