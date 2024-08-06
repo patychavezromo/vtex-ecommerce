@@ -65,6 +65,14 @@
     text-decoration: none;
 }
 
+.paragraph--desktop__richtext-subtitle-home{
+    font-family: lexend02;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16.8px;
+    margin-left: 72px;
+}
+
 
 /* new */
 

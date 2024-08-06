@@ -31,9 +31,10 @@
 
 /* new */
 .autoCompleteOuterContainer--search-Bar :global(.vtex-styleguide-9-x-input){
+    font-family: lexend02;
     font-size: 12px;
-    font-family: lexendMedium;
 }
+
 .logoContainer--logo-Global{
     padding-right: 0;
     padding-left: 0;
