@@ -193,6 +193,8 @@
     margin-top: 20px;
     height: 591px;
     max-width: 1280px;
+    border-radius: 0 0 16px 16px;
+    width: 800px;
 }
 
 .flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuItem) :hover{
@@ -212,31 +214,21 @@
 }
 .flexCol--Mega-menu-desktop :global(.vtex-mega-menu-2-x-submenuContainer){
     background-color: #FFE6D3;
+    max-height: max-content;
+    border-radius: 0 0 16px 0;
+    width: 500px;
 }
-.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuContainerNav){
+/* .flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuContainerNav){
     border-radius: 0 0 16px 16px;
+} */
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuContainer){
+    max-height: max-content;
 }
-
-
-
-
-
-
 
 
 .stretchChildrenWidth{
     width: 20%;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* .flexRow--phone__flex-layout-row-container-menu{
     background-color: red;

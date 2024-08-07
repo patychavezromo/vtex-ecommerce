@@ -30,6 +30,7 @@
   "mega-menu#desktop": {
     "title": "component Mega menu desktop",
     "props": {
+      "title":"All categories",
       "openOnly": "horizontal"
     }
   },

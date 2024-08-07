@@ -44,7 +44,9 @@
         "props": {
         "defaultDepartmentActive": "...",
         "orientation": "vertical",
-        "openOnly": "vertical"
+        "openOnly": "vertical",
+        "title": "It Globers+",
+        "blockClass": "phone__mega-menu"
         }
     },
 
@@ -52,7 +54,10 @@
         "title": "phone__my-drawer",
         "children": [
             "flex-layout.row#phone__drawer-header"
-        ]
+        ],
+        "props": {
+            "blockClass": "phone__my-drawer"
+        }
     },
     "flex-layout.row#phone__drawer-header": {
         "title": "phone__drawer-header",
