@@ -118,3 +118,72 @@
     width: 423px;
     height: 303px;
 }
+
+/* login with email and password */
+
+.portalContainer--login-Global :global(.vtex-login-2-x-inputContainer){
+    width: 368px;
+    height: 48px;
+}
+.portalContainer--login-Global :global(.vtex-login-2-x-inputContainer) div{
+    color: #1D2734;
+    border-radius: 40px; 
+    border-color: #1D2734;
+    border-width: 1px;
+    color:#1D2734;
+}
+.portalContainer--login-Global :global(.vtex-login-2-x-inputContainer) input{
+    font-family: lexend02;
+    font-size: 14px;
+    line-height: 17.5px;
+    font-weight: 400;
+}
+.portalContainer--login-Global :global(.vtex-login-2-x-forgotPasswordLink){
+    font-family: lexend02;
+    font-size: 14px;
+    line-height: 17.5px;
+    font-weight: 400;
+    color: red;
+}
+
+
+.portalContainer--login-Global :global(.content--emailAndPassword){
+    height: max-content;
+    /* padding-bottom: 67px; */
+}
+
+.portalContainer--login-Global :global(.vtex-login-2-x-formFooter){
+    display: block;
+}
+
+.portalContainer--login-Global :global(.vtex-login-2-x-backButton) button{
+    /* boton regresar login email and password */
+   position: absolute;
+   top: 13px;
+   /* left: 10px; */
+}
+.portalContainer--login-Global :global(.vtex-login-2-x-backButton) button div span div:nth-child(2) span {
+    /* texto boton regresar login email and password */
+   display: none;
+}
+.portalContainer--login-Global :global(.vtex-login-2-x-backButton) button div span div:first-child svg {
+    /* texto boton regresar login email and password */
+   fill: black;
+   transform: scale(2);
+   /* width: 5rem; */
+}
+
+.portalContainer--login-Global :global(.vtex-login-2-x-sendButton) button{
+    width: 368px;
+    background-color: #1D2734;
+    border-color: #1D2734;
+    border-width: 1px;
+    height: 48px;
+}
+
+.portalContainer--login-Global :global(.vtex-login-2-x-dontHaveAccount){
+    font-family: lexend02;
+    font-size: 14px;
+    line-height: 17.5px;
+    color:#1D2734
+}

@@ -25,7 +25,7 @@
             "showPasswordVerificationIntoTooltip": true,
             "blockClass": "login-Global",
             "logInButtonBehavior":"popover",
-            "optionsTitle": "LOG IN"            
+            "optionsTitle": "LOG IN"           
         }
     },
 

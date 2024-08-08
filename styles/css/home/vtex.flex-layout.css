@@ -291,3 +291,20 @@
     border-radius: 1px;
 }
 
+.flexColChild--Desktop__flex-layout-col-login :global(.vtex-login-2-x-label){
+    padding-left: 0;
+    margin-left: 0;
+}
+.flexColChild--Desktop__flex-layout-col-login :global(.vtex-button__label){
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-styledLinkContainer){
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1rem;
+}
+
+
+
