@@ -49,7 +49,14 @@
 .portalContainer--login-Global :global(.vtex-login-2-x-optionsList) li:nth-child(3) button span {
     /* espacio entre el icono y el texto del boton */
     width: -webkit-fill-available;
+    font-family: lexend02;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #5E636E;
 }
+
 .portalContainer--login-Global :global(.vtex-login-2-x-optionsList) li:nth-child(4) button {
     background-color: #1877F2;
     border-color: #1877F2;
@@ -68,6 +75,12 @@
 .portalContainer--login-Global :global(.vtex-login-2-x-optionsList) li:nth-child(4) button span {
     /* espacio entre el icono y el texto del boton */
     width: -webkit-fill-available;
+    font-family: lexend02;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
 }
 .portalContainer--login-Global :global(.vtex-login-2-x-optionsList) li:nth-child(4) button svg{
     background-color: #FFFFFF;
@@ -81,6 +94,11 @@
     /* transform: scale(0.7); */
     
 }
+.portalContainer--login-Global :global(.vtex-login-2-x-optionsList) li:nth-child(3) button svg{
+    width: 23px;
+    height: auto;
+}
+
 .portalContainer--login-Global :global(.vtex-login-2-x-arrowUp){
     /* elimina elemento flecha sobre popup */
     display: none;

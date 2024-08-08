@@ -278,3 +278,16 @@
     margin: auto; 
 }
 
+.flexColChild--Desktop__flex-layout-col-login :global(.vtex-button__label){
+    display: block;
+    background-color: 1D2734;
+    width: 40px;
+    margin-left: -3px;
+}
+
+.flexColChild--Desktop__flex-layout-col-login :global(.vtex-button){
+    background-color: #1D2734;
+    width: 23px;
+    border-radius: 1px;
+}
+
