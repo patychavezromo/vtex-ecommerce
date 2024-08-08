@@ -17,12 +17,15 @@
     "login": {
         "props": {
             "iconLabel":"Login",
-            "emailAndPasswordTitle": "LOG-IN",
-            "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "e-mail",
-            "passwordPlaceholder": "password",
+            "providerPasswordButtonLabel":"Continue with an e-mail and password",
+            "emailAndPasswordTitle": "LOG IN",
+            "accessCodeTitle": "RECUPERAR CLAVE",
+            "emailPlaceholder": "Enter your e-mail",
+            "passwordPlaceholder": "Enter your password",
             "showPasswordVerificationIntoTooltip": true,
-            "blockClass": "login-Global"
+            "blockClass": "login-Global",
+            "logInButtonBehavior":"popover",
+            "optionsTitle": "LOG IN"            
         }
     },
 

@@ -79,6 +79,7 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 17.5px;
+    text-transform: capitalize;
 }
 .flexColChild--phone__col-trigger-mega-menu :global(.vtex-store-drawer-0-x-menuIcon){
     margin-top: 0;
@@ -143,6 +144,7 @@
     margin-left: -35px;
     color: #FFFFFF;
     font-family: lexend02;
+    text-transform: capitalize;
 }
 /* .flexCol--desktop__flex-layout-col-image-burger{
     min-width: 24px;
@@ -275,3 +277,4 @@
     max-width: 1280px;
     margin: auto; 
 }
+
