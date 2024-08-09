@@ -54,21 +54,30 @@
     color:#1D2734, 
 }
 
-.paragraph--desktop__richtext-header{
-    font-family: lexendMedium;
-    font-weight: 400;
+/* DESKTOP */
+/* new */
+.link--desktop__richtext-header{
+    font-family: lexend02;
     font-size: 12px;
     line-height: 15px;
+    font-weight: bold;
+    color: #1D2734;
+    text-decoration: none;
 }
 
-.link--desktop__richtext-header{
-    text-decoration: none;
-    color: black;
-    font-family: lexendMedium;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
+.paragraph--desktop__richtext-subtitle-home{
+    font-family: lexend02;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16.8px;
+    margin-left: 72px;
 }
+
+
+/* new */
+
+
+
 
 
 .paragraph--subtitle-product-home{

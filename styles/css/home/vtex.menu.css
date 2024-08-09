@@ -11,7 +11,7 @@
 .styledLinkContent--phone-menu-icon{
     /* textos del menu para version phone */
     flex-direction: column;
-    font-family: lexendMedium;
+    font-family: lexend02;
     font-weight: 300;
     font-size: 12px;
     line-height: 15px;
@@ -25,10 +25,11 @@
 }
 
 .styledLinkContent--Desktop-menu-icon {
+    /* font-weight: normal; */
     flex-direction: column;
-    font-family: lexendMedium;
+    font-family: lexend02;
     font-weight: 300;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 15px;
     color: #1D2734;
 }
@@ -40,5 +41,17 @@
 }
 
 .menuContainer--Desktop-menu-icons{
-    margin-left: 40px;
+    margin-left: 50px;
+}
+
+.menuItem--Desktop-menu-icon{
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 47px;
+    margin-bottom: 5px;
+    margin-top: -15px;
+}
+.menuContainerNav--Desktop-menu-icons{
+    margin-left: 60px;
 }

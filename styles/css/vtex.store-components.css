@@ -28,3 +28,15 @@
 .imageElement--Desktop-infocard-sell-image{
     width: 48.38px;
 }
+
+/* new */
+.autoCompleteOuterContainer--search-Bar :global(.vtex-styleguide-9-x-input){
+    font-family: lexend02;
+    font-size: 12px;
+}
+
+.logoContainer--logo-Global{
+    padding-right: 0;
+    padding-left: 0;
+}
+/* new */

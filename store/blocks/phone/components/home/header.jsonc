@@ -50,7 +50,8 @@
     "flex-layout.row#phone__flex-layout-row-header-container-elements-left": {
         "title": "phone__flex-layout-row-header-container-elements-left",
         "children": [
-            "flex-layout.col#phone__flex-layout-col-menu-burger",
+            // "flex-layout.col#phone__flex-layout-col-menu-burger",
+            "flex-layout.row#phone__row-mega-menu",
             "flex-layout.col#phone__flex-layout-col-logo"
         ],
         "props": {
@@ -72,23 +73,24 @@
         }
     },
 
-    "flex-layout.col#phone__flex-layout-col-menu-burger":{
-        "title": "phone__flex-layout-col-menu-burger",
-        "children": [
-            "image#phone__image-menu-burger"
-        ],
-        "props": {
-            "blockClass": "phone__flex-layout-col-menu-burger"
-            // "verticalAlign":"middle"
-        }
-    },
-    "image#phone__image-menu-burger": {
-        "title": "image-menu-burger",
-        "props": {
-            "src": "/arquivos/hpa-hamburguer-menu.png",
-            "blockClass": "image-menu-burger"      
-        }
-    },
+    // "flex-layout.col#phone__flex-layout-col-menu-burger":{
+    //     "title": "phone__flex-layout-col-menu-burger",
+    //     "children": [
+    //         "image#phone__image-menu-burger"
+    //     ],
+    //     "props": {
+    //         "blockClass": "phone__flex-layout-col-menu-burger"
+    //         // "verticalAlign":"middle"
+    //     }
+    // },
+
+    // "image#phone__image-menu-burger": {
+    //     "title": "image-menu-burger",
+    //     "props": {
+    //         "src": "/arquivos/hpa-hamburguer-menu.png",
+    //         "blockClass": "image-menu-burger"      
+    //     }
+    // },
 
     "flex-layout.col#phone__flex-layout-col-logo": {
         "title": "phone__flex-layout-col-logo",
