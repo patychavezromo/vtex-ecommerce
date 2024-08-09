@@ -1,0 +1,50 @@
+/*phone----------------------------------------------------------------------------------------------------------*/
+.paragraph--phone__richtext-infocards-textheading {
+    font-family: lexend;
+    font-weight: 600;
+    font-size  : 16px;
+    line-height: 18.59px;
+    margin-left: 1rem;
+    color      : #1D2734,
+}
+
+.paragraph--phone__richtext-infocards-text-description {
+    font-family: lexendMedium;
+    font-weight: 300;
+    font-size  : 12px;
+    line-height: 14.52px;
+    margin-left: 1rem;
+    color      : #1D2734,
+}
+/*tablet----------------------------------------------------------------------------------------------------------*/
+.container--tablet__richtext-infocards-textHeading {
+    font-family: lexend;
+    font-weight: 600;
+    font-size  : 16px;
+    line-height: 18.59px;
+    margin-left: 1rem;
+    color      : #1D2734,
+}
+
+.container--tablet__richtext-infocards-textdescription {
+    font-family: lexendMedium;
+    font-weight: 300;
+    font-size  : 12px;
+    line-height: 14.52px;
+    margin-left: 1rem;
+    color      : #1D2734,
+}
+/*desktop----------------------------------------------------------------------------------------------------------*/
+.container--desktop__richtext-infocards-text-heading {
+    font-family: lexend;
+    font-weight: 600;
+    font-size  : 16px;
+    line-height: 24.88;
+}
+
+.container--desktop__richtext-infocards-text-description {
+    font-family: lexendMedium;
+    font-weight: 300;
+    font-size  : 12px;
+    line-height: 14.52px;
+}

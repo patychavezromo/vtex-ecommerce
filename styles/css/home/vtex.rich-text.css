@@ -1,103 +1,38 @@
-/* .paragraph--subtitle-product-home{
-    margin-left: 16px;
-} */
-
-.paragraph--phone__richtext-subtitle-home{
+/*global----------------------------------------------------------------------------------------------------------*/
+.paragraph--subtitle-product-home {
+    font-family: lexend;
+    margin-left: 1rem;
+    font-weight: 500;
+    font-size  : 16px;
+    line-height: 16.8px;
+}
+/*phone----------------------------------------------------------------------------------------------------------*/
+.paragraph--phone__richtext-subtitle-home {
     margin-left: 1rem;
     font-family: lexend;
     font-weight: 500;
-    font-size: 16px;
+    font-size  : 16px;
     line-height: 16.8px;
 }
 
-.paragraph--phone__richtext-infocards-textheading{
-    font-family: lexend;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 18.59px;
-    margin-left: 1rem;
-    color: #1D2734,
-}
-
-.paragraph--phone__richtext-infocards-text-description{
-    font-family: lexendMedium;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 14.52px;
-    margin-left: 1rem;
-    color:#1D2734,
-}
-
-.paragraph--tablet__richtext-subtitle-home{
-    color: #1D2734;
-    font-family: lexend;
-    font-weight: 500;
-    font-size: 16px;
+/*tablet----------------------------------------------------------------------------------------------------------*/
+.paragraph--tablet__richtext-subtitle-home {
+    color       : #1D2734;
+    font-family : lexend;
+    font-weight : 500;
+    font-size   : 16px;
     padding-left: 2rem;
 }
 
-.container--tablet__richtext-infocards-textHeading{
-    font-family: lexend;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 18.59px;
-    margin-left: 1rem;
-    color: #1D2734,
-}
-
-.container--tablet__richtext-infocards-textdescription{
-    font-family: lexendMedium;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 14.52px;
-    margin-left: 1rem;
-    color:#1D2734, 
-}
-
-/* DESKTOP */
-/* new */
-.link--desktop__richtext-header{
-    font-family: lexend02;
-    font-size: 12px;
-    line-height: 15px;
-    font-weight: bold;
-    color: #1D2734;
-    text-decoration: none;
-}
-
-.paragraph--desktop__richtext-subtitle-home{
+/*desktop----------------------------------------------------------------------------------------------------------*/
+.paragraph--desktop__richtext-subtitle-home {
     font-family: lexend02;
     font-weight: bold;
-    font-size: 16px;
+    font-size  : 16px;
     line-height: 16.8px;
     margin-left: 72px;
 }
 
 
-/* new */
 
 
-
-
-
-.paragraph--subtitle-product-home{
-    font-family: lexend;
-    margin-left: 1rem;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16.8px;
-}
-
-.container--desktop__richtext-infocards-text-heading{
-    font-family: lexend;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24.88;
-}
-
-.container--desktop__richtext-infocards-text-description{
-    font-family: lexendMedium;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 14.52px;
-}

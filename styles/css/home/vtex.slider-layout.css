@@ -1,47 +1,44 @@
-/* .paginationDot--isActive{
-    background-color: blue;
-} */
-
+/*phone----------------------------------------------------------------------------------------------------------*/
 .imageElement--phone__slider-layout-main-banner {
-    width: 360px;
+    width : 360px;
     height: 480px;
 }
-
 .sliderLayoutContainer--phone-infocards-slider {
     padding-bottom: 50px;
 }
+.paginationDot--phone-infocards-slider.paginationDot--isActive {
+    background-color: black;
+    transform       : scale(1.5);
+    border-radius   : 50% !important;
+    transition      : background-color 0.3s, transform 0.3s;
+    width           : 16.96px !important;
+    height          : 16.96px !important;
+    top             : 30.52px !important;
+    left            : 107.52px;
+    gap             : 0px;
+    opacity         : 0px;
+}
+.paginationDot--phone-infocards-slider {
+    margin       : 0 5px !important;
+    display      : inline-block !important;
+    border-radius: 0%;
+    transition   : background-color 0.3s, transform 0.3s;
+    height       : 1.41px !important;
+    padding      : 0% !important;
+    width        : 26.09px !important;
+    left         : 40.99px;
+    gap          : 0px;
+    opacity      : 0px;
+    margin-top   : 10px !important;
+}
+
+
+
+/* .paginationDot--isActive{
+    background-color: blue;
+} */
 
 /* .slide--tablet__slider-layout-banner{
     background-color: red;
     object-fit: contain;
 } */
-
-.paginationDot--phone-infocards-slider.paginationDot--isActive{
-    background-color: black;
-    transform: scale(1.5);
-    border-radius: 50% !important;
-    transition: background-color 0.3s, transform 0.3s;
-    width: 16.96px !important;
-    height: 16.96px !important;
-    top: 30.52px !important;
-    left: 107.52px;
-    gap: 0px;
-    opacity: 0px;
-}
-
-.paginationDot--phone-infocards-slider{
-    margin: 0 5px !important;
-    display: inline-block !important;
-    border-radius: 0%;
-    transition: background-color 0.3s, transform 0.3s;
-    height: 1.41px !important;
-    padding: 0% !important;
-    width: 26.09px !important;
-    left: 40.99px;
-    gap: 0px;
-    opacity: 0px;
-    margin-top: 10px !important;
-}
-
-
-
