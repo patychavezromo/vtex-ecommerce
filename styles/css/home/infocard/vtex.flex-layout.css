@@ -1,0 +1,43 @@
+/*phone----------------------------------------------------------------------------------------------------------*/
+.flexRow--phone__flex-layout-row-container-info-card {
+    width: 80%;
+}
+.flexRow--phone__flex-layout-row-container-infocard-linkbutton {
+    background    : white;
+    border-radius : 0 0 10px 10px;
+    align-content : center;
+    height        : 50px;
+    padding-bottom: 3rem;
+}
+.flexRow--phone__flex-layout-row-infocard-content-textheading-textdescription-and-sell {
+    background: white;
+}
+/*tablet----------------------------------------------------------------------------------------------------------*/
+.flexRow--tablet__flex-layout-row-container-info-card {
+    width: 90%;
+}
+.flexRow--tablet__flex-layout-row-infocard-textheading-textdescription-and-sell {
+    width           : 81%;
+    background-color: white;
+    margin-left     : 2rem;
+    border-radius   : 0px 0px 10px 10px;
+}
+/*desktop----------------------------------------------------------------------------------------------------------*/
+.flexRow--desktop-flex-layout-row-container-info-card {
+    width    : 80%;
+    width    : 324px;
+    max-width: 1280px;
+    margin   : auto;
+}
+.flexCol--desktop__flex-layout-col-infocard-content-textheading-and-textdescription {
+    background-color: #FFFFFF;
+    padding-left    : 10px;
+}
+.flexCol--Desktop-infocard-sell-image {
+    background-color: #FFFFFF;
+}
+.flexRow--desktop__flex-layout-row-infocard-container-button {
+    background-color: #FFFFFF;
+    padding-bottom  : 15px;
+    border-radius   : 0 0 10px 10px;
+}
