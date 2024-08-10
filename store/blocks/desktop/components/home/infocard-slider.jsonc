@@ -1,4 +1,14 @@
 {
+  "flex-layout.row#desktop__row-infocards-slider": {
+    "title": "desktop__row-infocards-slider",
+    "children": [
+      "slider-layout#Desktop-infocards-slider"
+    ],
+    "props": {
+      "blockClass": "desktop__row-infocards-slider"
+    }
+  },
+
   "slider-layout#Desktop-infocards-slider": {
     "title": "Desktop-infocards-slider",
     "props": {

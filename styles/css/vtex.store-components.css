@@ -1,30 +1,33 @@
-
-/* .logoImage{
-    margin-top: 37px;
-} */
-
+/*phone----------------------------------------------------------------------------------------------------------*/
 .imageElement--phone__main-image-infocard {
     width: 100%;
 }
-
-.imageElement--phone__image-infocard-buttonlink{
-   height: 40px;
-}
-
-.imageElement--tablet__image-infocard{
-    width: 80%;
-}
-
-.autoCompleteOuterContainer--search-Bar :global(.vtex-input-prefix__group){
-    border-radius: 40px;
-    width: 280px;
+.imageElement--phone__image-infocard-buttonlink {
     height: 40px;
 }
 
-.imageElement--desktop__infocard-sell-image{
-    width: 324px;
+/*tablet----------------------------------------------------------------------------------------------------------*/
+.imageElement--tablet__image-infocard {
+    width: 80%;
 }
 
-.imageElement--Desktop-infocard-sell-image{
+/*desktop----------------------------------------------------------------------------------------------------------*/
+.autoCompleteOuterContainer--search-Bar :global(.vtex-input-prefix__group) {
+    border-radius: 40px;
+    width        : 280px;
+    height       : 40px;
+}
+.imageElement--desktop__infocard-sell-image {
+    width: 324px;
+}
+.imageElement--Desktop-infocard-sell-image {
     width: 48.38px;
+}
+.autoCompleteOuterContainer--search-Bar :global(.vtex-styleguide-9-x-input) {
+    font-family: lexend02;
+    font-size  : 12px;
+}
+.logoContainer--logo-Global {
+    padding-right: 0;
+    padding-left : 0;
 }

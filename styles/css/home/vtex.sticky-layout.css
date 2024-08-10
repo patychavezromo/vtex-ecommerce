@@ -1,12 +1,8 @@
-.container--phone__sticky-layout-header{
+/*phone----------------------------------------------------------------------------------------------------------*/
+.container--phone__sticky-layout-header {
     background-color: #FFFFFF;
 }
-
-.container--desktop__sticky-layout{
+/*desktop----------------------------------------------------------------------------------------------------------*/
+.container--desktop__sticky-layout {
     background-color: #FFFFFF;
 }
-
-/* .wrapper--phone__sticky-layout-header{
-    max-width: 768px;
-    margin: auto;
-} */

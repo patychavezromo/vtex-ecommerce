@@ -23,7 +23,10 @@
         "title": "desktop__flex-layout-row-infocard-image",
         "children": [
             "image#desktop__infocard-sell-image"            
-        ]
+        ],
+        "props": {
+            "blockClass": "desktop__flex-layout-row-infocard-image"
+        }
     },
 
     "flex-layout.row#desktop__flex-layout-row-infocard-content-heading-text-and-sell": {
