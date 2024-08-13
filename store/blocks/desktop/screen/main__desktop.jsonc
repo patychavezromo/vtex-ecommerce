@@ -4,7 +4,8 @@
             // "vtex.menu@2.x:menu#websites#desktop__menu-home",
             "flex-layout.row#Desktop__main-slider",
             "flex-layout.row#desktop__row-richtext-subtitle",
-            "flex-layout.row#desktop__row-infocards-slider"
+            "flex-layout.row#desktop__row-infocards-slider",
+            "flex-layout.row#desktop__main-shelf--container"
         ]
 
     }
