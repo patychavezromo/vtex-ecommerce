@@ -1,3 +1,6 @@
 .stretchChildrenWidth {
     width: 20%;
 }
+.flexColChild--phone__col-trigger-mega-menu :global(.vtex-store-drawer-0-x-menuIcon) {
+    margin-top: 0;
+}

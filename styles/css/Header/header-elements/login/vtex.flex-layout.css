@@ -1,0 +1,22 @@
+.flexColChild--phone__flex-layout-col-login :global(.vtex-button__label) {
+    width           : 80px;
+    height          : 40px;
+    color           : #FFFFFF;
+    background-color: #1D2734;
+    border-radius   : 40px;
+    border          : 1px;
+    padding         : 10px;
+    gap             : 10px;
+}
+
+.flexColChild--phone__flex-layout-col-login :global(.vtex-login-2-x-label) {
+    display       : inline;
+    color         : #FFFFFF;
+    width         : 37;
+    height        : 18px;
+    font-family   : lexend02;
+    font-weight   : 300;
+    font-size     : 14px;
+    line-height   : 17.5px;
+    text-transform: capitalize;
+}
