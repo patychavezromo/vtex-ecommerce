@@ -1,9 +1,5 @@
 {
-    // "flex-layout.col#spacer": {
-    //     "props": {
-    //         "width": "grow"
-    //     }
-    // },
+ 
     "logo": {
         "props": {
             "title": "Logo",

@@ -121,7 +121,7 @@
     "flex-layout.col#phone__flex-layout-col-minicart.v2": {
         "title": "phone__flex-layout-col-minicart.v2",
         "children": [
-            "minicart.v2"
+            "flex-layout.row#phone__minicart"
         ],
         "props": {
             "blockClass": "phone__flex-layout-col-minicart",
