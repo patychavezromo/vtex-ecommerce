@@ -73,25 +73,6 @@
         }
     },
 
-    // "flex-layout.col#phone__flex-layout-col-menu-burger":{
-    //     "title": "phone__flex-layout-col-menu-burger",
-    //     "children": [
-    //         "image#phone__image-menu-burger"
-    //     ],
-    //     "props": {
-    //         "blockClass": "phone__flex-layout-col-menu-burger"
-    //         // "verticalAlign":"middle"
-    //     }
-    // },
-
-    // "image#phone__image-menu-burger": {
-    //     "title": "image-menu-burger",
-    //     "props": {
-    //         "src": "/arquivos/hpa-hamburguer-menu.png",
-    //         "blockClass": "image-menu-burger"      
-    //     }
-    // },
-
     "flex-layout.col#phone__flex-layout-col-logo": {
         "title": "phone__flex-layout-col-logo",
         "props": {
@@ -102,9 +83,7 @@
             "logo"
         ]
     },
-
-   
-
+    
     "flex-layout.col#phone__container-overlay-trigger-mobile": {
         "title": "phone__container-overlay-trigger-mobile",
         "children": [
