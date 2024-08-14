@@ -1,0 +1,17 @@
+.flexColChild--phone__flex-layout-col-minicart :global(.vtex-minicart-2-x-cartIcon) {
+    width : 20px;
+    height: 30px;
+}
+.flexColChild--phone__flex-layout-col-minicart :global(.vtex-minicart-2-x-cartIcon) {
+    width : 20px;
+    height: 30px;
+}
+
+.flexRowContent--desktop-header__container-menu-up :global(.vtex-button) {
+    padding    : 0;
+    margin-left: 20px;
+}
+.flexCol--desktop__flex-layout-col-minicart :global(.vtex-minicart-2-x-cartIcon) {
+    width : 20px;
+    height: 30px;
+}

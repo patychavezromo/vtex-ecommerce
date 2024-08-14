@@ -1,0 +1,13 @@
+.flexRowContent--desktop__flex-layout-row-container-all-links {
+    display : flex;
+}
+.flexColChild--desktop__flex-layout-col-container-allLinks-richtext-header {
+    width: 550px;
+}
+.flexColChild--desktop__flex-layout-col-container-allLinks-richtext-header {
+    margin-left: 40px;
+}
+.flexRow--desktop__flex-layout-row-container-all-links {
+    max-width: 1280px;
+    margin   : auto;
+}

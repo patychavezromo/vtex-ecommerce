@@ -1,0 +1,9 @@
+.autoCompleteOuterContainer--search-Bar :global(.vtex-styleguide-9-x-input) {
+    font-family: lexend02;
+    font-size  : 12px;
+}
+.autoCompleteOuterContainer--search-Bar :global(.vtex-input-prefix__group) {
+    border-radius: 40px;
+    width        : 280px;
+    height       : 40px;
+}
