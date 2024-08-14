@@ -13,7 +13,7 @@
       "showPaginationDots":"mobileOnly",
       "usePagination":true,
       "centerMode":"to-the-left",
-      "centerModeSlidesGap": 10
+      "centerModeSlidesGap": 20
     },
     "children": 
     [

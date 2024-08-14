@@ -9,6 +9,7 @@
 }
 .slide--phone-infocards-slider{
    min-width: 242px;
+   padding-left: 0 !important;
 }
 
 .paginationDot--phone-infocards-slider.paginationDot--isActive {

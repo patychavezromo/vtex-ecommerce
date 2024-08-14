@@ -25,9 +25,11 @@
             "itemsPerPage": {
                 "desktop": 5,
                 "tablet": 3,
-                "phone": 2
+                "phone": 1
             },
-            "blockClass": "phone-slider-layout-shelf"
+            "blockClass": "phone-slider-layout-shelf",
+            "centerMode":"to-the-left",
+            "showNavigationArrows":"desktopOnly"
         }
     },
     "product-summary.shelf#phone__product-summary-shelf": {
