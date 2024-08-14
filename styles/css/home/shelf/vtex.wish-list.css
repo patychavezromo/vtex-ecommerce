@@ -8,3 +8,31 @@
     border-style: solid;
     border-color: black;
 }
+
+
+.wishlistIconContainer--tablet-shelf-product-heart {
+    display        : flex;
+    justify-content: end;
+}
+
+.wishlistIconContainer--tablet-shelf-product-heart :global(.vtex-button) {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.wishlistIconContainer--desktop-shelf-product-heart {
+    display        : flex;
+    justify-content: end;
+}
+
+.wishlistIconContainer--desktop-shelf-product-heart :global(.vtex-button) {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+/* .wishlistIcon--desktop-shelf-product-heart{
+    display: none;
+} */

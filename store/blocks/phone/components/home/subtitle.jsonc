@@ -3,7 +3,7 @@
         "title": "phone__richtext-subtitle-home",
         "props": {
             "textAlignment": "CENTER",
-            "text": "An amazing product. PHONE",
+            "text": "An amazing product.",
             "textPosition": "LEFT",
             "blockClass": "phone__richtext-subtitle-home"
         }

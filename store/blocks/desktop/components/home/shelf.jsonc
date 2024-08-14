@@ -99,5 +99,14 @@
         "props":{
             "blockClass": "desktop-shelf-product-heart"
         }
+        // "blocks":[
+        //     "image#desktop__image-wishlist"
+        // ]
     }
+
+    // "image#desktop__image-wishlist": {
+    //   "props": {
+    //     "src": "/arquivos/heart-shelf"
+    //   }
+    // }
 }

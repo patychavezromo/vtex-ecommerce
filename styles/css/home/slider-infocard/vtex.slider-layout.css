@@ -1,6 +1,15 @@
 .sliderLayoutContainer--phone-infocards-slider {
     padding-bottom: 50px;
 }
+.sliderTrackContainer--phone-infocards-slider{
+    margin-left: 1rem;
+}
+.vtex-slider-layout-0-x-sliderTrack--phone-infocards-slider{
+    gap: 0;
+}
+.slide--phone-infocards-slider{
+   min-width: 242px;
+}
 
 .paginationDot--phone-infocards-slider.paginationDot--isActive {
     background-color: black;

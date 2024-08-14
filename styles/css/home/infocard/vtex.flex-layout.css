@@ -9,6 +9,12 @@
     height        : 50px;
     padding-bottom: 3rem;
 }
+
+.flexRow--phone__flex-layout-row-container-info-card{
+    width: 242px;
+    min-width: 242px;
+}
+
 .flexRow--phone__flex-layout-row-infocard-content-textheading-textdescription-and-sell {
     background: white;
 }

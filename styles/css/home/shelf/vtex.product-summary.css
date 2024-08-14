@@ -107,3 +107,52 @@
     width : 70.22px;
     height: 25.11px;
 }
+
+.buyButton--desktop__product-summary-shelf-buy-button :global(.vtex-button){
+    background-color: transparent;
+    border-color: #1D2734;
+    color: #1D2734;
+    width: auto;
+    border-width: 1px;
+}
+
+.buyButton--tablet__product-summary-shelf-buy-button :global(.vtex-button){
+    background-color: transparent;
+    border-color: #1D2734;
+    color: #1D2734;
+    width: auto;
+    border-width: 1px;
+}
+
+.buyButton--phone__product-summary-shelf-buy-button :global(.vtex-button){
+    background-color: transparent;
+    border-color: #1D2734;
+    color: #1D2734;
+    width: auto;
+    border-width: 1px;
+}
+
+.description--desktop__product-summary-shelf-description{
+    font-family: 'lexend02';
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #1D2734;
+    text-align: justify;
+    padding: 40px;
+}
+.description--tablet__product-summary-shelf-description{
+    font-family: 'lexend02';
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #1D2734;
+    text-align: justify;
+    padding: 40px;
+}
+.description--phone__product-summary-shelf-description{
+    font-family: 'lexend02';
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #1D2734;
+    text-align: justify;
+    padding: 40px;
+}
