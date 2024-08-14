@@ -4,3 +4,75 @@
 .flexColChild--phone__col-trigger-mega-menu :global(.vtex-store-drawer-0-x-menuIcon) {
     margin-top: 0;
 }
+.flexColChild--phone__col-trigger-mega-menu :global(.vtex-store-drawer-0-x-menuIcon) {
+    margin-top: 0;
+}
+.flexColChild--Mega-menu-desktop{
+    position: relative;
+}
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuContainerNav) {
+    /* margin-left  : 270px; */
+    margin-top   : 20px;
+    height       : 591px;
+    max-width    : 1280px;
+    border-radius: 0 0 16px 16px;
+    width        : 700px;
+}
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuItem) :hover {
+    background-color: #FFE6D3;
+}
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-caretIcon) {
+    display: none;
+}
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-styledLink) {
+    font-family: lexend02;
+    font-size  : 12px;
+    line-height: 15px;
+    font-weight: 300;
+    color      : #1D2734;
+}
+.flexCol--Mega-menu-desktop :global(.vtex-mega-menu-2-x-submenuContainer) {
+    background-color: #FFE6D3;
+    max-height      : max-content;
+    border-radius   : 0 0 16px 0;
+    width           : 400px;
+}
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuContainer) {
+    max-height: max-content;
+}
+
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-styledLinkContainer) {
+    margin-left : 0;
+    margin-right: 0;
+    padding-left: 1rem;
+    padding-left: 0;
+    font-family: lexend02;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-submenuList){
+    grid-template-columns: 175px 148px;
+}
+
+.flexCol--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuItem) :hover{
+    border-left: 4px solid #FF8324;
+} 
+.flexCol--Mega-menu-desktop :global(.vtex-mega-menu-2-x-styledLink) :hover{
+    border-left: none;
+} 
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-seeAllLink){
+    display: none;
+} 
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-submenuContainerTitle){
+    /* display: none; */
+    font-family: lexend02;
+    font-size: 14px;
+    line-height: 17.5px;
+    color: #1D2734;
+    padding-left: 10px;
+}
+.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-styledLinkContent){
+    margin-left: 10px;
+}

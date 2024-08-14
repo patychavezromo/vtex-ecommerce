@@ -20,3 +20,59 @@
     line-height   : 17.5px;
     text-transform: capitalize;
 }
+
+
+.flexColChild--phone__flex-layout-col-login :global(.vtex-button__label) {
+    width           : 80px;
+    height          : 40px;
+    color           : #FFFFFF;
+    background-color: #1D2734;
+    border-radius   : 40px;
+    border          : 1px;
+    padding         : 10px;
+    gap             : 10px;
+}
+.flexColChild--phone__flex-layout-col-login :global(.vtex-login-2-x-label) {
+    display       : inline;
+    color         : #FFFFFF;
+    width         : 37;
+    height        : 18px;
+    font-family   : lexend02;
+    font-weight   : 300;
+    font-size     : 14px;
+    line-height   : 17.5px;
+    text-transform: capitalize;
+}
+.flexColChild--Desktop__flex-layout-col-login {
+    display         : flex;
+    border-radius   : 40px;
+    background-color: #1D2734;
+    width           : 80px;
+    height          : 40px;
+}
+.flexColChild--Desktop__flex-layout-col-login :global(.vtex-login-2-x-label) {
+    margin-left   : -35px;
+    color         : #FFFFFF;
+    font-family   : lexend02;
+    text-transform: capitalize;
+}
+.flexColChild--Desktop__flex-layout-col-login :global(.vtex-button__label) {
+    display         : block;
+    background-color: 1D2734;
+    width           : 40px;
+    margin-left     : -3px;
+}
+.flexColChild--Desktop__flex-layout-col-login :global(.vtex-button) {
+    background-color: #1D2734;
+    width           : 23px;
+    border-radius   : 1px;
+}
+.flexColChild--Desktop__flex-layout-col-login :global(.vtex-login-2-x-label) {
+    padding-left: 0;
+    margin-left : 0;
+}
+.flexColChild--Desktop__flex-layout-col-login :global(.vtex-button__label) {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}

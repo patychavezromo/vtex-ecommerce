@@ -16,152 +16,29 @@
     height: 24px;
 } */
 
-
-
-
-
-
-
-
-
 /*desktop----------------------------------------------------------------------------------------------------------*/
-.flexRowContent--desktop__flex-layout-row-container-all-links {
-    display : flex;
-}
-.flexColChild--desktop__flex-layout-col-container-allLinks-richtext-header {
-    width: 550px;
-}
+
 .flexRowContent--desktop-header__container-menu-up {
     display    : flex;
     width      : 100%;
     align-items: center;
     margin-top : 30px;
 }
-.flexRowContent--desktop-header__container-menu-up :global(.vtex-button) {
-    padding    : 0;
-    margin-left: 20px;
-}
+
 .flexRow--desktop-header__container-menu-up {
     max-width     : 1280px;
     margin        : auto;
 }
-.flexColChild--desktop__flex-layout-col-container-allLinks-richtext-header {
-    margin-left: 40px;
-}
-.flexColChild--Desktop__flex-layout-col-login {
-    display         : flex;
-    border-radius   : 40px;
-    background-color: #1D2734;
-    width           : 80px;
-    height          : 40px;
-}
-.flexColChild--Desktop__flex-layout-col-login :global(.vtex-login-2-x-label) {
-    margin-left   : -35px;
-    color         : #FFFFFF;
-    font-family   : lexend02;
-    text-transform: capitalize;
-}
-.flexCol--desktop-logo {
-    min-width   : 32px;
-    margin-right: 20px;
-    margin-left : 5px;
-}
-.flexCol--desktop__flex-layout-col-minicart :global(.vtex-minicart-2-x-cartIcon) {
-    width : 20px;
-    height: 30px;
-}
-.flexColChild--Mega-menu-desktop{
-    position: relative;
-}
-.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuContainerNav) {
-    /* margin-left  : 270px; */
-    margin-top   : 20px;
-    height       : 591px;
-    max-width    : 1280px;
-    border-radius: 0 0 16px 16px;
-    width        : 700px;
-}
-.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuItem) :hover {
-    background-color: #FFE6D3;
-}
-.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-caretIcon) {
-    display: none;
-}
-.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-styledLink) {
-    font-family: lexend02;
-    font-size  : 12px;
-    line-height: 15px;
-    font-weight: 300;
-    color      : #1D2734;
-}
-.flexCol--Mega-menu-desktop :global(.vtex-mega-menu-2-x-submenuContainer) {
-    background-color: #FFE6D3;
-    max-height      : max-content;
-    border-radius   : 0 0 16px 0;
-    width           : 400px;
-}
-.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuContainer) {
-    max-height: max-content;
-}
-.flexRow--desktop__flex-layout-row-container-all-links {
-    max-width: 1280px;
-    margin   : auto;
-}
-.flexColChild--Desktop__flex-layout-col-login :global(.vtex-button__label) {
-    display         : block;
-    background-color: 1D2734;
-    width           : 40px;
-    margin-left     : -3px;
-}
-.flexColChild--Desktop__flex-layout-col-login :global(.vtex-button) {
-    background-color: #1D2734;
-    width           : 23px;
-    border-radius   : 1px;
-}
-.flexColChild--Desktop__flex-layout-col-login :global(.vtex-login-2-x-label) {
-    padding-left: 0;
-    margin-left : 0;
-}
-.flexColChild--Desktop__flex-layout-col-login :global(.vtex-button__label) {
-    display        : flex;
-    justify-content: center;
-    align-items    : center;
-}
-.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-styledLinkContainer) {
-    margin-left : 0;
-    margin-right: 0;
-    padding-left: 1rem;
-    padding-left: 0;
-    font-family: lexend02;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 15px;
-}
 
-.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-submenuList){
-    grid-template-columns: 175px 148px;
-}
 
-.flexCol--Mega-menu-desktop :global(.vtex-mega-menu-2-x-menuItem) :hover{
-    border-left: 4px solid #FF8324;
-} 
-.flexCol--Mega-menu-desktop :global(.vtex-mega-menu-2-x-styledLink) :hover{
-    border-left: none;
-} 
-.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-seeAllLink){
-    display: none;
-} 
-.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-submenuContainerTitle){
-    /* display: none; */
-    font-family: lexend02;
-    font-size: 14px;
-    line-height: 17.5px;
-    color: #1D2734;
-    padding-left: 10px;
-}
-.flexColChild--Mega-menu-desktop :global(.vtex-mega-menu-2-x-styledLinkContent){
-    margin-left: 10px;
-}
+
+
+
+
+
+
+
+
 
 
 
