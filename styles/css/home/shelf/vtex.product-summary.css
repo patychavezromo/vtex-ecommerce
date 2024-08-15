@@ -1,7 +1,16 @@
-.buyButtonContainer--phone__product-summary-shelf-buy-button {
+/* .buyButtonContainer--phone__product-summary-shelf-buy-button {
     position: absolute;
     bottom  : 10px;
-}
+} */
+
+/* .buyButton--phone__product-summary-shelf-buy-button :global(.vtex-button){
+    background-color: transparent;
+    border-color: #1D2734;
+    color: #1D2734;
+    width: auto;
+    border-width: 1px;
+} */
+
 .description--phone__product-summary-shelf-description {
     font-family: lexend;
     font-weight: 400;
@@ -125,13 +134,7 @@
     border-width: 1px;
 }
 
-.buyButton--phone__product-summary-shelf-buy-button :global(.vtex-button){
-    background-color: transparent;
-    border-color: #1D2734;
-    color: #1D2734;
-    width: auto;
-    border-width: 1px;
-}
+
 
 .description--desktop__product-summary-shelf-description{
     font-family: 'lexend02';

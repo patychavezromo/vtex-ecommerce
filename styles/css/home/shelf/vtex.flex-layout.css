@@ -2,3 +2,17 @@
     max-width: 1280px;
     margin: auto;
 }
+
+.flexRow--button__add-product-row{
+    position: absolute;
+    bottom  : 10px;
+}
+
+.flexRow--button__add-product-row :global(.vtex-button){
+    background-color: transparent;
+    border-color: #1D2734;
+    color: #1D2734;
+    width: 200px;
+    border-width: 1px;
+    text-transform: capitalize;
+}

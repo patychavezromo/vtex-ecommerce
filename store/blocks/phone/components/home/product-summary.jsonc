@@ -1,0 +1,92 @@
+{
+    "product-summary.shelf#phone__product-summary-shelf": {
+        "title": "phone__product-summary-shelf",
+        "children": [
+            "add-to-list-btn#phone__product-summary-shelf-wish-list",
+            "product-summary-image#phone__product-summary-image-shelf",
+            "product-summary-description#phone__product-summary-shelf-description",
+            "product-list-price#phone__product-summary-shelf-price",
+            "product-selling-price#phone__product-selling-price",
+            // "product-summary-buy-button#phone__product-summary-shelf-buy-button"
+            "flex-layout.row#phone__button__add-product-row"
+        ],
+        "props": {
+            "blockClass": "phone__product-summary-shelf"
+        }
+    },
+
+    "add-to-list-btn#phone__product-summary-shelf-wish-list":{
+        "title": "phone__product-summary-shelf-wish-list",
+        "props":{
+            "blockClass": "phone-shelf-product-heart"
+        }
+    },
+
+    "product-summary-image#phone__product-summary-image-shelf": {
+        "title":"phone__product-summary-image-shelf",
+        "props": {
+            "src":"/arquivos/product.png",
+            "showBadge":true,
+            "badgeText": "OFF",
+            "displayMode": "normal",
+            "placeholder": "undefined",
+            "mainImageLabel":"example",
+            "blockClass":"phone__product-summary-image-shelf",
+            "widt":{
+                "phone":"250px"
+            },
+            "height":{
+                "phone": "205px"
+            }    
+        }
+    },
+
+    "product-summary-description#phone__product-summary-shelf-description":{
+        "title": "phone__product-summary-shelf-description",
+        "props": {
+            "blockClass": "phone__product-summary-shelf-description",
+            "displayMode": "text"
+        }
+    },
+
+    "product-list-price#phone__product-summary-shelf-price":{
+        "title": "phone__product-summary-shelf-price",
+        "props":{
+            "blockClass": "phone-shelf-product-price"
+        }
+    },  
+
+    "product-selling-price#phone__product-selling-price": {
+        "title": "phone__product-selling-price",
+        "props": {
+            "blockClass": "phone__product-selling-price"
+        }
+    },
+
+    // "product-summary-buy-button#phone__product-summary-shelf-buy-button":{
+    //     "title": "phone__product-summary-shelf-buy-button",
+    //     "props":{
+    //         "isOneClickBuy": false,
+    //         "blockClass": "phone__product-summary-shelf-buy-button"
+    //     }
+    // }   
+    
+    "flex-layout.row#phone__button__add-product-row": {
+        "children": [
+            "add-to-cart-button#phone__button__button-add-product"
+        ],
+        "props": {
+            "blockClass": "button__add-product-row"
+        }
+    },
+
+    "add-to-cart-button#phone__button__button-add-product":{
+        "title": "button__button-add-product",
+        "props": {
+            "onClickBehavior":"add-to-cart",
+            "text":"comprar",
+            "blockClass": "button__button-add-product"
+        }
+    }
+
+}
