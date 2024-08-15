@@ -88,21 +88,22 @@
 
 
 .imageWrapper--phone__product-summary-image-shelf :global(.vtex-store-components-3-x-discountInsideContainer) {
-    left  : 0px;
-    top   : -40px;
-    width : 70.22px;
-    height: 25.11px;
+    left  : -12px;
+    top   : -48px;
+    width : 87.22px;
+    height: 40.11px;
+    align-content: center;
 }
 
 .imageWrapper--tablet__product-summary-image-shelf :global(.vtex-store-components-3-x-discountInsideContainer) {
-    left  : 0px;
+    left  : -12px;
     top   : -40px;
     width : 70.22px;
     height: 25.11px;
 }
 
 .imageWrapper--desktop__product-summary-image-shelf :global(.vtex-store-components-3-x-discountInsideContainer) {
-    left  : 0px;
+    left  : -12px;
     top   : -40px;
     width : 70.22px;
     height: 25.11px;
@@ -138,7 +139,7 @@
     line-height: 16.8px;
     color: #1D2734;
     text-align: justify;
-    padding: 40px;
+    padding: 5px 25px 5px 25px;
 }
 .description--tablet__product-summary-shelf-description{
     font-family: 'lexend02';
@@ -146,7 +147,7 @@
     line-height: 16.8px;
     color: #1D2734;
     text-align: justify;
-    padding: 40px;
+    padding: 5px 35px 5px 35px;
 }
 .description--phone__product-summary-shelf-description{
     font-family: 'lexend02';
@@ -154,5 +155,11 @@
     line-height: 16.8px;
     color: #1D2734;
     text-align: justify;
-    padding: 40px;
+    /* padding: 40px; */
+    padding: 5px 8px 5px 8px;
+    
+}
+
+.imageContainer--phone__product-summary-image-shelf {
+    right: 14px;
 }

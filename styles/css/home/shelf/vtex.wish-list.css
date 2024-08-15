@@ -36,3 +36,27 @@
 /* .wishlistIcon--desktop-shelf-product-heart{
     display: none;
 } */
+
+.wishlistIcon--phone-shelf-product-heart{
+    background-image: url('/arquivos/image-heart-shelf.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important; 
+}
+.wishlistIcon--tablet-shelf-product-heart{
+    background-image: url('/arquivos/image-heart-shelf.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important; 
+}
+.wishlistIcon--desktop-shelf-product-heart{
+    background-image: url('/arquivos/image-heart-shelf.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important; 
+}
+.wishlistIconContainer--phone-shelf-product-heart :global(.vtex-button){
+    display: flex;
+    justify-content: center;
+    width: 43.41px;
+    height: 24.3px;
+    margin-bottom: 6px;
+    left: -4px;
+}
