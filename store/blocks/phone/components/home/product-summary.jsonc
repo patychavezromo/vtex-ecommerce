@@ -85,7 +85,8 @@
     
     "flex-layout.row#phone__button__add-product-row": {
         "children": [
-            "add-to-cart-button#phone__button__button-add-product"
+            "add-to-cart-button#phone__button__button-add-product",
+            "image#phone__image-button-product-summary"
         ],
         "props": {
             "blockClass": "button__add-product-row"
@@ -99,6 +100,12 @@
             "text":"comprar",
             "blockClass": "button__button-add-product"
         }
-    }
+    },
 
+    "image#phone__image-button-product-summary": {
+        "props": {
+          "src": "/arquivos/carrito_button_product_summary.png",
+          "maxHeight": 24
+        }
+    }
 }
