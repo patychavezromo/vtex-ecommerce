@@ -5,8 +5,9 @@
             "add-to-list-btn#phone__product-summary-shelf-wish-list",
             "product-summary-image#phone__product-summary-image-shelf",
             "product-summary-description#phone__product-summary-shelf-description",
-            "product-list-price#phone__product-summary-shelf-price",
-            "product-selling-price#phone__product-selling-price",
+            "flex-layout.row#phone__price-row",
+            // "product-list-price#phone__product-summary-shelf-price",
+            // "product-selling-price#phone__product-selling-price",
             // "product-summary-buy-button#phone__product-summary-shelf-buy-button"
             "flex-layout.row#phone__button__add-product-row"
         ],
@@ -46,6 +47,17 @@
         "props": {
             "blockClass": "phone__product-summary-shelf-description",
             "displayMode": "text"
+        }
+    },
+
+    "flex-layout.row#phone__price-row": {
+        "title": "phone__price-row",
+        "children": [
+            "product-list-price#phone__product-summary-shelf-price",
+            "product-selling-price#phone__product-selling-price"
+        ],
+        "props": {
+            "blockClass": "phone__price-row"
         }
     },
 

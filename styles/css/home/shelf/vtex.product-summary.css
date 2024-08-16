@@ -11,12 +11,13 @@
     border-width: 1px;
 } */
 
-.description--phone__product-summary-shelf-description {
+/* .description--phone__product-summary-shelf-description {
     font-family: lexend;
     font-weight: 400;
     font-size  : 12px;
     line-height: 12.76px;
-}
+    padding-bottom: 150px;
+} */
 
 
 .buyButtonContainer--tablet__product-summary-shelf-buy-button {
@@ -152,16 +153,18 @@
     text-align: justify;
     padding: 5px 35px 5px 35px;
 }
+/* description product summary */
 .description--phone__product-summary-shelf-description{
     font-family: 'lexend02';
-    font-size: 14px;
-    line-height: 16.8px;
     color: #1D2734;
     text-align: justify;
-    /* padding: 40px; */
-    padding: 5px 8px 5px 8px;
-    
+    padding: 5px 8px 150px 8px;
+    font-weight: 400;
+    font-size  : 12px;
+    line-height: 12.76px;
+    padding-bottom: 140px;
 }
+/* description product summary */
 
 .imageContainer--phone__product-summary-image-shelf {
     right: 14px;

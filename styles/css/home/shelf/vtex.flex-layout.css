@@ -16,3 +16,10 @@
     border-width: 1px;
     text-transform: capitalize;
 }
+
+/* precios row */
+.flexRow--phone__price-row{
+    position: absolute;
+    bottom: 20px;
+}
+/* precios row */
