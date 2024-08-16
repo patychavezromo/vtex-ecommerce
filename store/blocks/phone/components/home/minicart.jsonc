@@ -3,16 +3,16 @@
     "flex-layout.row#phone__minicart": {
         "title": "phone__minicart",
         "children": [
-            "minicart.v2"
+            "minicart.v2#phone__minicart"
         ],
         "props": {
             "blockClass": "phone__minicart"
         }
     },
 
-    "minicart.v2": {
+    "minicart.v2#phone__minicart": {
         "props": {
-            "MinicartIcon": "icon-cart#minicart-icon",
+            "MinicartIcon": "icon-cart#phone__minicart-icon",
             "variation": "drawer",
             "quantityDisplay": "not-empty",
             "itemCountMode": "distinctAvailable",
@@ -23,7 +23,7 @@
         ]
     },
 
-    "icon-cart#minicart-icon": {
+    "icon-cart#phone__minicart-icon": {
         "title": "minicart-icon",
         "props": {
             "size": 24,
@@ -37,18 +37,18 @@
             "minicart-empty-state"
         ],
         "children": [
-            "minicart-product-list",
-            "flex-layout.row#phone__minicart-footer"
+            "minicart-product-list#phone__mini-cart-product-list",
+            "flex-layout.row#phone__minicart-footer-row"
         ],
         "props": {
             "blockClass": "phone__minicart-base-content"
         }
     },
 
-    "flex-layout.row#phone__minicart-footer": {
-        "title": "phone__minicart-footer",
+    "flex-layout.row#phone__minicart-footer-row": {
+        "title": "phone__minicart-footer-row",
         "props": {
-            "blockClass": "phone__minicart-footer"
+            "blockClass": "phone__minicart-footer-row"
         },
         "children": [
             "flex-layout.col#phone__minicart-footer-col"
@@ -66,12 +66,13 @@
         }
     },
 
-    "minicart-product-list": {
+    "minicart-product-list#phone__mini-cart-product-list": {
+        "title": "phone__mini-cart-product-list",
         "blocks": [
             "product-list#minicart"
         ],
         "props":{
-            "blockClass":"minicart-product-list"
+            "blockClass":"phone__mini-cart-product-list"
         }
     },
     "product-list#minicart": {
