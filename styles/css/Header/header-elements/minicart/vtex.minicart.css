@@ -2,3 +2,10 @@
     display: none;
 }
 
+.minicartProductListContainer--minicart-product-list :global(.vtex-flex-layout-0-x-flexColChild){
+    font-family: lexend02;
+    font-weight: 300;
+    font-size: 11.34px;
+    line-height: 15.12px;
+}
+

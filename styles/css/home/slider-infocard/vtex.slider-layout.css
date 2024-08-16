@@ -12,7 +12,7 @@
    padding-left: 0 !important;
 }
 
-/* paginationDot */
+/* paginationDot phone*/
 .paginationDot--phone-infocards-slider.paginationDot--isActive {
     background-color: black;
     transform       : scale(1.5);
@@ -45,4 +45,5 @@
     align-items: center;
 }
 
-/* paginationDot */
+/* paginationDot phone*/
+
