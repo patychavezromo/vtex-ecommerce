@@ -3,5 +3,8 @@
     max-width: 1280px;
     margin   : auto;
 }
+.flexRow--desktop__row-infocards-slider{
+    width: 1092px;
+}
 
 /* Desktop Home Slider infocards--------------------------------------------------------------- */
