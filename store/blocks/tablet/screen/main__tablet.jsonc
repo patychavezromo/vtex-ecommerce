@@ -5,6 +5,7 @@
             "flex-layout.row#tablet__main-slider",
             "rich-text#tablet__richtext-subtitle-home",
             "slider-layout#tablet__slider-layout-infocards",
+            "rich-text#tablet__richtext-subtitle-home",
             "flex-layout.row#tablet__main-shelf--container"
         ]
 

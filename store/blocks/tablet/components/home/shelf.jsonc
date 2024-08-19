@@ -27,6 +27,7 @@
                 "tablet": 3,
                 "phone": 1
             },
+            "showNavigationArrows": "desktopOnly",
             "blockClass": "tablet-slider-layout-shelf"
         }
     },
@@ -49,55 +50,6 @@
         "title": "tablet__product-selling-price",
         "props": {
             "blockClass": "tablet__product-selling-price"
-        }
-    },
-
-    "product-summary-image#tablet__product-summary-image-shelf": {
-        "title":"tablet__product-summary-image-shelf",
-        "props": {
-            "src":"/arquivos/product.png",
-            "showBadge":true,
-            "badgeText": "OFF",
-            "displayMode": "normal",
-            "placeholder": "undefined",
-            "mainImageLabel":"example",
-            "blockClass":"tablet__product-summary-image-shelf",
-            "widt":{
-                "phone":"250px"
-            },
-            "height":{
-                "phone": "205px"
-            }    
-        }
-    },
-
-    "product-summary-description#tablet__product-summary-shelf-description":{
-        "title": "tablet__product-summary-shelf-description",
-        "props": {
-            "blockClass": "tablet__product-summary-shelf-description",
-            "displayMode": "text"
-        }
-    },
-
-    "product-summary-buy-button#tablet__product-summary-shelf-buy-button":{
-        "title": "tablet__product-summary-shelf-buy-button",
-        "props":{
-            "isOneClickBuy": false,
-            "blockClass": "tablet__product-summary-shelf-buy-button"
-        }
-    },
-
-    "product-list-price#tablet__product-summary-shelf-price":{
-        "title": "tablet__product-summary-shelf-price",
-        "props":{
-            "blockClass": "tablet-shelf-product-price"
-        }
-    },
-
-    "add-to-list-btn#tablet__product-summary-shelf-wish-list":{
-        "title": "tablet__product-summary-shelf-wish-list",
-        "props":{
-            "blockClass": "tablet-shelf-product-heart"
         }
     }
 }

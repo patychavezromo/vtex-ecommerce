@@ -8,8 +8,8 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly"
-      //"blockClass": "tablet-infocards-slider"
+      "showNavigationArrows": "desktopOnly",
+      "centerMode":"to-the-left"
     },
     "children": 
     [

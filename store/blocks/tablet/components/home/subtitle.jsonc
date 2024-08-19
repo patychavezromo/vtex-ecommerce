@@ -3,7 +3,7 @@
         "title": "tablet__richtext-subtitle-home",
         "props": {
             "textAlignment": "CENTER",
-            "text": "An amazing product. TABLET",
+            "text": "An amazing product",
             "textPosition": "LEFT",
             "blockClass": "tablet__richtext-subtitle-home"
         }
