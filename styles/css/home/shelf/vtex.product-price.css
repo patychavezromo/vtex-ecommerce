@@ -1,3 +1,4 @@
+/* PHONE --------------------------------------------------------------------------------------------*/
 /* precio actual shelf */
 .sellingPrice--phone__product-selling-price {
     margin-bottom: 60px;
@@ -9,30 +10,6 @@
     padding-left: 8px;
     padding-top: 5px;
 }
-
-.sellingPrice--tablet__product-selling-price {
-    margin-bottom: 60px;
-    font-family: lexend02;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28.8px;
-    text-align: left;
-    padding-left: 8px;
-    padding-top: 5px;
-}
-
-.sellingPrice--desktop__product-selling-price {
-    margin-bottom: 60px;
-    font-family: lexend02;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28.8px;
-    text-align: left;
-    padding-left: 8px;
-    padding-top: 5px;
-}
-/* precio actual shelf */
-
 /* precio anterior tachado*/
 .listPrice--phone-shelf-product-price{
     font-family: lexend02;
@@ -40,6 +17,18 @@
     font-size: 14px;
     line-height: 16.8px;
     color: #1D2734;
+    text-align: left;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+/* TABLET --------------------------------------------------------------------------------------------*/
+.sellingPrice--tablet__product-selling-price {
+    margin-bottom: 60px;
+    font-family: lexend02;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
     text-align: left;
     padding-left: 8px;
     padding-top: 5px;
@@ -54,6 +43,17 @@
     padding-left: 8px;
     padding-top: 5px;
 }
+/* DESKTOP -------------------------------------------------------------------------------------------*/
+.sellingPrice--desktop__product-selling-price {
+    margin-bottom: 60px;
+    font-family: lexend02;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: left;
+    padding-left: 8px;
+    padding-top: 5px;
+}
 .listPrice--desktop-shelf-product-price{
     font-family: lexend02;
     font-weight: 400;
@@ -64,4 +64,3 @@
     padding-left: 8px;
     padding-top: 5px;
 }
-/* precio anterio tachado */

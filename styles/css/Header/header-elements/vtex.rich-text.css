@@ -1,3 +1,4 @@
+/* Desktop Header Links ------------------------------------------------------------------------- */
 .link--desktop__richtext-header {
     font-family    : lexend02;
     font-size      : 12px;
@@ -6,6 +7,7 @@
     color          : #1D2734;
     text-decoration: none;
 }
+/* Desktop Header Links ------------------------------------------------------------------------- */
 .container--minicart-default-empty-state {
     font-family: lexend02;
     font-size: 14px;

@@ -1,3 +1,4 @@
+/* Header phone */
 .flexColChild--phone__flex-layout-col-logo :global(.vtex-store-components-3-x-logoImage) {
     width : 32px;
     height: 16px;
@@ -14,9 +15,14 @@
 .flexCol--phone__flex-layout-col-logo :global(.vtex-store-components-3-x-logoContainer) {
     padding: 0;
 }
+/* Header phone */
 
+
+
+/* Header Desktop */
 .flexCol--desktop-logo {
     min-width   : 32px;
     margin-right: 20px;
     margin-left : 5px;
 }
+/* Header Desktop */

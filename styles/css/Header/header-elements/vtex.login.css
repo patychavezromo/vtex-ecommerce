@@ -1,4 +1,5 @@
 /*login----------------------------------------------------------------------------------------------------------*/
+
 .portalContainer--login-Global :global(.vtex-button__label) {
     text-transform: capitalize;
 }

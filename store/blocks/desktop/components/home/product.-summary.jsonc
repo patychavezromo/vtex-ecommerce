@@ -7,7 +7,6 @@
             "product-summary-description#desktop__product-summary-shelf-description",
             "flex-layout.row#desktop__price-row",
             "flex-layout.row#desktop__button__add-product-row"
-            //"product-summary-buy-button#desktop__product-summary-shelf-buy-button"
         ],
         "props": {
             "blockClass": "desktop__product-summary-shelf"
@@ -98,12 +97,4 @@
           "maxHeight": 24
         }
     }
-
-    // "product-summary-buy-button#desktop__product-summary-shelf-buy-button":{
-    //     "title": "desktop__product-summary-shelf-buy-button",
-    //     "props":{
-    //         "isOneClickBuy": false,
-    //         "blockClass": "desktop__product-summary-shelf-buy-button"
-    //     }
-    // }
 }

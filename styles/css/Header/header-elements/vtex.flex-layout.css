@@ -18,6 +18,8 @@
 
 /*desktop----------------------------------------------------------------------------------------------------------*/
 
+
+/* Header */
 .flexRowContent--desktop-header__container-menu-up {
     display    : flex;
     width      : 100%;
@@ -29,6 +31,7 @@
     max-width     : 1280px;
     margin        : auto;
 }
+/* Header */
 
 
 

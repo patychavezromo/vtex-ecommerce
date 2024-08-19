@@ -1,43 +1,28 @@
-.flexRow--desktop__main-shelf--container{
-    max-width: 1280px;
-    margin: auto;
-}
+/* PHONE----------------------------------------------------------------------------------------- */
 
-.flexRow--button__add-product-row{
-    position: absolute;
-    bottom  : 10px;
-}
-
-.flexRow--button__add-product-row :global(.vtex-button){
-    background-color: transparent;
-    border-color: #1D2734;
-    color: #1D2734;
-    width: 200px;
-    border-width: 1px;
-    text-transform: capitalize;
-}
-
-/* precios row */
+/* precios product summary shelf */
 .flexRow--phone__price-row{
     position: absolute;
     bottom: 20px;
+}
+/* precios product summary shelf */
+
+
+
+
+/* DESKTOP----------------------------------------------------------------------------------------- */
+
+
+.flexRow--desktop__main-shelf--container{
+    max-width: 1280px;
+    margin: auto;
 }
 
 .flexRow--desktop__price-row{
     position: absolute;
     bottom: 20px;
 }
-/* precios row */
 
-/* imagen carrito boton add to cart product summary shelf */
-.flexRowContent--button__add-product-row :global(.vtex-store-components-3-x-imageElement){
-    position: absolute;
-    top: 13px;
-    right: 145px;
-}
-/* imagen carrito boton add to cart product summary shelf */
-
-/* boton desktop 'add-to-cart' slider shelf */
 .flexRow--desktop__button__add-product-row{
     position: absolute;
     bottom  : 10px;
@@ -58,6 +43,27 @@
     top: 13px;
     right: 145px;
 }
+
+.flexRow--button__add-product-row{
+    position: absolute;
+    bottom  : 10px;
+}
+
+.flexRow--button__add-product-row :global(.vtex-button){
+    background-color: transparent;
+    border-color: #1D2734;
+    color: #1D2734;
+    width: 200px;
+    border-width: 1px;
+    text-transform: capitalize;
+}
+
+/* imagen carrito boton add to cart product summary shelf */
+.flexRowContent--button__add-product-row :global(.vtex-store-components-3-x-imageElement){
+    position: absolute;
+    top: 13px;
+    right: 145px;
+}
 /* imagen carrito boton add to cart product summary shelf */
 
-/* boton 'add-to-cart' slider shelf */
+/* boton desktop 'add-to-cart' slider shelf */

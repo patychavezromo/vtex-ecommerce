@@ -29,11 +29,18 @@
     border-radius   : 0px 0px 10px 10px;
 }
 /*desktop----------------------------------------------------------------------------------------------------------*/
+
+/* infocards */
 .flexRow--desktop-flex-layout-row-container-info-card {
     width    : 80%;
     width    : 324px;
     max-width: 1280px;
     margin   : auto;
+}
+.flexRow--desktop__flex-layout-row-infocard-container-button {
+    background-color: #FFFFFF;
+    padding-bottom  : 15px;
+    border-radius   : 0 0 10px 10px;
 }
 .flexCol--desktop__flex-layout-col-infocard-content-textheading-and-textdescription {
     background-color: #FFFFFF;
@@ -42,8 +49,4 @@
 .flexCol--Desktop-infocard-sell-image {
     background-color: #FFFFFF;
 }
-.flexRow--desktop__flex-layout-row-infocard-container-button {
-    background-color: #FFFFFF;
-    padding-bottom  : 15px;
-    border-radius   : 0 0 10px 10px;
-}
+/* infocards */
