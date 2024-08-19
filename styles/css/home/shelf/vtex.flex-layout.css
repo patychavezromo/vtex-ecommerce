@@ -22,6 +22,11 @@
     position: absolute;
     bottom: 20px;
 }
+
+.flexRow--desktop__price-row{
+    position: absolute;
+    bottom: 20px;
+}
 /* precios row */
 
 /* imagen carrito boton add to cart product summary shelf */
@@ -32,3 +37,27 @@
 }
 /* imagen carrito boton add to cart product summary shelf */
 
+/* boton desktop 'add-to-cart' slider shelf */
+.flexRow--desktop__button__add-product-row{
+    position: absolute;
+    bottom  : 10px;
+}
+
+.flexRow--desktop__button__add-product-row :global(.vtex-button){
+    background-color: transparent;
+    border-color: #1D2734;
+    color: #1D2734;
+    width: 480px;
+    border-width: 1px;
+    text-transform: capitalize;
+}
+
+/* imagen carrito boton add to cart product summary shelf */
+.flexRow--desktop__button__add-product-row :global(.vtex-store-components-3-x-imageElement){
+    position: absolute;
+    top: 13px;
+    right: 145px;
+}
+/* imagen carrito boton add to cart product summary shelf */
+
+/* boton 'add-to-cart' slider shelf */
