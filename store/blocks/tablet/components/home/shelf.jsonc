@@ -28,28 +28,8 @@
                 "phone": 1
             },
             "showNavigationArrows": "desktopOnly",
+            "centerMode":"to-the-left",
             "blockClass": "tablet-slider-layout-shelf"
-        }
-    },
-    "product-summary.shelf#tablet__product-summary-shelf": {
-        "title": "tablet__product-summary-shelf",
-        "children": [
-            "add-to-list-btn#tablet__product-summary-shelf-wish-list",
-            "product-summary-image#tablet__product-summary-image-shelf",
-            "product-summary-description#tablet__product-summary-shelf-description",
-            "product-list-price#tablet__product-summary-shelf-price",
-            "product-selling-price#tablet__product-selling-price",
-            "product-summary-buy-button#tablet__product-summary-shelf-buy-button"
-        ],
-        "props": {
-            "blockClass": "tablet__product-summary-shelf"
-        }
-    },
-
-    "product-selling-price#tablet__product-selling-price": {
-        "title": "tablet__product-selling-price",
-        "props": {
-            "blockClass": "tablet__product-selling-price"
         }
     }
 }
