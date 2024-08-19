@@ -94,7 +94,8 @@
     "image#desktop__image-button-product-summary": {
         "props": {
           "src": "/arquivos/carrito_button_product_summary.png",
-          "maxHeight": 24
+          "maxHeight": 24,
+          "blockClass": "desktop__image-button-product-summary"
         }
     }
 }

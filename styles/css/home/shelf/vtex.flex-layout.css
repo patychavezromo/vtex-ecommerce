@@ -49,6 +49,11 @@
     bottom: 20px;
 }
 
+.flexRowContent--desktop__price-row{
+    display: flex;
+    flex-direction: column;
+}
+
 .flexRow--desktop__button__add-product-row{
     position: absolute;
     bottom  : 10px;
