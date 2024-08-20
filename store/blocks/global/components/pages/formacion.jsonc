@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#page__formacion":{
+        "title": "row page__formacion",
+        "children": [
+            "flex-layout.col#page__formacion"
+        ]
+    },
+
+    "flex-layout.col#page__formacion": {
+        "title": "col page__formacion",
+        "children": [
+            "flex-layout.row#page__formacion--text"
+        ]
+    },
+
+    "flex-layout.row#page__formacion--text":{
+        "title": "row page__formacion",
+        "children": [
+            "rich-text#page__formacion"
+        ]
+    },
+
+    "rich-text#page__formacion": {
+        "title": "text page formacion",
+        "props": {
+            "text": "Estoy en una pagina estatica",
+            "blockClass":"page__formacion"
+        }
+    }
+}
