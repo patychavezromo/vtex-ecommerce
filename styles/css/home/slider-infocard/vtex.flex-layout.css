@@ -6,5 +6,11 @@
 .flexRow--desktop__row-infocards-slider{
     width: 1092px;
 }
+.flexRowContent--desktop__row-infocards-slider :global(.vtex-slider-layout-0-x-sliderLeftArrow){
+    left: -3rem;
+}
+.flexRowContent--desktop__row-infocards-slider :global(.vtex-slider-layout-0-x-sliderRightArrow){
+    right: -3.5rem;
+}
 
 /* Desktop Home Slider infocards--------------------------------------------------------------- */

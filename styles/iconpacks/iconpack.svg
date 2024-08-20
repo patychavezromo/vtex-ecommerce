@@ -321,10 +321,10 @@
       <path d="M7.26254 2.80524C7.65892 2.37243 8.34108 2.37243 8.73746 2.80525L16 10.7353L13.9259 13L8 6.52941L2.07407 13L0 10.7353L7.26254 2.80524Z" fill="currentColor"/>
     </g>
     <g id="nav-thin-caret--left">
-      <path d="M11 1L4 8L11 15" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+     <path d="M7 14L8.41 12.59L3.83 8L20 8L20 6L3.83 6L8.42 1.41L7 -1.1365e-06L6.11959e-07 7L7 14Z" fill="#1D2734"/>
     </g>
     <g id="nav-thin-caret--right">
-      <path d="M5 15L12 8L5 1" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M15 5L13.59 6.41L18.17 11H2V13H18.17L13.58 17.59L15 19L22 12L15 5Z" fill="#1D2734"/>
     </g>
     <g id="nav-arrow--left">
       <path d="M0.499992 7.5C0.499992 7.75781 0.583325 7.92969 0.749992 8.10156L5.49999 13L6.66666 11.7969L3.33332 8.35938L16.0002 8.35938V6.64063L3.33332 6.64063L6.66666 3.20313L5.49999 2L0.749992 6.89844C0.583325 7.07031 0.499992 7.24219 0.499992 7.5Z" fill="currentColor"/>

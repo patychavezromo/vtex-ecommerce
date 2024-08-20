@@ -1,6 +1,16 @@
+/* PHONE----------------------------------------------------------------------------------------------- */
 .slide--phone-slider-layout-shelf{
     width: 5.16667%;
     margin-left: -0.479167%;
     margin-right: 0;
     padding-right: 0;
+}
+
+/* DESKTOP----------------------------------------------------------------------------------------------- */
+.sliderLeftArrow--desktop-slider-layout-shelf{
+    left: -3rem;
+}
+
+.sliderRightArrow--desktop-slider-layout-shelf{
+    right: -3rem;
 }
