@@ -1,0 +1,23 @@
+.container--phone__minicart-default-empty-state {
+    font-family: lexend02;
+    font-size: 14px;
+    line-height: 17.5px;
+    font-weight: bolder;
+    position: absolute;
+    left: 25px;
+    top:40px;
+}
+.container--phone__minicart-default-empty-state2{
+    font-family: lexend02;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+.container--phone__minicart-default-empty-state3{
+    font-family: lexend02;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 19px;
+  
+}

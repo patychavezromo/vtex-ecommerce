@@ -2,6 +2,10 @@
     display: none;
 }
 
+.minicartEmptyStateContainer--phone__minicart-empty-state{
+    background-color: #FFFFFF;
+}
+
 .minicartProductListContainer--phone__mini-cart-product-list :global(.vtex-flex-layout-0-x-flexColChild){
     font-family: lexend02;
     font-weight: 300;
