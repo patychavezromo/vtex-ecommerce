@@ -70,7 +70,7 @@
     "flex-layout.col#desktop__flex-layout-col-minicart": {
         "title": "desktop__flex-layout-col-minicart",
         "children": [
-            "minicart.v2"
+            "flex-layout.row#desktop__minicart"
         ],
         "props": {
             "blockClass": "desktop__flex-layout-col-minicart"
