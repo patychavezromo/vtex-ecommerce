@@ -9,7 +9,8 @@
     "flex-layout.col#page__formacion": {
         "title": "col page__formacion",
         "children": [
-            "flex-layout.row#page__formacion--text"
+            "flex-layout.row#page__formacion--text",
+            "flex-layout.row#page__formacion--products"
         ]
     },
 
@@ -26,5 +27,70 @@
             "text": "Estoy en una pagina estatica",
             "blockClass":"page__formacion"
         }
+    },
+
+    "flex-layout.row#page__formacion--products":{
+        "title": "row-products",
+        "children": [
+            "search-result-layout.customQuery#page__formacion--results"
+        ]
+    },
+
+    "search-result-layout.customQuery#page__formacion--results": {
+        "title": "search query page static",
+        "props": {
+            "querySchema": {
+                // "skusFilter": "FIRST_AVAILABLE",
+                // "simulationBehavior": "default"
+                "skusFilter": "ALL",
+                "simulationBehavior": "skip"
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop#page__formacion--results",
+            "search-result-layout.mobile#page__formacion--results",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-result-layout.desktop#page__formacion--results":{
+        "title": "search result desktop page static",
+        "children": [
+            "flex-layout.row#page__formacion--results"
+        ]
+    },
+    "search-result-layout.mobile#page__formacion--results":{
+        "title": "search result mobile page static",
+        "children": [
+            "flex-layout.row#page__formacion--results"
+        ]
+    },
+    "flex-layout.row#page__formacion--results": {
+        "title": "row results page static",
+        "children": [
+            "flex-layout.col#page__formacion--results"
+        ]
+    },
+
+    "flex-layout.col#page__formacion--results": {
+        "title": "col results page static",
+        "children": [
+            "search-content#page__formacion--results"
+        ]
+    },
+
+    "search-content#page__formacion--results":{
+        "title": "search content page static",
+        "blocks":[
+            "gallery#formacion__result",
+            "not-found"
+        ]
+    },
+
+    "gallery#formacion__result":{
+        "title": "gallery page static",
+        "blocks": [
+            "product-summary.shelf"
+        ]
     }
 }
