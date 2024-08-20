@@ -1,0 +1,31 @@
+/* PHONE------------------------------------------------------------------------------------------------------ */
+.summaryItemContainer--phone__summary-totalizers{
+    font-family: lexend02;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+/* DESKTOP------------------------------------------------------------------------------------------------------ */
+.summaryItemContainer--desktop__summary-totalizers{
+    font-family: lexend02;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+/* .summaryItemLabel--desktop__summary-totalizers{
+    font-family: lexend02;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #E31616;
+}
+
+.price--desktop__summary-totalizers{
+    font-family: lexend02;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #E31616;
+} */
+

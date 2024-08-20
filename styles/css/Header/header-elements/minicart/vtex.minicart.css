@@ -13,3 +13,39 @@
     line-height: 15.12px;
 }
 
+.minicartContentContainer--phone__minicart-base-content{
+    background-color: #FFFFFF;
+}
+
+.minicartCheckoutButton--phone__minicart-checkout-button :global(.vtex-button){
+    background-color: #1D2734;
+    border: 1px;
+    border-radius: 40px;
+}
+
+.minicartCheckoutButton--phone__minicart-checkout-button :global(.vtex-button__label){
+    font-family: lexend02;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.5px;
+}
+
+/* DESKTOP-------------------------------------------------------------------------------------------------------- */
+.minicartContentContainer--desktop__minicart-base-content{
+    background-color: #FFFFFF;
+}
+
+.minicartCheckoutButton--desktop__minicart-checkout-button :global(.vtex-button){
+    background-color: #1D2734;
+    border: 1px;
+    border-radius: 40px;
+}
+
+.minicartCheckoutButton--desktop__minicart-checkout-button :global(.vtex-button__label){
+    font-family: lexend02;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.5px;
+}
+
+
