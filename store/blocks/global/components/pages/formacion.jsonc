@@ -91,6 +91,7 @@
         "title": "gallery page static",
         "blocks": [
             "product-summary.shelf"
+            //"product-summary.shelf#desktop__product-summary-shelf"
         ]
     }
 }

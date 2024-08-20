@@ -157,7 +157,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": " [Tendencias de It Globers](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "text": " [Tendencias de It Globers](/tendenciasItGlobers)",
             "blockClass": "desktop__richtext-header"
         }
     },
@@ -167,7 +167,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": " [Colección del mes](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "text": " [Colección del mes](/coleccionDelMes)",
             "blockClass": "desktop__richtext-header"
         }
     },
@@ -177,7 +177,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": " [Ofertas Enero](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "text": " [Ofertas Enero](/ofertasEnero)",
             "blockClass": "desktop__richtext-header"
         }
     },

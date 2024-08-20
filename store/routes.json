@@ -1,5 +1,14 @@
 {
     "store.custom#formacion": {
       "path": "/formacion"
+    },
+    "store.custom#tendenciasItGlobers": {
+      "path": "/tendenciasItGlobers"
+    },
+    "store.custom#coleccionDelMes": {
+      "path": "/coleccionDelMes"
+    },
+    "store.custom#ofertasEnero": {
+      "path": "/ofertasEnero"
     }
 }

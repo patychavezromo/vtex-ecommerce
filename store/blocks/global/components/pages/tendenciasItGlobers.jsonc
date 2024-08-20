@@ -1,0 +1,20 @@
+{
+
+    "flex-layout.row#tendencias__itGlobers":{
+        "title": "row page__formacion",
+        "children": [
+            "rich-text#tendencias__itGlobers"
+        ]
+    },
+
+    "rich-text#tendencias__itGlobers": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Tendencias It Globers",
+            "textColor": "#E56A54",
+            "font": "t-heading-5",
+            "blockClass": "rich-text__tendencias--itGlobers"
+        }
+    }
+}

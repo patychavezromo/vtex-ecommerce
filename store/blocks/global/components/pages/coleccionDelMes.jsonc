@@ -1,0 +1,21 @@
+{
+
+    "flex-layout.row#coleccionDelMes":{
+        "title": "coleccionDelMes",
+        "children": [
+            "rich-text#coleccionDelMes"
+        ]
+    },
+    
+
+    "rich-text#coleccionDelMes": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Coleccion Del Mes",
+            "textColor": "#E56A54",
+            "font": "t-heading-5",
+            "blockClass": "rich-text__coleccion-De-lMes"
+        }
+    }
+}
