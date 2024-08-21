@@ -10,5 +10,11 @@
     },
     "store.custom#ofertasEnero": {
       "path": "/ofertasEnero"
+    },
+    "store.custom#cyberMonday": {
+      "path": "/cyberMonday"
+    },
+    "store.custom#neverSayNever":{
+      "path": "/neverSayNever"
     }
 }

@@ -187,7 +187,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": " [Cyber Monday](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "text": " [Cyber Monday](/cyberMonday)",
             "blockClass": "desktop__richtext-header"
         }
     },
@@ -197,7 +197,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": " [Never say never](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "text": " [Never say never](/neverSayNever)",
             "blockClass": "desktop__richtext-header"
         }
     }  

@@ -25,5 +25,19 @@
         "children": [
             "flex-layout.row#ofertasEnero"
         ]
+    },
+
+    "store.custom#cyberMonday": {
+        "title": "global formacion page static",
+        "children": [
+            "flex-layout.row#cyberMonday"
+        ]
+    },
+
+    "store.custom#neverSayNever": {
+        "title": "global formacion page static",
+        "children": [
+            "flex-layout.row#neverSayNever"
+        ]
     }
 }
