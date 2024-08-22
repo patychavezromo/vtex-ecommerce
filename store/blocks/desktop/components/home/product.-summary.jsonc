@@ -7,6 +7,7 @@
             "product-summary-description#desktop__product-summary-shelf-description",
             "flex-layout.row#desktop__price-row",
             "flex-layout.row#desktop__button__add-product-row"
+            
         ],
         "props": {
             "blockClass": "desktop__product-summary-shelf"
@@ -98,4 +99,6 @@
           "blockClass": "desktop__image-button-product-summary"
         }
     }
+
+
 }

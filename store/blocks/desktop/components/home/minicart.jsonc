@@ -75,15 +75,15 @@
             "blockClass":"desktop__mini-cart-product-list"
         }
     },
-    "product-list#desktop__product-list": {
-        "title": "desktop__product-list",
-        "blocks": [
-            "product-list-content-mobile"
-        ],
-        "props":{
-            "blockClass": "desktop__product-list"
-        }
-    },
+    // "product-list#desktop__product-list": {
+    //     "title": "desktop__product-list",
+    //     "blocks": [
+    //         "product-list-content-desktop"
+    //     ],
+    //     "props":{
+    //         "blockClass": "desktop__product-list"
+    //     }
+    // },
     
     "minicart-summary#desktop__minicart-summary": {
         "title": "desktop__minicart-summary",

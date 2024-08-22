@@ -48,4 +48,14 @@
     line-height: 17.5px;
 }
 
+.minicartProductListContainer--desktop__mini-cart-product-list :global(.vtex-product-list-0-x-quantitySelectorButton){
+    background-color: #1D2734;
+}
+
+
+
+
+
+
+
 
