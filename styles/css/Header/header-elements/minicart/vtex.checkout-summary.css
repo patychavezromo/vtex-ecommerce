@@ -13,6 +13,11 @@
     line-height: 16.8px;
 }
 
+.summarySmallContent--desktop__checkout-summary-compact .summaryItemContainer--desktop__summary-totalizers:last-child .summaryItemLabel--desktop__summary-totalizers, .summarySmallContent--desktop__checkout-summary-compact .summaryItemContainer--desktop__summary-totalizers:last-child .price--desktop__summary-totalizers{
+    color: red;
+}
+
+
  /* .summaryItemLabel--desktop__summary-totalizers{
     font-family: lexend02;
     font-weight: 600;
