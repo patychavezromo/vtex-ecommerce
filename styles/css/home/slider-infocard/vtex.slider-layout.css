@@ -1,7 +1,18 @@
 .sliderLayoutContainer--phone-infocards-slider {
     padding-bottom: 50px;
 }
+.sliderTrackContainer--phone-infocards-slider{
+    margin-left: 1rem;
+}
+.vtex-slider-layout-0-x-sliderTrack--phone-infocards-slider{
+    gap: 0;
+}
+.slide--phone-infocards-slider{
+   min-width: 242px;
+   padding-left: 0 !important;
+}
 
+/* paginationDot phone*/
 .paginationDot--phone-infocards-slider.paginationDot--isActive {
     background-color: black;
     transform       : scale(1.5);
@@ -28,3 +39,11 @@
     opacity      : 0px;
     margin-top   : 10px !important;
 }
+
+.paginationDotsContainer--phone-infocards-slider{
+    display: flex;
+    align-items: center;
+}
+
+/* paginationDot phone*/
+

@@ -1,15 +1,26 @@
+/* PHONE------------------------------------------------------------------------------------ */
 .imageElement--phone__main-image-infocard {
     width: 100%;
 }
 .imageElement--phone__image-infocard-buttonlink {
     height: 40px;
 }
+
+
+/* TABLET------------------------------------------------------------------------------------ */
 .imageElement--tablet__image-infocard {
     width: 80%;
 }
+
+
+
+/* Desktop------------------------------------------------------------------------------------ */
+
+/* infocard */
 .imageElement--desktop__infocard-sell-image {
     width: 324px;
 }
+
 .imageElement--Desktop-infocard-sell-image {
     width: 48.38px;
 }

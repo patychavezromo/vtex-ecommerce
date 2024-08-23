@@ -1,37 +1,24 @@
 {
-
-    "flex-layout.row#desktop__row-menu-home": {
-        "title": "desktop__row-menu-home",
+    "vtex.menu@2.x:menu#tablet__menu-home": {
+        "title": "tablet__menu-home",
         "children": [
-            "vtex.menu@2.x:menu#desktop__menu-home"
-        ],
-        "props": {
-            "blockClass": "desktop__row-menu-home"
-        }
+            "menu-item#food-Tablet",
+            "menu-item#fitness-Tablet",
+            "menu-item#EnelArtico-Tablet",
+            "menu-item#Poolday-Tablet",
+            "menu-item#Hoteles-Tablet",
+            "menu-item#Casas-Tablet",
+            "menu-item#Naturales-Tablet",
+            "menu-item#Closet-Tablet",
+            "menu-item#Playas-Tablet",
+            "menu-item#Alpinismo-Tablet",
+            "menu-item#Delivery-Tablet",
+            "menu-item#Cervezas-Tablet"
+        ]
     },
+    
 
-    "vtex.menu@2.x:menu#desktop__menu-home": {
-        "title": "desktop__menu-home",
-        "children": [
-            "menu-item#food-desktop",
-            "menu-item#fitness-desktop",
-            "menu-item#EnelArtico-desktop",
-            "menu-item#Poolday-desktop",
-            "menu-item#Hoteles-desktop",
-            "menu-item#Casas-desktop",
-            "menu-item#Naturales-desktop",
-            "menu-item#Closet-desktop",
-            "menu-item#Playas-desktop",
-            "menu-item#Alpinismo-desktop",
-            "menu-item#Delivery-desktop",
-            "menu-item#Cervezas-desktop"
-        ],
-        "props": {
-            "blockClass": "Desktop-menu-icons"
-        }
-    },
-
-    "menu-item#food-desktop": {
+    "menu-item#food-Tablet": {
         "props": {
             "id": "menu-item-food",
             "type": "custom",
@@ -47,13 +34,12 @@
                 "id": "food",
                 "size": 16,
                 "viewBox": "0 0 21 21",
-                "activeClassName": "food-icon-phone",
+                "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            },
-            "blockClass": "Desktop-menu-icon"            
+            }
         }
     },
-    "menu-item#fitness-desktop": {
+    "menu-item#fitness-Tablet": {
         "props": {
             "id": "menu-item-fitness",
             "type": "custom",
@@ -71,11 +57,10 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            },
-            "blockClass": "Desktop-menu-icon"
+            }
         }
     },
-    "menu-item#EnelArtico-desktop": {
+    "menu-item#EnelArtico-Tablet": {
         "props": {
             "id": "menu-item-EnelArtico",
             "type": "custom",
@@ -85,7 +70,7 @@
                 "href": "#",
                 "noFollow": false,
                 "tagTitle": "EnelArtico",
-                "text": "En el Ártico"
+                "text": "EnelArtico"
             },
             "iconProps": {
                 "id": "artico",
@@ -93,11 +78,10 @@
                 "viewBox": "0 0 16 16",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            },
-            "blockClass": "Desktop-menu-icon"
+            }
         }
     },
-    "menu-item#Poolday-desktop": {
+    "menu-item#Poolday-Tablet": {
         "props": {
             "id": "Poolday",
             "type": "custom",
@@ -115,11 +99,10 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            },
-            "blockClass": "Desktop-menu-icon"
+            }
         }
     },
-    "menu-item#Hoteles-desktop": {
+    "menu-item#Hoteles-Tablet": {
         "props": {
             "id": "menu-item-Hoteles",
             "type": "custom",
@@ -137,11 +120,10 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            },
-            "blockClass": "Desktop-menu-icon"
+            }
         }
     },
-    "menu-item#Casas-desktop": {
+    "menu-item#Casas-Tablet": {
         "props": {
             "id": "menu-item-Casas",
             "type": "custom",
@@ -159,11 +141,10 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            },
-            "blockClass": "Desktop-menu-icon"
+            }
         }
     },
-    "menu-item#Naturales-desktop": {
+    "menu-item#Naturales-Tablet": {
         "props": {
             "id": "Naturales",
             "type": "custom",
@@ -181,11 +162,10 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            },
-            "blockClass": "Desktop-menu-icon"
+            }
         }
     },
-    "menu-item#Closet-desktop": {
+    "menu-item#Closet-Tablet": {
         "props": {
             "id": "Closet",
             "type": "custom",
@@ -203,11 +183,10 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            },
-            "blockClass": "Desktop-menu-icon"
+            }
         }
     },
-    "menu-item#Playas-desktop": {
+    "menu-item#Playas-Tablet": {
         "props": {
             "id": "Playas",
             "type": "custom",
@@ -225,11 +204,10 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            },
-            "blockClass": "Desktop-menu-icon"
+            }
         }
     },
-    "menu-item#Alpinismo-desktop": {
+    "menu-item#Alpinismo-Tablet": {
         "props": {
             "id": "Alpinismo",
             "type": "custom",
@@ -247,11 +225,10 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            },
-            "blockClass": "Desktop-menu-icon"
+            }
         }
     },
-    "menu-item#Delivery-desktop": {
+    "menu-item#Delivery-Tablet": {
         "props": {
             "id": "Delivery",
             "type": "custom",
@@ -269,11 +246,10 @@
                 "viewBox": "0 0 16 16",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            },
-            "blockClass": "Desktop-menu-icon"
+            }
         }
     },
-    "menu-item#Cervezas-desktop": {
+    "menu-item#Cervezas-Tablet": {
         "props": {
             "id": "Cervezas",
             "type": "custom",
@@ -291,8 +267,7 @@
                 "viewBox": "0 0 16 16",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            },
-            "blockClass": "Desktop-menu-icon"
+            }
         }
     }
 }

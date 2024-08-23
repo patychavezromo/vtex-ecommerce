@@ -14,7 +14,7 @@
         "title": "phone subtitle home",
         "props": {
             "textAlignment": "CENTER",
-            "text": "An amazing product. DESKTOP",
+            "text": "An amazing product",
             "textPosition": "LEFT",
             "blockClass": "desktop__richtext-subtitle-home"
         }

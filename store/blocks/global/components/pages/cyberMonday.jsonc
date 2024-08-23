@@ -1,0 +1,21 @@
+{
+
+    "flex-layout.row#cyberMonday":{
+        "title": "cyberMonday",
+        "children": [
+            "rich-text#cyberMonday"
+        ]
+    },
+    
+
+    "rich-text#cyberMonday": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Cyber Monday",
+            "textColor": "#E56A54",
+            "font": "t-heading-5",
+            "blockClass": "rich-text__cyberMonday"
+        }
+    }
+}

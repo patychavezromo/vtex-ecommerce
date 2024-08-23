@@ -1,0 +1,43 @@
+{
+    "store.custom#formacion": {
+        "title": "global formacion page static",
+        "children": [
+            "flex-layout.row#page__formacion"
+        ]
+    },
+
+    "store.custom#tendenciasItGlobers": {
+        "title": "global formacion page static",
+        "children": [
+            "flex-layout.row#tendencias__itGlobers"
+        ]
+    },
+
+    "store.custom#coleccionDelMes": {
+        "title": "global formacion page static",
+        "children": [
+            "flex-layout.row#coleccionDelMes"
+        ]
+    },
+
+    "store.custom#ofertasEnero": {
+        "title": "global formacion page static",
+        "children": [
+            "flex-layout.row#ofertasEnero"
+        ]
+    },
+
+    "store.custom#cyberMonday": {
+        "title": "global formacion page static",
+        "children": [
+            "flex-layout.row#cyberMonday"
+        ]
+    },
+
+    "store.custom#neverSayNever": {
+        "title": "global formacion page static",
+        "children": [
+            "flex-layout.row#neverSayNever"
+        ]
+    }
+}

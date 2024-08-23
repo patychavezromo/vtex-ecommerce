@@ -70,7 +70,7 @@
     "flex-layout.col#desktop__flex-layout-col-minicart": {
         "title": "desktop__flex-layout-col-minicart",
         "children": [
-            "minicart.v2"
+            "flex-layout.row#desktop__minicart"
         ],
         "props": {
             "blockClass": "desktop__flex-layout-col-minicart"
@@ -157,7 +157,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": " [Tendencias de It Globers](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "text": " [Tendencias de It Globers](/tendenciasItGlobers)",
             "blockClass": "desktop__richtext-header"
         }
     },
@@ -167,7 +167,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": " [Colección del mes](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "text": " [Colección del mes](/coleccionDelMes)",
             "blockClass": "desktop__richtext-header"
         }
     },
@@ -177,7 +177,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": " [Ofertas Enero](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "text": " [Ofertas Enero](/ofertasEnero)",
             "blockClass": "desktop__richtext-header"
         }
     },
@@ -187,7 +187,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": " [Cyber Monday](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "text": " [Cyber Monday](/cyberMonday)",
             "blockClass": "desktop__richtext-header"
         }
     },
@@ -197,38 +197,8 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": " [Never say never](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "text": " [Never say never](/neverSayNever)",
             "blockClass": "desktop__richtext-header"
         }
-    }
-
-       // "flex-layout.col#desktop__flex-layout-col-image-burger": {
-    //     "title": "desktop__flex-layout-col-image-burger",
-    //     "children": [
-    //         "image#desktop__image-header-burger"
-    //     ],
-    //     "props": {
-    //         "blockClass": "desktop__flex-layout-col-image-burger"
-    //     }
-    // },
-
-    // "image#desktop__image-header-burger": {
-    //     "title": "desktop__image-header-burger",
-    //     "props": {
-    //       "src": "/arquivos/hpa-hamburguer-menu.png"
-    //     //   "maxHeight": 24
-    //     }
-    //   },
-    
-    // "flex-layout.col#desktop__flex-layout-col-mega-menu": {
-    //     "title": "desktop__flex-layout-col-mega-menu",
-    //     "children": [
-    //         "sticky-layout#desktop__sticky-layout-mega-menu"
-    //     ],
-    //     "props": {
-    //         "blockClass": "desktop__flex-layout-col-mega-menu"
-    //     }
-    // },
-    
-
+    }  
 }

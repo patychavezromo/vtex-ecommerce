@@ -1,30 +1,32 @@
 {
-    "vtex.menu@2.x:menu#tablet__menu-home": {
-        "title": "tablet__menu-home",
+    "vtex.menu@2.x:menu#phone__menu-home": {
+        "title": "phone main menu",
         "children": [
-            "menu-item#food-Tablet",
-            "menu-item#fitness-Tablet",
-            "menu-item#EnelArtico-Tablet",
-            "menu-item#Poolday-Tablet",
-            "menu-item#Hoteles-Tablet",
-            "menu-item#Casas-Tablet",
-            "menu-item#Naturales-Tablet",
-            "menu-item#Closet-Tablet",
-            "menu-item#Playas-Tablet",
-            "menu-item#Alpinismo-Tablet",
-            "menu-item#Delivery-Tablet",
-            "menu-item#Cervezas-Tablet"
-        ]
+            "menu-item#food",
+            "menu-item#fitness",
+            "menu-item#EnelArtico",
+            "menu-item#Poolday",
+            "menu-item#Hoteles",
+            "menu-item#Casas",
+            "menu-item#Naturales",
+            "menu-item#Closet",
+            "menu-item#Playas",
+            "menu-item#Alpinismo",
+            "menu-item#Delivery",
+            "menu-item#Cervezas"
+        ],
+        "props": {
+            "blockClass": "phone-menu"
+        }
     },
-
-    "menu-item#food-Tablet": {
+    "menu-item#food": {
         "props": {
             "id": "menu-item-food",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Food",
                 "text": "Food"
@@ -35,17 +37,18 @@
                 "viewBox": "0 0 21 21",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
-    "menu-item#fitness-Tablet": {
+    "menu-item#fitness": {
         "props": {
             "id": "menu-item-fitness",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Fitness",
                 "text": "Fitness"
@@ -56,38 +59,40 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
-    "menu-item#EnelArtico-Tablet": {
+    "menu-item#EnelArtico": {
         "props": {
             "id": "menu-item-EnelArtico",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "EnelArtico",
-                "text": "EnelArtico"
+                "text": "En el Ártico"
             },
             "iconProps": {
                 "id": "artico",
                 "size": 16,
-                "viewBox": "0 0 16 16",
+                "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
-    "menu-item#Poolday-Tablet": {
+    "menu-item#Poolday": {
         "props": {
             "id": "Poolday",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Poolday",
                 "text": "Poolday"
@@ -98,17 +103,18 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
-    "menu-item#Hoteles-Tablet": {
+    "menu-item#Hoteles": {
         "props": {
             "id": "menu-item-Hoteles",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Hoteles",
                 "text": "Hoteles"
@@ -119,17 +125,18 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
-    "menu-item#Casas-Tablet": {
+    "menu-item#Casas": {
         "props": {
             "id": "menu-item-Casas",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Casas",
                 "text": "Casas"
@@ -140,17 +147,18 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
-    "menu-item#Naturales-Tablet": {
+    "menu-item#Naturales": {
         "props": {
             "id": "Naturales",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Naturales",
                 "text": "Naturales"
@@ -161,17 +169,18 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
-    "menu-item#Closet-Tablet": {
+    "menu-item#Closet": {
         "props": {
             "id": "Closet",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Closet",
                 "text": "Closet"
@@ -182,17 +191,18 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
-    "menu-item#Playas-Tablet": {
+    "menu-item#Playas": {
         "props": {
             "id": "Playas",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Playas",
                 "text": "Playas"
@@ -203,17 +213,18 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
-    "menu-item#Alpinismo-Tablet": {
+    "menu-item#Alpinismo": {
         "props": {
             "id": "Alpinismo",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Alpinismo",
                 "text": "Alpinismo"
@@ -224,17 +235,18 @@
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
-    "menu-item#Delivery-Tablet": {
+    "menu-item#Delivery": {
         "props": {
             "id": "Delivery",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Delivery",
                 "text": "Delivery"
@@ -242,20 +254,21 @@
             "iconProps": {
                 "id": "delivery",
                 "size": 16,
-                "viewBox": "0 0 16 16",
+                "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     },
-    "menu-item#Cervezas-Tablet": {
+    "menu-item#Cervezas": {
         "props": {
             "id": "Cervezas",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Cervezas",
                 "text": "Cervezas"
@@ -263,10 +276,11 @@
             "iconProps": {
                 "id": "cervezas",
                 "size": 16,
-                "viewBox": "0 0 16 16",
+                "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            }
+            },
+            "blockClass": "phone-menu-icon"
         }
     }
 }

@@ -4,6 +4,7 @@
       "responsive-layout.desktop#homeDesktop",
       "responsive-layout.tablet#homeTablet",
       "responsive-layout.phone#home-phone"
+      //"list-context.product-list#demo1"
     ]
   }
 }

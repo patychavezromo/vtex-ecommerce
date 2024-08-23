@@ -1,25 +1,33 @@
 /*global----------------------------------------------------------------------------------------------------------*/
 .paragraph--subtitle-product-home {
-    font-family: lexend;
+    font-family: lexend02;
     margin-left: 1rem;
-    font-weight: 500;
+    font-weight: bold;
     font-size  : 16px;
     line-height: 16.8px;
 }
 /*phone----------------------------------------------------------------------------------------------------------*/
+
+/* subtitle paragraph */
 .paragraph--phone__richtext-subtitle-home {
     margin-left: 1rem;
-    font-family: lexend;
-    font-weight: 500;
+    font-family: lexend02;
+    font-weight: bold;
     font-size  : 16px;
     line-height: 16.8px;
 }
+.container--phone__richtext-subtitle-home{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+/* subtitle paragraph */
+
 
 /*tablet----------------------------------------------------------------------------------------------------------*/
 .paragraph--tablet__richtext-subtitle-home {
     color       : #1D2734;
-    font-family : lexend;
-    font-weight : 500;
+    font-family : lexend02;
+    font-weight: bold;
     font-size   : 16px;
     padding-left: 2rem;
 }

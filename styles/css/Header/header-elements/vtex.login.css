@@ -1,9 +1,17 @@
 /*login----------------------------------------------------------------------------------------------------------*/
+
 .portalContainer--login-Global :global(.vtex-button__label) {
     text-transform: capitalize;
 }
 .portalContainer--login-Global :global(.vtex-button) {
     border-radius: 40px;
+}
+
+.portalContainer--login-Global :global(.vtex-login-2-x-optionsList) li:first-child button div span  {
+    display: none;
+}
+.portalContainer--login-Global :global(.vtex-login-2-x-optionsList) li:first-child button ::before{
+    content: "Receive access code by email";
 }
 .portalContainer--login-Global :global(.vtex-login-2-x-optionsList) li:first-child button {
     background-color: #F5F4F6;
@@ -15,6 +23,7 @@
     line-height     : 17.5px;
     width           : 368px;
     height          : 48px;
+
 }
 .portalContainer--login-Global :global(.vtex-login-2-x-optionsList) li:nth-child(2) button {
     background-color: #F5F4F6;

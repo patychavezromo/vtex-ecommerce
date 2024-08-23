@@ -1,0 +1,20 @@
+{
+
+    "flex-layout.row#ofertasEnero":{
+        "title": "row page__formacion",
+        "children": [
+            "rich-text#ofertasEnero"
+        ]
+    },
+
+    "rich-text#ofertasEnero": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Ofertas Enero",
+            "textColor": "#E56A54",
+            "font": "t-heading-5",
+            "blockClass": "rich-text__ofertasEnero"
+        }
+    }
+}

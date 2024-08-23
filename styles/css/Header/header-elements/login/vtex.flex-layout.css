@@ -1,3 +1,5 @@
+/* PHONE Header Login ---------------------------------------------------------------------------------------------------------------------- */
+
 .flexColChild--phone__flex-layout-col-login :global(.vtex-button__label) {
     width           : 80px;
     height          : 40px;
@@ -43,6 +45,8 @@
     line-height   : 17.5px;
     text-transform: capitalize;
 }
+
+/* Desktop Header Login ---------------------------------------------------------------------------------------------------------------------- */
 .flexColChild--Desktop__flex-layout-col-login {
     display         : flex;
     border-radius   : 40px;
@@ -76,3 +80,5 @@
     justify-content: center;
     align-items    : center;
 }
+
+/* Desktop Header Login ---------------------------------------------------------------------------------------------------------------------- */

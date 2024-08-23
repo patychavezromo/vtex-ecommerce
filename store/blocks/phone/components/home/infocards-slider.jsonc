@@ -9,7 +9,11 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "phone-infocards-slider"
+      "blockClass": "phone-infocards-slider",
+      "showPaginationDots":"mobileOnly",
+      "usePagination":true,
+      "centerMode":"to-the-left",
+      "centerModeSlidesGap": 20
     },
     "children": 
     [

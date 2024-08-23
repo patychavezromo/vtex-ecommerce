@@ -1,3 +1,5 @@
+/* phone---------------------------------------------------------------------------------- */
+
 .wishlistIconContainer--phone-shelf-product-heart {
     display        : flex;
     justify-content: end;
@@ -8,3 +10,71 @@
     border-style: solid;
     border-color: black;
 }
+.wishlistIcon--phone-shelf-product-heart{
+    background-image: url('/arquivos/image-heart-shelf.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important; 
+}
+
+.wishlistIconContainer--phone-shelf-product-heart :global(.vtex-button){
+    display: flex;
+    justify-content: center;
+    width: 43.41px;
+    height: 24.3px;
+    margin-bottom: 6px;
+    left: -4px;
+}
+
+
+/* tablet---------------------------------------------------------------------------------- */
+
+.wishlistIconContainer--tablet-shelf-product-heart {
+    display        : flex;
+    justify-content: end;
+}
+.wishlistIconContainer--tablet-shelf-product-heart :global(.vtex-button) {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.wishlistIcon--tablet-shelf-product-heart{
+    background-image: url('/arquivos/image-heart-shelf.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important; 
+}
+
+
+
+
+/* Desktop---------------------------------------------------------------------------------- */
+
+.wishlistIconContainer--desktop-shelf-product-heart {
+    display        : flex;
+    justify-content: end;
+}
+
+.wishlistIconContainer--desktop-shelf-product-heart :global(.vtex-button) {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.wishlistIcon--desktop-shelf-product-heart{
+    background-image: url('/arquivos/image-heart-shelf.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

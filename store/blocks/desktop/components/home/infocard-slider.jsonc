@@ -18,7 +18,8 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly"
+      "showNavigationArrows": "desktopOnly",
+      "centerMode":"to-the-left"
       //"blockClass": "phone-infocards-slider"
     },
     "children": 

@@ -1,32 +1,44 @@
 {
-    "vtex.menu@2.x:menu#phone__menu-home": {
-        "title": "phone main menu",
+
+    "flex-layout.row#desktop__row-menu-home": {
+        "title": "desktop__row-menu-home",
         "children": [
-            "menu-item#food",
-            "menu-item#fitness",
-            "menu-item#EnelArtico",
-            "menu-item#Poolday",
-            "menu-item#Hoteles",
-            "menu-item#Casas",
-            "menu-item#Naturales",
-            "menu-item#Closet",
-            "menu-item#Playas",
-            "menu-item#Alpinismo",
-            "menu-item#Delivery",
-            "menu-item#Cervezas"
+            "vtex.menu@2.x:menu#desktop__menu-home"
         ],
         "props": {
-            "blockClass": "phone-menu"
+            "blockClass": "desktop__row-menu-home"
         }
     },
-    "menu-item#food": {
+
+    "vtex.menu@2.x:menu#desktop__menu-home": {
+        "title": "desktop__menu-home",
+        "children": [
+            "menu-item#food-desktop",
+            "menu-item#fitness-desktop",
+            "menu-item#EnelArtico-desktop",
+            "menu-item#Poolday-desktop",
+            "menu-item#Hoteles-desktop",
+            "menu-item#Casas-desktop",
+            "menu-item#Naturales-desktop",
+            "menu-item#Closet-desktop",
+            "menu-item#Playas-desktop",
+            "menu-item#Alpinismo-desktop",
+            "menu-item#Delivery-desktop",
+            "menu-item#Cervezas-desktop"
+        ],
+        "props": {
+            "blockClass": "Desktop-menu-icons"
+        }
+    },
+
+    "menu-item#food-desktop": {
         "props": {
             "id": "menu-item-food",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Food",
                 "text": "Food"
@@ -35,20 +47,20 @@
                 "id": "food",
                 "size": 16,
                 "viewBox": "0 0 21 21",
-                "activeClassName": "rebel-pink",
+                "activeClassName": "food-icon-phone",
                 "mutedClassName": "c-action-primary"
             },
-            "blockClass": "phone-menu-icon"
+            "blockClass": "Desktop-menu-icon"            
         }
     },
-    "menu-item#fitness": {
+    "menu-item#fitness-desktop": {
         "props": {
             "id": "menu-item-fitness",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Fitness",
                 "text": "Fitness"
@@ -60,17 +72,17 @@
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             },
-            "blockClass": "phone-menu-icon"
+            "blockClass": "Desktop-menu-icon"
         }
     },
-    "menu-item#EnelArtico": {
+    "menu-item#EnelArtico-desktop": {
         "props": {
             "id": "menu-item-EnelArtico",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "EnelArtico",
                 "text": "En el Ártico"
@@ -78,21 +90,21 @@
             "iconProps": {
                 "id": "artico",
                 "size": 16,
-                "viewBox": "0 0 20 20",
+                "viewBox": "0 0 16 16",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             },
-            "blockClass": "phone-menu-icon"
+            "blockClass": "Desktop-menu-icon"
         }
     },
-    "menu-item#Poolday": {
+    "menu-item#Poolday-desktop": {
         "props": {
             "id": "Poolday",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Poolday",
                 "text": "Poolday"
@@ -104,17 +116,17 @@
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             },
-            "blockClass": "phone-menu-icon"
+            "blockClass": "Desktop-menu-icon"
         }
     },
-    "menu-item#Hoteles": {
+    "menu-item#Hoteles-desktop": {
         "props": {
             "id": "menu-item-Hoteles",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Hoteles",
                 "text": "Hoteles"
@@ -126,17 +138,17 @@
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             },
-            "blockClass": "phone-menu-icon"
+            "blockClass": "Desktop-menu-icon"
         }
     },
-    "menu-item#Casas": {
+    "menu-item#Casas-desktop": {
         "props": {
             "id": "menu-item-Casas",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Casas",
                 "text": "Casas"
@@ -148,17 +160,17 @@
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             },
-            "blockClass": "phone-menu-icon"
+            "blockClass": "Desktop-menu-icon"
         }
     },
-    "menu-item#Naturales": {
+    "menu-item#Naturales-desktop": {
         "props": {
             "id": "Naturales",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Naturales",
                 "text": "Naturales"
@@ -170,17 +182,17 @@
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             },
-            "blockClass": "phone-menu-icon"
+            "blockClass": "Desktop-menu-icon"
         }
     },
-    "menu-item#Closet": {
+    "menu-item#Closet-desktop": {
         "props": {
             "id": "Closet",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Closet",
                 "text": "Closet"
@@ -192,17 +204,17 @@
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             },
-            "blockClass": "phone-menu-icon"
+            "blockClass": "Desktop-menu-icon"
         }
     },
-    "menu-item#Playas": {
+    "menu-item#Playas-desktop": {
         "props": {
             "id": "Playas",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Playas",
                 "text": "Playas"
@@ -214,17 +226,17 @@
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             },
-            "blockClass": "phone-menu-icon"
+            "blockClass": "Desktop-menu-icon"
         }
     },
-    "menu-item#Alpinismo": {
+    "menu-item#Alpinismo-desktop": {
         "props": {
             "id": "Alpinismo",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Alpinismo",
                 "text": "Alpinismo"
@@ -236,17 +248,17 @@
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             },
-            "blockClass": "phone-menu-icon"
+            "blockClass": "Desktop-menu-icon"
         }
     },
-    "menu-item#Delivery": {
+    "menu-item#Delivery-desktop": {
         "props": {
             "id": "Delivery",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Delivery",
                 "text": "Delivery"
@@ -254,21 +266,21 @@
             "iconProps": {
                 "id": "delivery",
                 "size": 16,
-                "viewBox": "0 0 20 20",
+                "viewBox": "0 0 16 16",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             },
-            "blockClass": "phone-menu-icon"
+            "blockClass": "Desktop-menu-icon"
         }
     },
-    "menu-item#Cervezas": {
+    "menu-item#Cervezas-desktop": {
         "props": {
             "id": "Cervezas",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/formacion",
                 "noFollow": false,
                 "tagTitle": "Cervezas",
                 "text": "Cervezas"
@@ -276,11 +288,11 @@
             "iconProps": {
                 "id": "cervezas",
                 "size": 16,
-                "viewBox": "0 0 20 20",
+                "viewBox": "0 0 16 16",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             },
-            "blockClass": "phone-menu-icon"
+            "blockClass": "Desktop-menu-icon"
         }
     }
 }

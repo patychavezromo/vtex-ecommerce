@@ -1,0 +1,36 @@
+/* PHONE------------------------------------------------------------------------------------------------------ */
+.summaryItemContainer--phone__summary-totalizers{
+    font-family: lexend02;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+/* DESKTOP------------------------------------------------------------------------------------------------------ */
+.summaryItemContainer--desktop__summary-totalizers{
+    font-family: lexend02;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+.summarySmallContent--desktop__checkout-summary-compact .summaryItemContainer--desktop__summary-totalizers:last-child .summaryItemLabel--desktop__summary-totalizers, .summarySmallContent--desktop__checkout-summary-compact .summaryItemContainer--desktop__summary-totalizers:last-child .price--desktop__summary-totalizers{
+    color: red;
+}
+
+
+ /* .summaryItemLabel--desktop__summary-totalizers{
+    font-family: lexend02;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #E31616;
+} */
+
+/* .price--desktop__summary-totalizers{
+    font-family: lexend02;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #E31616;
+}  */
+
