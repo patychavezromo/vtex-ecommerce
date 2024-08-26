@@ -24,12 +24,15 @@
     },
     "children": 
     [
-      "flex-layout.row#desktop-flex-layout-row-container-info-card",
-      "flex-layout.row#desktop-flex-layout-row-container-info-card",
-      "flex-layout.row#desktop-flex-layout-row-container-info-card",
-      "flex-layout.row#desktop-flex-layout-row-container-info-card",
-      "flex-layout.row#desktop-flex-layout-row-container-info-card",
-      "flex-layout.row#desktop-flex-layout-row-container-info-card"
+      "flex-layout.row#infocard",
+      "flex-layout.row#infocard",
+      "flex-layout.row#infocard",
+      "flex-layout.row#infocard",
+      "flex-layout.row#infocard",
+      "flex-layout.row#infocard"
+      // "flex-layout.row#infocard",
+      // "flex-layout.row#infocard",
+      // "flex-layout.row#infocard"
     ]
   } 
 }

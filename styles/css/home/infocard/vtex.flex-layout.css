@@ -31,22 +31,56 @@
 /*desktop----------------------------------------------------------------------------------------------------------*/
 
 /* infocards */
-.flexRow--desktop-flex-layout-row-container-info-card {
+.flexRow--infocard {
     width    : 80%;
     width    : 324px;
     max-width: 1280px;
     margin   : auto;
 }
-.flexRow--desktop__flex-layout-row-infocard-container-button {
+.flexRow--container__row-button {
     background-color: #FFFFFF;
     padding-bottom  : 15px;
     border-radius   : 0 0 10px 10px;
 }
-.flexCol--desktop__flex-layout-col-infocard-content-textheading-and-textdescription {
+.flexCol--row-description__col-description {
     background-color: #FFFFFF;
     padding-left    : 10px;
 }
 .flexCol--Desktop-infocard-sell-image {
     background-color: #FFFFFF;
 }
+.flexCol--row-description__col-sell{
+    background-color: #FFFFFF;
+}
 /* infocards */
+
+
+/* ---------------------------------------------------------------------------------------------- */
+
+ .flexRow--infocard{
+    width: 324px;
+    height: 336.46px;
+    margin-right: 24px;
+}
+
+.flexRow--container__row-image :global(.vtex-store-components-3-x-imageElement){
+    width: 324px;
+    height: 186.62px;
+    padding-left: 35px;
+    padding-right: 35px; 
+}
+
+.flexRowContent--container__row-description{
+    display: flex;
+    flex-direction: column;
+    font-family: lexend02;
+    padding-left: 13.82px;
+}
+
+/* .container--row-description__title{
+    background-image: url('/arquivos/sello__infocard.png');    
+}  */
+
+.flexRowContent--infocard :global(.vtex-store-components-3-x-imageElement){
+    width: 324px;
+}
