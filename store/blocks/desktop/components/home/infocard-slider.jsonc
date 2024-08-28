@@ -1,26 +1,23 @@
 {
   "flex-layout.row#desktop__row-infocards-slider": {
-    "title": "desktop__row-infocards-slider",
+    "title": "desktop row infocard slider",
     "children": [
-      "slider-layout#Desktop-infocards-slider"
+      "slider-layout#Desktop__infocards-slider"
     ],
     "props": {
       "blockClass": "desktop__row-infocards-slider"
     }
   },
 
-  "slider-layout#Desktop-infocards-slider": {
-    "title": "Desktop-infocards-slider",
+  "slider-layout#Desktop__infocards-slider": {
+    "title": "Desktop infocards slider",
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
-        "tablet": 1,
-        "phone": 1
+        "desktop": 3
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "centerMode":"to-the-left"
-      //"blockClass": "phone-infocards-slider"
     },
     "children": 
     [

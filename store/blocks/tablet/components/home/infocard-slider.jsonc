@@ -1,11 +1,17 @@
 {
+  "flex-layout.row#tablet__row-infocards-slider": {
+    "title": "tablet row infocard slider",
+    "children": [
+      "slider-layout#tablet__slider-layout-infocards"
+    ]
+  },
+
+
   "slider-layout#tablet__slider-layout-infocards": {
     "title": "tablet__slider-layout-infocards",
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
-        "tablet": 2,
-        "phone": 1
+        "tablet": 2
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
