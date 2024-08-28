@@ -1,13 +1,13 @@
 {
     "flex-layout.row#phone__main-slider": {
-        "title": "phone__main-slider",
+        "title": "phone row main slider banner",
         "children": [
-            "list-context.image-list#phone__container-list-context.image-banner"
+            "list-context.image-list#phone__container-images"
         ]
     },
 
-    "list-context.image-list#phone__container-list-context.image-banner": {
-        "title": "phone__container-images-banner",
+    "list-context.image-list#phone__container-images": {
+        "title": "phone image banner",
         "children": [
             "slider-layout#phone__slider-layout-main-banner"
         ],
@@ -24,11 +24,9 @@
     },
 
     "slider-layout#phone__slider-layout-main-banner": {
-        "title": "phone__slider-layout-main-banner",
+        "title": "phone banner slider",
         "props": {
             "itemsPerPage": {
-                "desktop": 5,
-                "tablet": 3,
                 "phone": 1
             },
             "blockClass": "phone__slider-layout-main-banner"
