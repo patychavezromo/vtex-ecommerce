@@ -1,12 +1,18 @@
 {
-  "slider-layout#phone-infocards-slider": {
-    "title": "phone-infocards-slider",
+  "flex-layout.row#phone__row-infocards-slider": {
+    "title": "desktop row infocard slider",
+    "children": [
+      "slider-layout#phone__infocards-slider"
+    ]
+  },
+
+  "slider-layout#phone__infocards-slider": {
+    "title": "phone infocards slider",
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
         "phone": 1
       },
+
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "phone-infocards-slider",
@@ -17,12 +23,12 @@
     },
     "children": 
     [
-      "flex-layout.row#phone__flex-layout-row-container-info-card",
-      "flex-layout.row#phone__flex-layout-row-container-info-card",
-      "flex-layout.row#phone__flex-layout-row-container-info-card",
-      "flex-layout.row#phone__flex-layout-row-container-info-card",
-      "flex-layout.row#phone__flex-layout-row-container-info-card",
-      "flex-layout.row#phone__flex-layout-row-container-info-card"
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard"
     ]
   } 
 }

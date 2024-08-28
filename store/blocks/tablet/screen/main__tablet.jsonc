@@ -4,7 +4,7 @@
             //"vtex.menu@2.x:menu#tablet__menu-home",
             "flex-layout.row#tablet__main-slider",
             "rich-text#tablet__richtext-subtitle-home",
-            "slider-layout#tablet__slider-layout-infocards",
+            "flex-layout.row#tablet__row-infocards-slider",
             "rich-text#tablet__richtext-subtitle-home",
             "flex-layout.row#tablet__main-shelf--container"
         ]

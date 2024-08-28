@@ -1,16 +1,16 @@
 {
     "flex-layout.row#tablet__main-slider": {
-        "title": "Tablet main home",
+        "title": "tablet row main slider banner",
         "children": [
-            "list-context.image-list#tablet__list-context-image-list-container-main-banner"
+            "list-context.image-list#tablet__container-images"
         ],
         "props": {
             "blockClass": "tablet-slider-banner"
         }
     },
 
-    "list-context.image-list#tablet__list-context-image-list-container-main-banner": {
-        "title": "tablet__list-context-image-list-container-main-banner",
+    "list-context.image-list#tablet__container-images": {
+        "title": "tablet image banner",
         "children": [
             "slider-layout#tablet__slider-layout-banner"
         ],
@@ -27,12 +27,10 @@
         }
     },
     "slider-layout#tablet__slider-layout-banner": {
-        "title": "tablet__slider-layout-banner",
+        "title": "tablet banner slider",
         "props": {
             "itemsPerPage": {
-                "desktop": 5,
-                "tablet": 1,
-                "phone": 1
+                "tablet": 1
             },
             "blockClass": "tablet__slider-layout-banner"
         }

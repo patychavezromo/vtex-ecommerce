@@ -1,17 +1,18 @@
 {
-    "flex-layout.row#Desktop__main-slider": {
+    "flex-layout.row#desktop__main-slider": {
         "title": "Desktop main home",
         "children": [
-            "list-context.image-list#Desktop__container-images"
+            "list-context.image-list#desktop__container-images"
         ],
         "props": {
             "blockClass": "Desktop__main-slider-banner"
         }
     },
-    "list-context.image-list#Desktop__container-images": {
+
+    "list-context.image-list#desktop__container-images": {
         "title": "Desktop main list product",
         "children": [
-            "slider-layout#Desktop__slider"
+            "slider-layout#desktop__slider"
         ],
         "props": {
           "preload": true,
@@ -24,13 +25,11 @@
             ]
         }
     },
-    "slider-layout#Desktop__slider": {
+    "slider-layout#desktop__slider": {
         "title": "slider home images Desktop",
         "props": {
             "itemsPerPage": {
-                "desktop": 1,
-                "tablet": 3,
-                "phone": 1
+                "desktop": 1
             },
             "blockClass": "Desktop-layout-banner-watch"
         }

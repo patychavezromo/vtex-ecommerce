@@ -37,7 +37,7 @@
     max-width: 1280px;
     margin   : auto;
 }
-.flexRow--desktop__flex-layout-row-infocard-container-button {
+.flexRow--main-container__button {
     background-color: #FFFFFF;
     padding-bottom  : 15px;
     border-radius   : 0 0 10px 10px;

@@ -4,7 +4,8 @@
         "children": [
             "flex-layout.row#phone__main-slider",
             "rich-text#phone__richtext-subtitle-home",
-            "slider-layout#phone-infocards-slider",
+            // "slider-layout#phone__infocards-slider",
+            "flex-layout.row#phone__row-infocards-slider",
             "rich-text#phone__richtext-subtitle-home",
             "flex-layout.row#phone__main-shelf--container"
         ]
