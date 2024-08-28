@@ -1,0 +1,125 @@
+{
+    "flex-layout.row#global__infocard": {
+        "title": "global infocard",
+        "children": [
+            "flex-layout.col#global__infocard--container"
+        ],
+        "props": {
+            "blockClass": "global-infocard"
+        }
+    },
+    
+    "flex-layout.col#global__infocard--container": {
+        "title": "infocard col main container",
+        "children": [
+            "flex-layout.row#global__infocard--row-image",
+            "flex-layout.row#global__infocard--row-content",
+            "flex-layout.row#global__infocard--row-button"
+        ]
+    },
+
+    "flex-layout.row#global__infocard--row-image": {
+        "title": "container row image",
+        "children": [
+            "image#global__infocard-image"            
+        ],
+        "props": {
+            "blockClass": "main-container__image"
+        }
+    },
+
+    "flex-layout.row#global__infocard--row-content": {
+        "title": "container row content",
+        "children": [
+            "flex-layout.col#global__infocard--col-text",
+            "flex-layout.col#global__infocard--col-icon"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "flex-layout.row#global__infocard--row-button":{
+        "title": "container row button",
+        "children": [
+            "image#global__infocard--button"
+        ],
+        "props": {
+            "blockClass": "main-container__button"
+        }
+    },
+
+    "image#global__infocard-image": {
+        "title": "infocard image",
+        "props": {
+          "src": "/arquivos/Cardelement.jpg",
+          "blockClass": "desktop__infocard-sell-image"
+        }
+    },
+
+    "flex-layout.col#global__infocard--col-text": {
+        "title": "infocard col text",
+        "children": [
+            "rich-text#global__infocard-text-heading",
+            "rich-text#global__infocard-description"
+        ],
+        "props": {
+            "blockClass": "desktop__flex-layout-col-infocard-content-textheading-and-textdescription"
+        }     
+    },
+
+    "flex-layout.col#global__infocard--col-icon": {
+        "title": "infocard icon",
+        "children": [
+            "image#global__infocard--icon"
+        ],
+        "props": {
+            "width": "20%",
+            "verticalAlign": "middle",
+            "blockClass":"Desktop-infocard-sell-image"
+        }
+    },
+
+    "rich-text#global__infocard-text-heading": {
+        "title": "infocard heading",
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "Heading",
+            "textPosition": "LEFT",
+            "blockClass": "desktop__richtext-infocards-text-heading"
+        }
+    },
+
+    "rich-text#global__infocard-description": {
+        "title": "infocard description",
+        "props": {
+            "textAlignment": "LEFT",
+            "font": "fast",
+            "text": "Builder platform is made by, buildership platform is made by...",
+            "textPosition": "LEFT",
+            "blockClass": "desktop__richtext-infocards-text-description"
+        }
+    },
+
+    "image#global__infocard--icon": {
+        "title": "infocard icon",
+        "props": {
+            "src": "/arquivos/Artworktrailing.jpg",
+            "blockClass": "Desktop-infocard-sell-image"
+        }
+    },
+
+ 
+
+   
+
+    "image#global__infocard--button": {
+        "title": "infocard button",
+        "props": {
+            "src": "/arquivos/Button_infocard.png",
+            "maxHeight": 55,
+            "blockClass": "desktop__image-buttonlink-infocard"
+        }
+    }
+
+}

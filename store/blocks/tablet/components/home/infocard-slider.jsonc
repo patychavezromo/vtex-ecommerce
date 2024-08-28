@@ -13,12 +13,12 @@
     },
     "children": 
     [
-      "flex-layout.row#tablet__flex-layout-row-container-info-card",
-      "flex-layout.row#tablet__flex-layout-row-container-info-card",
-      "flex-layout.row#tablet__flex-layout-row-container-info-card",
-      "flex-layout.row#tablet__flex-layout-row-container-info-card",
-      "flex-layout.row#tablet__flex-layout-row-container-info-card",
-      "flex-layout.row#tablet__flex-layout-row-container-info-card"
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard"
     ]
   } 
 }

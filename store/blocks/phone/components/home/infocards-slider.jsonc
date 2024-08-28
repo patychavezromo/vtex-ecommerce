@@ -17,12 +17,12 @@
     },
     "children": 
     [
-      "flex-layout.row#phone__flex-layout-row-container-info-card",
-      "flex-layout.row#phone__flex-layout-row-container-info-card",
-      "flex-layout.row#phone__flex-layout-row-container-info-card",
-      "flex-layout.row#phone__flex-layout-row-container-info-card",
-      "flex-layout.row#phone__flex-layout-row-container-info-card",
-      "flex-layout.row#phone__flex-layout-row-container-info-card"
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard",
+      "flex-layout.row#global__infocard"
     ]
   } 
 }
