@@ -1,0 +1,117 @@
+{
+    
+    "search-content#global__search--layout": {
+        "title":"search content",
+        "blocks": [
+            "gallery#global-search",
+            "not-found"
+        ],
+        "props":{
+            "blockClass":"global__search--layout"
+        }
+    },
+
+    "flex-layout.row#container__result--order-filter": {
+        "title":"container result  filter and order",
+        "children": [
+             "flex-layout.col#global__filter",
+            "flex-layout.col#global__order"
+            
+        ],
+        "props":{
+            "blockClass":"container__result--order-filter"
+        }
+    },
+
+
+    "flex-layout.col#global__order": {
+        "children": [
+            "order-by.v2"
+        ],
+        "props":{
+            "blockClass":"global__order"
+        }
+    },
+
+    "flex-layout.col#global__filter": {
+        "children": [
+            "filter-navigator.v3"
+        ],
+        "props":{
+            "blockClass":"global__filter"
+        }
+    },
+
+    "order-by.v2":{
+        "title":"order by result layout"
+    },
+
+    "filter-navigator.v3":{
+        "title":"filter result layout"
+    },
+
+    "gallery#global-search": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "whole",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": 1
+                },
+                {
+                    "name": "two",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": 2
+                },
+                {
+                    "name": "many",
+                    "component": "ManyByLineSummary",
+                    "itemsPerRow": {
+                        "desktop": 3,
+                        "mobile": 1
+                    }
+                }
+            ],
+            "OneOrTwoLineSummary": "product-summary.shelf#desktop__product-summary-shelf",
+            "ManyByLineSummary": "product-summary.shelf#desktop__product-summary-shelf"
+            
+        }
+    },
+
+    "gallery-layout-switcher": {
+        "children": [
+            //It follows the same whole -> two -> many order
+            "gallery-layout-option#whole",
+            "gallery-layout-option#two",
+            "gallery-layout-option#many"
+        ],
+        "props":{
+            "blockClass":"gallery-layout-switcher"
+        }
+    },
+
+    "gallery-layout-option#whole": {
+        "props": {
+            "name": "whole"
+        },
+        "children": [
+            "icon-single-grid"
+        ]
+    },
+    "gallery-layout-option#two": {
+        "props": {
+            "name": "two"
+        },
+        "children": [
+            "icon-inline-grid"
+        ]
+    },
+    "gallery-layout-option#many": {
+        "props": {
+            "name": "many"
+        },
+        "children": [
+            "icon-menu"
+        ]
+    }
+}
