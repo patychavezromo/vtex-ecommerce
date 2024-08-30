@@ -1,5 +1,29 @@
 {
     
+
+    "flex-layout.row#container__result--order-filter": {
+        "title": "container result  filter and order",
+        "children": [
+            "flex-layout.col#global__filter",
+            "flex-layout.col#global__col-search",
+            "flex-layout.col#global__order"
+        ],
+        "props": {
+            "blockClass": "container__result--order-filter"
+        }
+    },
+
+    "flex-layout.col#global__col-search": {
+        "title": "global row search",
+        "children": [
+            "search-content#global__search--layout"
+        ],
+        "props": {
+            "blockClass": "global__row-search"
+        }
+
+    },
+    
     "search-content#global__search--layout": {
         "title":"search content",
         "blocks": [
@@ -8,18 +32,6 @@
         ],
         "props":{
             "blockClass":"global__search--layout"
-        }
-    },
-
-    "flex-layout.row#container__result--order-filter": {
-        "title":"container result  filter and order",
-        "children": [
-             "flex-layout.col#global__filter",
-            "flex-layout.col#global__order"
-            
-        ],
-        "props":{
-            "blockClass":"container__result--order-filter"
         }
     },
 

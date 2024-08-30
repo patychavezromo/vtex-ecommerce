@@ -3,7 +3,7 @@
         "title": "phone search layout",
         "children": [
             "gallery-layout-switcher",
-            "search-content#global__search--layout",
+            // "flex-layout.row#global__row-search",
             "flex-layout.row#container__result--order-filter"
         ],
         "props": {

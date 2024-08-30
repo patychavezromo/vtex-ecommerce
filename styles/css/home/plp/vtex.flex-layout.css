@@ -1,5 +1,8 @@
-.flexCol--global__filter{
-    /* width: 184px;
-    background: red;
-    margin-left: -185px; */
+
+.flexCol--global__filter {
+    width: 184px !important;
 }
+.flexColChild--global__filter{
+    width: 184px;
+}
+

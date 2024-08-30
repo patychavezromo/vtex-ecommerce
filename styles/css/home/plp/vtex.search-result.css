@@ -1,3 +1,37 @@
 .galleryLayoutSwitcher--gallery-layout-switcher{
     margin-top: 1rem;
 }
+
+.filter__container--title{
+    display: none;
+}
+
+.filter__container--category-2 :global(.vtex-search-result-3-x-filter){
+    background-color: #E7E7E7;
+    width: 184px;
+    height: 36px;
+    border-radius: 40px;
+    border: 1px !important;
+    border-color: #1D2734 !important;
+}
+
+.filter__container--brand :global(.vtex-search-result-3-x-filter){
+    background-color: #E7E7E7;
+    width: 184px;
+    height: 36px;
+    border-radius: 40px;
+}
+
+.filter__container--color :global(.vtex-search-result-3-x-filter){
+    background-color: #E7E7E7;
+    width: 184px;
+    height: 36px;
+    border-radius: 40px;
+}
+
+.filter__container--category-3 :global(.vtex-search-result-3-x-filter){
+    background-color: #E7E7E7;
+    width: 184px;
+    height: 36px;
+    border-radius: 40px;
+}
