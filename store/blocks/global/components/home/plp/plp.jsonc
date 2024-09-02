@@ -1,12 +1,19 @@
 {
-    
-
-    "flex-layout.row#container__result--order-filter": {
-        "title": "container result  filter and order",
+    "flex-layout.row#global__row--order": {
+        "title": "global row order",
         "children": [
-            "flex-layout.col#global__filter",
-            "flex-layout.col#global__col-search",
-            "flex-layout.col#global__order"
+            "flex-layout.col#global__col-order"
+        ],
+        "props": {
+            "blockClass": "global__row--order"
+        }
+    },
+
+    "flex-layout.row#global__container--filter-search": {
+        "title": "container result  filter and search",
+        "children": [
+            "flex-layout.col#global__col-filter",
+            "flex-layout.col#global__col-search"
         ],
         "props": {
             "blockClass": "container__result--order-filter"
@@ -27,7 +34,7 @@
     "search-content#global__search--layout": {
         "title":"search content",
         "blocks": [
-            "gallery#global-search",
+            "gallery#global__search-gallery",
             "not-found"
         ],
         "props":{
@@ -36,33 +43,42 @@
     },
 
 
-    "flex-layout.col#global__order": {
+    "flex-layout.col#global__col-order": {
+        "title": "global col order",
         "children": [
-            "order-by.v2"
+            "order-by.v2#global__order"
         ],
+        "props":{
+            "blockClass":"global__col-order"
+        }
+    },
+
+    "flex-layout.col#global__col-filter": {
+        "title": "global col filter",
+        "children": [
+            "filter-navigator.v3#global__filter"
+        ],
+        "props":{
+            "blockClass":"global__col-filter"
+        }
+    },
+
+    "order-by.v2#global__order":{
+        "title":"order by result layout",
         "props":{
             "blockClass":"global__order"
         }
     },
 
-    "flex-layout.col#global__filter": {
-        "children": [
-            "filter-navigator.v3"
-        ],
+    "filter-navigator.v3#global__filter":{
+        "title":"filter result layout",
         "props":{
             "blockClass":"global__filter"
         }
     },
 
-    "order-by.v2":{
-        "title":"order by result layout"
-    },
-
-    "filter-navigator.v3":{
-        "title":"filter result layout"
-    },
-
-    "gallery#global-search": {
+    "gallery#global__search-gallery": {
+        "title":"global gallery",
         "props": {
             "layouts": [
                 {
@@ -84,13 +100,13 @@
                     }
                 }
             ],
-            "OneOrTwoLineSummary": "product-summary.shelf#desktop__product-summary-shelf",
-            "ManyByLineSummary": "product-summary.shelf#desktop__product-summary-shelf"
-            
+            "OneOrTwoLineSummary": "product-summary.shelf#global__product-summary-shelf",
+            "ManyByLineSummary": "product-summary.shelf#global__product-summary-shelf"
         }
     },
 
-    "gallery-layout-switcher": {
+    "gallery-layout-switcher#global__gallery--switcher": {
+        "title":"global switcher",
         "children": [
             //It follows the same whole -> two -> many order
             "gallery-layout-option#whole",
@@ -101,8 +117,10 @@
             "blockClass":"gallery-layout-switcher"
         }
     },
+    
 
     "gallery-layout-option#whole": {
+        "title": "global gallery option icon grid",
         "props": {
             "name": "whole"
         },
@@ -111,6 +129,7 @@
         ]
     },
     "gallery-layout-option#two": {
+        "title": "global gallery option inline grid",
         "props": {
             "name": "two"
         },
@@ -119,6 +138,7 @@
         ]
     },
     "gallery-layout-option#many": {
+        "title": "global gallery option icon menu",
         "props": {
             "name": "many"
         },

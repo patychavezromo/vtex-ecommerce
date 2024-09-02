@@ -2,9 +2,9 @@
     "search-result-layout.mobile": {
         "title": "desktop search layout",
         "children": [
-            "gallery-layout-switcher",
+            "gallery-layout-switcher#global__gallery--switcher",
             // "flex-layout.row#global__row-search",
-            "flex-layout.row#container__result--order-filter"
+            "flex-layout.row#global__container--filter-search"
         ],
         "props": {
             "preventRouteChange": true
