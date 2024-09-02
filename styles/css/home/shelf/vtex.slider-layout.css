@@ -6,6 +6,42 @@
     padding-right: 0;
 }
 
+/* paginationDot phone*/
+.paginationDot--phone-slider-layout-shelf--isActive {
+    background-color: black;
+    transform       : scale(1.5);
+    border-radius   : 50% !important;
+    transition      : background-color 0.3s, transform 0.3s;
+    width           : 16.96px !important;
+    height          : 16.96px !important;
+    top             : 30.52px !important;
+    left            : 107.52px;
+    gap             : 0px;
+    opacity         : 0px;
+}
+
+.paginationDot--phone-slider-layout-shelf {
+    margin       : 0 5px !important;
+    display      : inline-block !important;
+    border-radius: 0%;
+    transition   : background-color 0.3s, transform 0.3s;
+    height       : 1.41px !important;
+    padding      : 0% !important;
+    width        : 26.09px !important;
+    left         : 40.99px;
+    gap          : 0px;
+    opacity      : 0px;
+    margin-top   : 10px !important;
+}
+
+.paginationDotsContainer--phone-slider-layout-shelf{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+/* paginationDot phone*/
+
 /* DESKTOP----------------------------------------------------------------------------------------------- */
 .sliderLeftArrow--desktop-slider-layout-shelf{
     left: -3rem;

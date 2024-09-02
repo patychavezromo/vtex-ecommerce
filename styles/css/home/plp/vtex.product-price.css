@@ -1,0 +1,15 @@
+.currencyContainer--global__product--price{
+    font-family: 'lexend02';
+    font-size: 12px;
+    color: #1D2734;
+    line-height: 12.76px;
+    margin-right: 85px;
+}
+
+.sellingPriceValue--global__product--selling-price{
+    font-family: 'lexend02';
+    font-size: 20px;
+    line-height: 21.87px;
+    font-weight: 600;
+    margin-right: 50px;
+}
