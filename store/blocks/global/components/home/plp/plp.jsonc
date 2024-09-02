@@ -1,0 +1,149 @@
+{
+    "flex-layout.row#global__row--order": {
+        "title": "global row order",
+        "children": [
+            "flex-layout.col#global__col-order"
+        ],
+        "props": {
+            "blockClass": "global__row--order"
+        }
+    },
+
+    "flex-layout.row#global__container--filter-search": {
+        "title": "container result  filter and search",
+        "children": [
+            "flex-layout.col#global__col-filter",
+            "flex-layout.col#global__col-search"
+        ],
+        "props": {
+            "blockClass": "container__result--order-filter"
+        }
+    },
+
+    "flex-layout.col#global__col-search": {
+        "title": "global row search",
+        "children": [
+            "search-content#global__search--layout"
+        ],
+        "props": {
+            "blockClass": "global__row-search"
+        }
+
+    },
+    
+    "search-content#global__search--layout": {
+        "title":"search content",
+        "blocks": [
+            "gallery#global__search-gallery",
+            "not-found"
+        ],
+        "props":{
+            "blockClass":"global__search--layout"
+        }
+    },
+
+
+    "flex-layout.col#global__col-order": {
+        "title": "global col order",
+        "children": [
+            "order-by.v2#global__order"
+        ],
+        "props":{
+            "blockClass":"global__col-order"
+        }
+    },
+
+    "flex-layout.col#global__col-filter": {
+        "title": "global col filter",
+        "children": [
+            "filter-navigator.v3#global__filter"
+        ],
+        "props":{
+            "blockClass":"global__col-filter"
+        }
+    },
+
+    "order-by.v2#global__order":{
+        "title":"order by result layout",
+        "props":{
+            "blockClass":"global__order"
+        }
+    },
+
+    "filter-navigator.v3#global__filter":{
+        "title":"filter result layout",
+        "props":{
+            "blockClass":"global__filter"
+        }
+    },
+
+    "gallery#global__search-gallery": {
+        "title":"global gallery",
+        "props": {
+            "layouts": [
+                {
+                    "name": "whole",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": 1
+                },
+                {
+                    "name": "two",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": 2
+                },
+                {
+                    "name": "many",
+                    "component": "ManyByLineSummary",
+                    "itemsPerRow": {
+                        "desktop": 3,
+                        "mobile": 1
+                    }
+                }
+            ],
+            "OneOrTwoLineSummary": "product-summary.shelf#global__product-summary-shelf",
+            "ManyByLineSummary": "product-summary.shelf#global__product-summary-shelf"
+        }
+    },
+
+    "gallery-layout-switcher#global__gallery--switcher": {
+        "title":"global switcher",
+        "children": [
+            //It follows the same whole -> two -> many order
+            "gallery-layout-option#whole",
+            "gallery-layout-option#two",
+            "gallery-layout-option#many"
+        ],
+        "props":{
+            "blockClass":"gallery-layout-switcher"
+        }
+    },
+    
+
+    "gallery-layout-option#whole": {
+        "title": "global gallery option icon grid",
+        "props": {
+            "name": "whole"
+        },
+        "children": [
+            "icon-single-grid"
+        ]
+    },
+    "gallery-layout-option#two": {
+        "title": "global gallery option inline grid",
+        "props": {
+            "name": "two"
+        },
+        "children": [
+            "icon-inline-grid"
+        ]
+    },
+    "gallery-layout-option#many": {
+        "title": "global gallery option icon menu",
+        "props": {
+            "name": "many"
+        },
+        "children": [
+            "icon-menu"
+        ]
+    }
+}

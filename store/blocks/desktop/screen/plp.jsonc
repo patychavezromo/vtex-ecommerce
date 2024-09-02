@@ -1,0 +1,16 @@
+
+{
+    "search-result-layout.desktop": {
+        "title": "desktop search layout",
+        "children": [
+            "gallery-layout-switcher#global__gallery--switcher",
+            "flex-layout.row#global__row--order",
+            "flex-layout.row#global__container--filter-search"
+            // "flex-layout.row#global__row-search"
+        ],
+        "props": {
+            "preventRouteChange": true
+        }
+    }
+
+}
