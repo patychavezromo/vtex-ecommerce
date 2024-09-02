@@ -20,5 +20,15 @@
 .flexCol--global__col-filter{
     width: 184px;
 }
+.flexRowContent--global__row-product--image :global(.vtex-store-components-3-x-discountInsideContainer){
+    display: none;
+}
+.flexCol--global__col-filter{
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+}
+.flexCol--global__row-search{
+    margin-left: 2rem
+}
 
 

@@ -52,7 +52,8 @@
     "vtex.overlay-layout": "0.x",
     "vtex.store-icons": "0.x",
     "vtex.product-list": "0.x",
-    "vtex.checkout-summary": "0.x"
+    "vtex.checkout-summary": "0.x",
+    "vtex.product-highlights": "2.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

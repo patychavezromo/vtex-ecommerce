@@ -1,0 +1,20 @@
+/* .container--global__product-summary-shelf{
+    max-width: 300px;
+    width: 290.15px;
+    height: 106.3px;
+    margin-bottom: 2rem;
+}
+
+.image--global__product-image{
+    width: 135.15px;
+    height: 106.3px;
+} */
+
+ .description--global__product-description{
+    margin-top: 35px;
+    text-align: justify;
+    font-family: lexend02;
+    color: #1D2734;
+    font-size: 12px;
+    font-weight: 400;
+ }
