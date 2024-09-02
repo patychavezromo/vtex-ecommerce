@@ -5,4 +5,8 @@
 .flexColChild--global__filter{
     width: 184px;
 }
+.flexRow--global__row--order{
+    max-width: 1280px;
+    margin: auto;
+}
 
