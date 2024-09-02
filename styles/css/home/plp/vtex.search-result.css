@@ -49,3 +49,17 @@
     text-transform: capitalize;
     color: black;
 }
+.filter__container--brand, .filter__container--color, .filter__container--talla{
+    display: none;
+}
+
+.filter__container--priceRange{
+    background-color: #E7E7E7;
+    width: 184px;
+    height: 36px;
+    border-radius: 40px;
+}
+
+.orderByButton--global__order {
+    margin-left: auto;
+}
