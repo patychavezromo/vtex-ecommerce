@@ -26,7 +26,8 @@
             "search-content#global__search--layout"
         ],
         "props": {
-            "blockClass": "global__row-search"
+            "blockClass": "global__row-search",
+            "width":"80%"
         }
 
     },
@@ -59,7 +60,8 @@
             "filter-navigator.v3#global__filter"
         ],
         "props":{
-            "blockClass":"global__col-filter"
+            "blockClass":"global__col-filter",
+            "width":"20%"
         }
     },
 
@@ -73,7 +75,8 @@
     "filter-navigator.v3#global__filter":{
         "title":"filter result layout",
         "props":{
-            "blockClass":"global__filter"
+            "blockClass":"global__filter",
+            "truncateFilters":true
         }
     },
 

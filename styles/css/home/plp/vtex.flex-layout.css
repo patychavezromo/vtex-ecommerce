@@ -7,10 +7,18 @@
 }
 .flexRow--global__row--order{
     max-width: 1280px;
+    margin-bottom: 2rem;
     /* margin: auto; */
 }
 .flexRowContent--container__result--order-filter{
     max-width: 1280px;
     margin: auto;
 }
+.flexRow--container__result--order-filter{
+    max-width: 1280px;
+}
+.flexCol--global__col-filter{
+    width: 184px;
+}
+
 
