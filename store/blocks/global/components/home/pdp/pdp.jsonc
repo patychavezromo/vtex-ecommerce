@@ -1,0 +1,101 @@
+{
+    "flex-layout.row#global__product-breadcrumb": {
+        "title": "global product breadcrumb",
+        "props": {
+            "marginTop": 4,
+            "blockClass": "global__product-breadcrumb"
+        },
+        "children": [
+            "breadcrumb"
+        ]
+    },
+
+
+    "breadcrumb": {
+        "title": "globlal breadcrumb",
+        "props": {
+            "showOnMobile": true
+        }
+    },
+
+    "flex-layout.row#global__product-main": {
+        "title": "global of main product",
+        "props": {
+            "colGap": 7,
+            "rowGap": 7,
+            "marginTop": 4,
+            "marginBottom": 7,
+            "paddingTop": 7,
+            "paddingBottom": 7,
+            "blockClass": "global__product-main"
+        },
+        "children": [
+            "flex-layout.col#global__product-image",
+            "flex-layout.col#global__product__information"
+        ]
+    },
+
+
+    "flex-layout.col#global__product-image": {
+        "title": "global col product image",
+        "props": {
+            "width": "60%",
+            "rowGap": 0,
+            "blockClass":"global__product-image"
+        },
+        "children": [
+            "product-images#global__pdp"
+        ]
+    },
+    "product-images#global__pdp": {
+        "title": "global pdp",
+        "props": {
+            "displayThumbnailsArrows": true,
+            "blockClass":"global__pdp"
+        }
+    },
+    "flex-layout.col#global__product__information": {
+        "title": "global product information",
+        "props": {
+            "preventVerticalStretch": true,
+            "rowGap": 0,
+            "blockClass":"global__product__information"
+        },
+        "children": [
+            "vtex.store-components:product-name#global__product--name",
+            "product-price",
+            "product-separator",
+            "product-quantity",
+            "product-identifier.product",
+            "sku-selector",
+            "flex-layout.row",
+            "shipping-simulator",
+            "share"
+        ]
+    },
+
+    "vtex.store-components:product-name#global__product--name": {
+        "title": "product name of PDP",
+        "props": {
+            "showSku": true,
+            "showBrandName": true,
+            "blockClass": "global__product--name"
+        }
+    },
+
+    "shelf.relatedProducts#global__related-products": {
+        "title": "global related products",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "recommendation": "view",
+            "productList": {
+                "titleText": "Who saw also saw",
+                "itemsPerPage": 3
+            },
+            "blockClass":"global__related-products"
+        }
+    }
+
+}
